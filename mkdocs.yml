@@ -1,0 +1,148 @@
+site_name: "ECCCH - Cloud Assessment Framework Documentation"
+site_description: "ECCCH components, categories, dimensions, and assessment tools"
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - content.code.copy
+    - search.highlight
+    - search.suggest
+extra_css:
+  - stylesheets/extra.css
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - toc:
+      permalink: true
+plugins:
+  - search
+nav:
+  - Home: index.md
+  - ECCCH Components:
+    - Overview: components/index.md
+    - Main ECCCH components: components/main_components.md
+    - Components by evaluable units: components/components_by_evaluable_units.md
+  - Resource Categories: categories/index.md
+  - Evaluation Dimensions:
+    - Overview: dimensions/index.md
+    - Data: dimensions/data_dim.md
+    - Metadata: dimensions/metadata_dim.md
+    - Ontology: dimensions/ontology_dim.md
+    - Software: dimensions/software_dim.md
+    - Digital services: dimensions/service_dim.md
+  - Assessment Tools:
+    - Overview: tools/index.md
+    - Software quality tools:
+      - Overview: tools/software_quality_tools/index.md
+      - ISO/IEC 25010 software product quality model: tools/software_quality_tools/isoiec-25010-software-product-quality-model.md
+      - ISO/IEC 25023 measurement of system and software product quality: tools/software_quality_tools/isoiec-25023-measurement-of-system-and-software-product-quality.md
+      - ISO/IEC 5055 Automated Source Code Quality Measures: tools/software_quality_tools/isoiec-5055-automated-source-code-quality-measures.md
+      - OMG ASCQM (Automated Source Code Quality Measures) v1.1: tools/software_quality_tools/omg-ascqm-automated-source-code-quality-measures-v11.md
+      - Radon (Python code metrics): tools/software_quality_tools/radon-python-code-metrics.md
+      - Visual Studio (IDE) Code Metrics (Maintainability Index and related metrics): tools/software_quality_tools/visual-studio-ide-code-metrics-maintainability-index-and-related-metrics.md
+      - Chidamber Kemerer (CK) metrics suite (e.g. via CKJM or similar tools): tools/software_quality_tools/chidamber-kemerer-ck-metrics-suite-eg-via-ckjm-or-similar-tools.md
+      - DORA Four Key Metrics (Four Keys): tools/software_quality_tools/dora-four-key-metrics-four-keys.md
+      - DORA “Documentation quality” capability: tools/software_quality_tools/dora-documentation-quality-capability.md
+      - OpenSSF Best Practices Badge: tools/software_quality_tools/openssf-best-practices-badge.md
+      - FAIR for Research Software (FAIR4RS) Principles: tools/software_quality_tools/fair-for-research-software-fair4rs-principles.md
+      - SPDX specification: tools/software_quality_tools/spdx-specification.md
+    - Software functional tools:
+      - Overview: tools/software_functional_tools/index.md
+      - ISO/IEC 25040 – Evaluation Process (SQuaRE): tools/software_functional_tools/isoiec-25040-evaluation-process-square.md
+      - Requirements Traceability Matrix (RTM): tools/software_functional_tools/requirements-traceability-matrix-rtm.md
+      - Automated functional test suites + coverage tools (e.g. JUnit/pytest/Jest with JaCoCo, coverage.py, Istanbul): tools/software_functional_tools/automated-functional-test-suites-coverage-tools-eg-junitpytestjest-with-jacoco-coveragepy-istanbul.md
+      - OpenAPI-based API contract testing (e.g. Dredd, Schemathesis): tools/software_functional_tools/openapi-based-api-contract-testing-eg-dredd-schemathesis.md
+      - Property-based / fuzz testing libraries (e.g. Hypothesis; Schemathesis property-based mode): tools/software_functional_tools/property-based-fuzz-testing-libraries-eg-hypothesis-schemathesis-property-based-mode.md
+      - Task-based user test protocol: tools/software_functional_tools/task-based-user-test-protocol.md
+    - Software E2E testing tools:
+      - Overview: tools/software_e2e_testing_tools/index.md
+      - Selenium WebDriver: tools/software_e2e_testing_tools/selenium-webdriver.md
+      - Playwright: tools/software_e2e_testing_tools/playwright.md
+      - Puppeteer: tools/software_e2e_testing_tools/puppeteer.md
+      - WebdriverIO: tools/software_e2e_testing_tools/webdriverio.md
+      - TestCafe: tools/software_e2e_testing_tools/testcafe.md
+      - Nightwatch.js: tools/software_e2e_testing_tools/nightwatchjs.md
+      - Appium: tools/software_e2e_testing_tools/appium.md
+    - Software static analysis tools:
+      - Overview: tools/software_static_analysis_tools/index.md
+      - Semgrep: tools/software_static_analysis_tools/semgrep.md
+      - SonarQube (Community Edition): tools/software_static_analysis_tools/sonarqube-community-edition.md
+      - CodeQL: tools/software_static_analysis_tools/codeql.md
+      - Lizard: tools/software_static_analysis_tools/lizard.md
+      - PMD: tools/software_static_analysis_tools/pmd.md
+      - cppcheck: tools/software_static_analysis_tools/cppcheck.md
+      - Clang-Tidy: tools/software_static_analysis_tools/clang-tidy.md
+      - Infer: tools/software_static_analysis_tools/infer.md
+      - OCLint: tools/software_static_analysis_tools/oclint.md
+    - Software performance tools:
+      - Overview: tools/software_performance_tools/index.md
+      - Google Lighthouse: tools/software_performance_tools/google-lighthouse.md
+      - WebPageTest (self-hosted): tools/software_performance_tools/webpagetest-self-hosted.md
+      - PageSpeed Insights: tools/software_performance_tools/pagespeed-insights.md
+      - Sitespeed.io: tools/software_performance_tools/sitespeedio.md
+      - Apache JMeter: tools/software_performance_tools/apache-jmeter.md
+    - Software security tools:
+      - Overview: tools/software_security_tools/index.md
+      - OWASP Application Security Verification Standard (ASVS): tools/software_security_tools/owasp-application-security-verification-standard-asvs.md
+      - OWASP Web Security Testing Guide (WSTG): tools/software_security_tools/owasp-web-security-testing-guide-wstg.md
+      - OWASP Zed Attack Proxy (ZAP): tools/software_security_tools/owasp-zed-attack-proxy-zap.md
+      - Bandit (Python security linter): tools/software_security_tools/bandit-python-security-linter.md
+      - OWASP Software Assurance Maturity Model (SAMM): tools/software_security_tools/owasp-software-assurance-maturity-model-samm.md
+      - CIS Critical Security Controls: tools/software_security_tools/cis-critical-security-controls.md
+      - CIS Benchmarks: tools/software_security_tools/cis-benchmarks.md
+      - Cloud Security Alliance Cloud Controls Matrix (CCM) and CAIQ: tools/software_security_tools/cloud-security-alliance-cloud-controls-matrix-ccm-and-caiq.md
+      - ENISA Cloud Computing Security Risk Assessment and Information Assurance Framework: tools/software_security_tools/enisa-cloud-computing-security-risk-assessment-and-information-assurance-framework.md
+      - OWASP Dependency-Check: tools/software_security_tools/owasp-dependency-check.md
+      - OSV-Scanner: tools/software_security_tools/osv-scanner.md
+      - Trivy: tools/software_security_tools/trivy.md
+      - SLSA (Supply-chain Levels for Software Artifacts): tools/software_security_tools/slsa-supply-chain-levels-for-software-artifacts.md
+      - CHAOSS Libyears and related risk metrics: tools/software_security_tools/chaoss-libyears-and-related-risk-metrics.md
+      - OpenSSF Scorecard: tools/software_security_tools/openssf-scorecard.md
+      - OWASP DefectDojo: tools/software_security_tools/owasp-defectdojo.md
+      - Bearer CLI: tools/software_security_tools/bearer-cli.md
+    - Ontology tools:
+      - Overview: tools/ontology_tools/index.md
+      - Protégé Desktop: tools/ontology_tools/protege-desktop.md
+      - WebProtégé: tools/ontology_tools/webprotege.md
+      - OOPS! (OntOlogy Pitfall Scanner!): tools/ontology_tools/oops-ontology-pitfall-scanner.md
+      - HermiT OWL Reasoner: tools/ontology_tools/hermit-owl-reasoner.md
+      - ELK Reasoner: tools/ontology_tools/elk-reasoner.md
+      - Openllet (Pellet-derived) Reasoner: tools/ontology_tools/openllet-pellet-derived-reasoner.md
+      - OntoMetrics: tools/ontology_tools/ontometrics.md
+      - Ontospy: tools/ontology_tools/ontospy.md
+      - WIDOCO: tools/ontology_tools/widoco.md
+      - Pletka: tools/ontology_tools/pletka.md
+      - Framework for Ontology Quality Assessment (FOCA): tools/ontology_tools/framework-for-ontology-quality-assessment-foca.md
+      - Ontology Usability Scale (OUS): tools/ontology_tools/ontology-usability-scale-ous.md
+      - QASAR: tools/ontology_tools/qasar.md
+    - KG tools:
+      - Overview: tools/kg_tools/index.md
+      - Shapes Constraint Language (SHACL): tools/kg_tools/shapes-constraint-language-shacl.md
+      - Apache Jena SHACL: tools/kg_tools/apache-jena-shacl.md
+      - pySHACL: tools/kg_tools/pyshacl.md
+      - SHACL Playground: tools/kg_tools/shacl-playground.md
+      - SHACL Play!: tools/kg_tools/shacl-play.md
+      - Shape Expressions: tools/kg_tools/shape-expressions.md
+      - ShEx.js: tools/kg_tools/shexjs.md
+      - RDFUnit: tools/kg_tools/rdfunit.md
+      - F-UJI: tools/kg_tools/f-uji.md
+      - FAIR-Checker: tools/kg_tools/fair-checker.md
+      - FAIR Evaluator: tools/kg_tools/fair-evaluator.md
+      - FAIR-Shake: tools/kg_tools/fair-shake.md
+      - TripleCheckMate: tools/kg_tools/triplecheckmate.md
+      - CrowdHeritage: tools/kg_tools/crowdheritage.md
+      - Europeana methodology for validating enrichments: tools/kg_tools/europeana-methodology-for-validating-enrichments.md
+extra:
+  generator: false
