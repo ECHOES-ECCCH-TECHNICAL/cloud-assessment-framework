@@ -1,0 +1,3218 @@
+{
+  "main_components": [
+    {
+      "id": "MAIN_COMPONENTS_ECCCH",
+      "level": "0",
+      "name": "ECCCH",
+      "description": "The entire Cultural Heritage Cloud, or ECCCH for short."
+    },
+    {
+      "id": "MAIN_COMPONENTS_DATA",
+      "level": "1",
+      "name": "Data",
+      "description": "This includes the digital heritage assets (digital representations of cultural heritage, such as images, audios and 3D models) that serve as the foundational building blocks for heritage representations within the cloud, as well as the metadata and semantic knowledge accessible through the Cultural Heritage Cloud."
+    },
+    {
+      "id": "MAIN_COMPONENTS_SEMANTIC_RESOURCES",
+      "level": "1",
+      "name": "Semantic Resources",
+      "description": "This encompasses the conceptual and semantic resources that support the ECCCH ecosystem, including the ECHOES Data Model (Heritage Digital Twin Ontology, HDTO), controlled vocabularies, taxonomies, and related metadata schemas used to describe, interlink, and interpret cultural heritage assets."
+    },
+    {
+      "id": "MAIN_COMPONENTS_APPLICATIONS_AND_TOOLS",
+      "level": "1",
+      "name": "Applications and Tools",
+      "description": "The applications and other software tools provided by the Cultural Heritage Cloud to support tasks such as data management, visualization, analysis, and user interaction across the ECCCH ecosystem."
+    },
+    {
+      "id": "MAIN_COMPONENTS_INFRASTRUCTURE_AND_DIGITAL",
+      "level": "1",
+      "name": "Infrastructure and Digital Services",
+      "description": "The infrastructure that will provide access to CH data, metadata and digital services in a secure, federated environment. Sample services include user access management, data storage, data sharing, computing resources, search capabilities, workflow management, and Intellectual Property Rights (IPR) services."
+    },
+    {
+      "id": "MAIN_COMPONENTS_COMMUNITY_SERVICES",
+      "level": "1",
+      "name": "Community Services",
+      "description": "Community-facing services such as workshops, seminars, and other training, engagement and networking programs to support ECCCH stakeholders."
+    },
+    {
+      "id": "MAIN_COMPONENTS_WORKFLOWS",
+      "level": "1",
+      "name": "Workflows",
+      "description": "Workflows are structured, potentially automatable sequences of tasks that support the management, analysis, enrichment, preservation, dissemination, and reuse of cultural heritage, enabling their efficient integration and interoperability across the cloud ecosystem."
+    }
+  ],
+  "components_by_evaluable_units": [
+    {
+      "id": "COMPONENTS_BY_EVALUABLE_ECCCH",
+      "level": "0",
+      "name": "ECCCH",
+      "description": "The entire Cultural Heritage Cloud, or ECCCH for short."
+    },
+    {
+      "id": "COMPONENTS_BY_EVALUABLE_DATA",
+      "level": "1",
+      "name": "Data",
+      "description": "This includes the digital heritage assets (digital representations of cultural heritage, such as images, audios and 3D models) that serve as the foundational building blocks for heritage representations within the cloud, as well as the metadata and semantic knowledge accessible through the Cultural Heritage Cloud."
+    },
+    {
+      "id": "COMPONENTS_BY_EVALUABLE_CH_ASSETS",
+      "level": "2",
+      "name": "CH Assets",
+      "description": "These are the raw digital materials (\"computable data\"), such as 3D geometry, text, or audio, that serve as the foundational building blocks for heritage representations within the cloud [D5.3]."
+    },
+    {
+      "id": "COMPONENTS_BY_EVALUABLE_SEMANTIC_METADATA_AND",
+      "level": "2",
+      "name": "Semantic Metadata and Knowledge",
+      "description": "This encompasses the standardized descriptive information and contextual relationships mapped to the Heritage Digital Twin Ontology (HDTO) to provide machine-readable meaning to assets [D3.1]."
+    },
+    {
+      "id": "COMPONENTS_BY_EVALUABLE_HERITAGE_DIGITAL_TWINS",
+      "level": "2",
+      "name": "Heritage Digital Twins",
+      "description": "Heritage Digital Twins (HDT) are defined as the integrated sum of both computable data and semantic knowledge that capture the full space-time-culture identity of a heritage asset [D5.3]."
+    },
+    {
+      "id": "COMPONENTS_BY_EVALUABLE_HDT_OF_THE",
+      "level": "3",
+      "name": "HDT of the Neptune Fountain in Bologna",
+      "description": "A hypothetical HDT of the Neptune Fountain in Bologna. "
+    },
+    {
+      "id": "COMPONENTS_BY_EVALUABLE_SEMANTIC_RESOURCES",
+      "level": "1",
+      "name": "Semantic Resources",
+      "description": "This encompasses the conceptual and semantic resources that support the ECCCH ecosystem, including the ECHOES Data Model (Heritage Digital Twin Ontology, HDTO), controlled vocabularies, taxonomies, and related metadata schemas used to describe, interlink, and interpret cultural heritage assets."
+    },
+    {
+      "id": "COMPONENTS_BY_EVALUABLE_ONTOLOGIES",
+      "level": "2",
+      "name": "Ontologies",
+      "description": "Ontologies that define the entities and relationships used to describe cultural heritage assets and their properties."
+    },
+    {
+      "id": "COMPONENTS_BY_EVALUABLE_HERITAGE_DIGITAL_TWIN",
+      "level": "3",
+      "name": "Heritage Digital Twin Ontology",
+      "description": "The Heritage Digital Twin Ontology (HDTO) is the data model, based on CIDOC CRM, that will be used in the ECCCH Knowledge Graph to unify descriptions and facilitate query and navigation."
+    },
+    {
+      "id": "COMPONENTS_BY_EVALUABLE_CONTROLLED_VOCABULARIES",
+      "level": "2",
+      "name": "Controlled Vocabularies",
+      "description": "Structured collections of standardized terms that ensure consistent description and classification of cultural heritage data."
+    },
+    {
+      "id": "COMPONENTS_BY_EVALUABLE_SEMANTIC_MAPPINGS",
+      "level": "2",
+      "name": "Semantic Mappings",
+      "description": "Mappings that define correspondences between ontologies, enabling their interoperability."
+    },
+    {
+      "id": "COMPONENTS_BY_EVALUABLE_APPLICATIONS_AND_TOOLS",
+      "level": "1",
+      "name": "Applications and Tools",
+      "description": "The applications and other software tools provided by the Cultural Heritage Cloud to support tasks such as data management, visualization, analysis, and user interaction across the ECCCH ecosystem."
+    },
+    {
+      "id": "COMPONENTS_BY_EVALUABLE_OCRA",
+      "level": "2",
+      "name": "OCRA",
+      "description": "OCRA (Online Conservation and Restoration Annotator) is a cloud-integrated tool for annotating and documenting the conservation and restoration of cultural heritage assets."
+    },
+    {
+      "id": "COMPONENTS_BY_EVALUABLE_VTL",
+      "level": "2",
+      "name": "VTL",
+      "description": "The VTL (Virtual Transcription Laboratory) is a cloud-based tool that supports the collaborative transcription, annotation, and enrichment of digitized cultural heritage texts."
+    },
+    {
+      "id": "COMPONENTS_BY_EVALUABLE_CIT",
+      "level": "2",
+      "name": "CIT",
+      "description": "The CIT (Collection Integration Tool) is a cloud-based application that enables the aggregation, harmonization, and enrichment of cultural heritage collections within the ECHOES ecosystem."
+    },
+    {
+      "id": "COMPONENTS_BY_EVALUABLE_OTHER_VERTICAL_APPLICATIONS",
+      "level": "2",
+      "name": "Other Vertical Applications",
+      "description": "Vertical applications from sister projects, cascading grants and other initiatives."
+    },
+    {
+      "id": "COMPONENTS_BY_EVALUABLE_INFRASTRUCTURE_AND_DIGITAL",
+      "level": "1",
+      "name": "Infrastructure and Digital Services",
+      "description": "The infrastructure that will provide access to CH data, metadata and digital services in a secure, federated environment. Sample services include user access management, data storage, data sharing, computing resources, search capabilities, workflow management, and Intellectual Property Rights (IPR) services."
+    },
+    {
+      "id": "COMPONENTS_BY_EVALUABLE_SYSTEM_SERVICES",
+      "level": "2",
+      "name": "System services",
+      "description": "This includes the SEP gateway, Authentication and Authorization, and other system-level services."
+    },
+    {
+      "id": "COMPONENTS_BY_EVALUABLE_STORAGE_SERVICES",
+      "level": "2",
+      "name": "Storage services",
+      "description": "Includes RDF triple stores, user space and other storage-related services."
+    },
+    {
+      "id": "COMPONENTS_BY_EVALUABLE_CLOUD_SERVICES",
+      "level": "2",
+      "name": "Cloud services",
+      "description": "Services for monitoring, resource management, node management, etc."
+    },
+    {
+      "id": "COMPONENTS_BY_EVALUABLE_COMMUNITY_SERVICES",
+      "level": "1",
+      "name": "Community Services",
+      "description": "Community-facing services such as workshops, seminars, and other training, engagement and networking programs to support ECCCH stakeholders."
+    },
+    {
+      "id": "COMPONENTS_BY_EVALUABLE_TRAINING_AND_CAPACITY",
+      "level": "2",
+      "name": "Training and Capacity-Building Services",
+      "description": "Programs, workshops, and learning resources designed to strengthen the digital, technical, and heritage management skills of ECCCH stakeholders."
+    },
+    {
+      "id": "COMPONENTS_BY_EVALUABLE_ENGAGEMENT_AND_NETWORKING",
+      "level": "2",
+      "name": "Engagement and Networking Services",
+      "description": "Activities and platforms that promote community participation, knowledge exchange, and collaboration among cultural heritage professionals, researchers, and institutions."
+    },
+    {
+      "id": "COMPONENTS_BY_EVALUABLE_INTRODUCTION_TO_THE",
+      "level": "3",
+      "name": "\"Introduction to the cloud\" course",
+      "description": "A course offered by ECHOES that introduces CH professionals, researchers, and developers to the purpose, core concepts, and practical applications of the ECCCH."
+    },
+    {
+      "id": "COMPONENTS_BY_EVALUABLE_WORKFLOWS",
+      "level": "1",
+      "name": "Workflows",
+      "description": "Workflows are structured, potentially automatable sequences of tasks that support the management, analysis, enrichment, preservation, dissemination, and reuse of cultural heritage, enabling their efficient integration and interoperability across the cloud ecosystem."
+    },
+    {
+      "id": "COMPONENTS_BY_EVALUABLE_TEXT_BASED_WORKFLOWS",
+      "level": "2",
+      "name": "Text-based workflows",
+      "description": "Workflows documented as textual instructions that are executed manually, providing basic knowledge sharing but limited reproducibility and automation [D3.2]."
+    },
+    {
+      "id": "COMPONENTS_BY_EVALUABLE_SCRIPT_BASED_WORKFLOWS",
+      "level": "2",
+      "name": "Script-based workflows",
+      "description": "Script based workflows that encode execution logic and can be reused across compatible environments, improving portability, versioning, and partial reproducibility [D3.2]."
+    },
+    {
+      "id": "COMPONENTS_BY_EVALUABLE_GRAPH_BASED_WORKFLOWS",
+      "level": "2",
+      "name": "Graph-based Workflows",
+      "description": "Fully executable and orchestrated workflows managed by the cloud, enabling end to end automation, deep provenance tracking, and federated execution across multiple nodes [D3.2]."
+    },
+    {
+      "id": "COMPONENTS_BY_EVALUABLE_MASSIVE_TRANSCRIPTION_WORKFLOW",
+      "level": "3",
+      "name": "Massive Transcription Workflow",
+      "description": "Hypothetical workflow based on a workflow engine that massively ingests images in one country and performs OCR and processing in another one [D3.1]. "
+    }
+  ],
+  "categories": [
+    {
+      "id": "CATEGORIES_CLOUD",
+      "level": "0",
+      "name": "Cloud",
+      "description": "Top-level category covering all parts of the ECCCH"
+    },
+    {
+      "id": "CATEGORIES_DATA",
+      "level": "1",
+      "name": "Data",
+      "description": "Information and datasets managed in the cloud"
+    },
+    {
+      "id": "CATEGORIES_DIGITAL_ASSET",
+      "level": "2",
+      "name": "Digital asset",
+      "description": "Digitized materials representing heritage content"
+    },
+    {
+      "id": "CATEGORIES_PHOTOGRAPH",
+      "level": "3",
+      "name": "Photograph",
+      "description": "Still image digital assets"
+    },
+    {
+      "id": "CATEGORIES_VIDEO",
+      "level": "3",
+      "name": "Video",
+      "description": "Video recording digital assets"
+    },
+    {
+      "id": "CATEGORIES_DOCUMENT",
+      "level": "3",
+      "name": "Document",
+      "description": "Text-based digital assets"
+    },
+    {
+      "id": "CATEGORIES_D_MODEL",
+      "level": "3",
+      "name": "3D model",
+      "description": "Three-dimensional digital representations"
+    },
+    {
+      "id": "CATEGORIES_INSTRUMENTAL_MEASUREMENTS",
+      "level": "3",
+      "name": "Instrumental measurements",
+      "description": "Recorded measurements from instruments"
+    },
+    {
+      "id": "CATEGORIES_KNOWLEDGE_GRAPH_DATA",
+      "level": "2",
+      "name": "Knowledge graph data",
+      "description": "Structured semantic data linking heritage entities"
+    },
+    {
+      "id": "CATEGORIES_SEMANTIC_RESOURCE",
+      "level": "1",
+      "name": "Semantic resource",
+      "description": "Conceptual and linguistic resources"
+    },
+    {
+      "id": "CATEGORIES_ONTOLOGY",
+      "level": "2",
+      "name": "Ontology",
+      "description": "Formal conceptual models of a domain"
+    },
+    {
+      "id": "CATEGORIES_VOCABULARY",
+      "level": "2",
+      "name": "Vocabulary",
+      "description": "Controlled lists of terms and definitions"
+    },
+    {
+      "id": "CATEGORIES_TAXONOMY",
+      "level": "2",
+      "name": "Taxonomy",
+      "description": "Hierarchical classifications of concepts"
+    },
+    {
+      "id": "CATEGORIES_SEMANTIC_MAPPING",
+      "level": "2",
+      "name": "Semantic mapping",
+      "description": "Correspondences between different schemas or vocabularies"
+    },
+    {
+      "id": "CATEGORIES_THESAURUS",
+      "level": "2",
+      "name": "Thesaurus",
+      "description": "Semantic networks of related terms"
+    },
+    {
+      "id": "CATEGORIES_SOFTWARE",
+      "level": "1",
+      "name": "Software",
+      "description": "Applications and software systems"
+    },
+    {
+      "id": "CATEGORIES_CLOSED_SOURCE_APPLICATION",
+      "level": "2",
+      "name": "Closed-source application",
+      "description": "Proprietary software tools"
+    },
+    {
+      "id": "CATEGORIES_OPEN_SOURCE_APPLICATION",
+      "level": "2",
+      "name": "Open-source application",
+      "description": "Openly licensed software tools"
+    },
+    {
+      "id": "CATEGORIES_INFRASTRUCTURE_AND_SERVICES",
+      "level": "1",
+      "name": "Infrastructure and services",
+      "description": "Underlying hardware, system resources and digital services"
+    },
+    {
+      "id": "CATEGORIES_DATA_SERVICE",
+      "level": "2",
+      "name": "Data service",
+      "description": "Services providing access to datasets"
+    },
+    {
+      "id": "CATEGORIES_COMPUTE_SERVICE",
+      "level": "2",
+      "name": "Compute service",
+      "description": "Services offering computation capabilities"
+    },
+    {
+      "id": "CATEGORIES_STORAGE_SERVICE",
+      "level": "2",
+      "name": "Storage service",
+      "description": "APIs managing data storage operations"
+    },
+    {
+      "id": "CATEGORIES_COMMUNITY_SERVICE",
+      "level": "1",
+      "name": "Community service",
+      "description": "Support and engagement resources for users"
+    },
+    {
+      "id": "CATEGORIES_USER_SUPPORT_SERVICE",
+      "level": "2",
+      "name": "User support service",
+      "description": "Help and assistance for platform users"
+    },
+    {
+      "id": "CATEGORIES_TRAINING_SERVICE",
+      "level": "2",
+      "name": "Training service",
+      "description": "Learning and capacity-building activities"
+    },
+    {
+      "id": "CATEGORIES_WORKSHOP_SERVICE",
+      "level": "2",
+      "name": "Workshop service",
+      "description": "Interactive events for collaboration and learning"
+    },
+    {
+      "id": "CATEGORIES_WORKFLOW",
+      "level": "1",
+      "name": "Workflow",
+      "description": "Defined sequences of processes and tasks"
+    },
+    {
+      "id": "CATEGORIES_TEXT_BASED_WORKFLOWS",
+      "level": "2",
+      "name": "Text-based workflows",
+      "description": "Workflows documented as textual instructions that are executed manually, providing basic knowledge sharing but limited reproducibility and automation [D3.2]."
+    },
+    {
+      "id": "CATEGORIES_SCRIPT_BASED_WORKFLOWS",
+      "level": "2",
+      "name": "Script-based workflows",
+      "description": "Script based workflows that encode execution logic and can be reused across compatible environments, improving portability, versioning, and partial reproducibility [D3.2]."
+    },
+    {
+      "id": "CATEGORIES_GRAPH_BASED_WORKFLOWS",
+      "level": "2",
+      "name": "Graph-based Workflows",
+      "description": "Fully executable and orchestrated workflows managed by the cloud, enabling end to end automation, deep provenance tracking, and federated execution across multiple nodes [D3.2]."
+    }
+  ],
+  "data_dim": [
+    {
+      "id": "DATA_DIM_DATA_DIMENSIONS",
+      "level": "0",
+      "name": "Data dimensions",
+      "description": "",
+      "example": "",
+      "display": "Data dimensions",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "DATA_DIM_DATA_USAGE",
+      "level": "1",
+      "name": "Data usage",
+      "description": "This dimension assesses how datasets, metadata, and paradata are accessed, reused, and integrated within the ECCCH ecosystem, providing insight into their relevance, adoption, and impact.",
+      "example": "",
+      "display": "    Data usage",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "DATA_DIM_ACCESS_FREQUENCY",
+      "level": "2",
+      "name": "Access frequency",
+      "description": "Measures how often a dataset or resource is accessed over a given period of time, including views, queries, or downloads, indicating its level of visibility and demand.",
+      "example": "(e.g. number of views/downloads over a period; unique vs. returning accesses; peak access times...)",
+      "display": "        Access frequency",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "DATA_DIM_USER_DEMOGRAPHICS",
+      "level": "2",
+      "name": "User demographics",
+      "description": "Characterizes the types of users accessing the data (e.g., researchers, cultural heritage professionals, educators, general public), enabling analysis of reach across different stakeholder groups.",
+      "example": "(e.g. geographic distribution of users accessing data; profile of such users...)",
+      "display": "        User demographics",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "DATA_DIM_USER_ENGAGEMENT",
+      "level": "2",
+      "name": "User engagement",
+      "description": "Evaluates the depth and quality of interaction with the data, including session duration, repeated access, queries performed, or reuse in workflows and applications.",
+      "example": "(e.g. average session duration per HDT, number of HDTs accessed per session, interactions such as annotations, comments, or user-contributed metadata)",
+      "display": "        User engagement",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "DATA_DIM_INTEGRATION_RATE",
+      "level": "2",
+      "name": "Integration rate",
+      "description": "Measures the extent to which datasets are integrated into applications, workflows, knowledge graphs, or other services within the ECCCH, indicating their level of reuse and interoperability in practice.",
+      "example": "(e.g. number of times a HDT is integrated into applications, projects, or digital exhibitions; citations of a HDT in publications or presentations)",
+      "display": "        Integration rate",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    }
+  ],
+  "metadata_dim": [
+    {
+      "id": "METADATA_DIM_METADATA_QUALITY",
+      "level": "0",
+      "name": "Metadata Quality",
+      "description": "Degree to which metadata fulfills its role of identifying and describing digital resources in a manner that is understandable by both machines and people.",
+      "example": "",
+      "display": "Metadata Quality",
+      "contributors": "Alexandra Sicobean (UPC), Imanol Muñoz-Pandiella (UPC), Carlos Andujar (UPC)",
+      "reviewers": "Alexandra Sicobean (UPC)",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "METADATA_DIM_INTRINSIC_QUALITY",
+      "level": "1",
+      "name": "Intrinsic Quality",
+      "description": "Concerns the inherent properties of metadata that can be evaluated independently of the user's needs or external context; measures whether the metadata is factually correct, coherent, and trustworthy based only on the information within the dataset.",
+      "example": "",
+      "display": "    Intrinsic Quality",
+      "contributors": "Alexandra Sicobean (UPC), Imanol Muñoz-Pandiella (UPC), Carlos Andujar (UPC)",
+      "reviewers": "Alexandra Sicobean (UPC)",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "METADATA_DIM_ACCURACY",
+      "level": "2",
+      "name": "Accuracy",
+      "description": "Measures how well metadata represent real-world entities.",
+      "example": "",
+      "display": "        Accuracy",
+      "contributors": "Alexandra Sicobean (UPC), Imanol Muñoz-Pandiella (UPC), Carlos Andujar (UPC)",
+      "reviewers": "Alexandra Sicobean (UPC)",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "METADATA_DIM_FACTUAL_ACCURACY_CORRECTNESS",
+      "level": "3",
+      "name": "Factual Accuracy (Correctness)",
+      "description": "Verifies whether metadata values are free from errors (correct names, dates, identifiers, spatial coordinates, etc.); ensures RDF triples represent facts and the metadata correctly describes the actual resource.",
+      "example": "In Wikidata, the entity Q42 (Douglas Adams) has shown incorrect values for his place of death or birth due to user edits",
+      "display": "            Factual Accuracy (Correctness)",
+      "contributors": "Alexandra Sicobean (UPC), Imanol Muñoz-Pandiella (UPC), Carlos Andujar (UPC)",
+      "reviewers": "Alexandra Sicobean (UPC)",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "METADATA_DIM_SEMANTIC_ACCURACY",
+      "level": "3",
+      "name": "Semantic Accuracy",
+      "description": "Checks whether metadata correctly conveys the meaning and interpretation of the associated resource; assesses whether the meaning conveyed is accurate and appropriate (interpretation, categorization, or alignment between fields and resources).",
+      "example": "A book about women in science during the 19th century described with the subject ”biography”, when in fact the subject is ”thematic historical study”",
+      "display": "            Semantic Accuracy",
+      "contributors": "Alexandra Sicobean (UPC), Imanol Muñoz-Pandiella (UPC), Carlos Andujar (UPC)",
+      "reviewers": "Alexandra Sicobean (UPC)",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "METADATA_DIM_BELIEVABILITY_UNCERTAINTY",
+      "level": "3",
+      "name": "Believability (Uncertainty)",
+      "description": "Confirms whether uncertainty is explicitly represented and modeled transparently.",
+      "example": "Wikidata indicates doubts by storing properties with ”low-confidence” qualifiers (e.g., conflicting birth years)",
+      "display": "            Believability (Uncertainty)",
+      "contributors": "Alexandra Sicobean (UPC), Imanol Muñoz-Pandiella (UPC), Carlos Andujar (UPC)",
+      "reviewers": "Alexandra Sicobean (UPC)",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "METADATA_DIM_CONSISTENCY",
+      "level": "2",
+      "name": "Consistency",
+      "description": "Relates to the coherence of metadata and the absence of contradictions among statements; data should adhere to logical rules defined by the underlying data model (e.g., domain and range constraints). Evaluates as well, whether free-text fields of the same resource (e.g., title, description, subject) describe the same object in a semantically similar way, preventing confusing or contradictory descriptions.",
+      "example": "In CIDOCCRM (version 7.1.3), the property P11 had participant / participated in has domain E5 Event and range E39 Actor. A correct example of consistency would be Napoleon Bonaparte (E39 Actor) participated in the French Revolution (E5 Event). By contrast, an inconsistent statement would be Mona Lisa (a physical object violating the domain) participated in Paris (a place, violating the range). An item having the title ”Memorial Statue of Queen Victoria”, providing a description such as ”Bronze sculpture of unknown woman” ",
+      "display": "        Consistency",
+      "contributors": "Alexandra Sicobean (UPC), Imanol Muñoz-Pandiella (UPC), Carlos Andujar (UPC)",
+      "reviewers": "Alexandra Sicobean (UPC)",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "METADATA_DIM_TRUSTWORTHINESS_AND_PROVENANCE",
+      "level": "2",
+      "name": "Trustworthiness and Provenance",
+      "description": "Evaluates the reliability and credibility of the metadata source.",
+      "example": "",
+      "display": "        Trustworthiness and Provenance",
+      "contributors": "Alexandra Sicobean (UPC), Imanol Muñoz-Pandiella (UPC), Carlos Andujar (UPC)",
+      "reviewers": "Alexandra Sicobean (UPC)",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "METADATA_DIM_PROVENANCE_AND_CREDIBILITY",
+      "level": "3",
+      "name": "Provenance and Credibility",
+      "description": "Metadata contains information about the origin of the data, including who created it, their expertise, sources used, and any transformation applied.",
+      "example": "A reference URL to an unreliable blog or a missing webpage",
+      "display": "            Provenance and Credibility",
+      "contributors": "Alexandra Sicobean (UPC), Imanol Muñoz-Pandiella (UPC), Carlos Andujar (UPC)",
+      "reviewers": "Alexandra Sicobean (UPC)",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "METADATA_DIM_TRACEABILITY_VERIFIABILITY",
+      "level": "3",
+      "name": "Traceability (Verifiability)",
+      "description": "Validates that metadata statements can be connected to authoritative sources (e.g., catalog entries, archival documents, publications, or external datasets).",
+      "example": "A DBpedia triple asserting that an author won an award without providing citations or a reference to the Wikipedia source",
+      "display": "            Traceability (Verifiability)",
+      "contributors": "Alexandra Sicobean (UPC), Imanol Muñoz-Pandiella (UPC), Carlos Andujar (UPC)",
+      "reviewers": "Alexandra Sicobean (UPC)",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "METADATA_DIM_CONTEXTUAL_QUALITY",
+      "level": "1",
+      "name": "Contextual Quality",
+      "description": "Verifies whether metadata is sufficient, timely, and fitting for its domain (beyond being correct).",
+      "example": "",
+      "display": "    Contextual Quality",
+      "contributors": "Alexandra Sicobean (UPC), Imanol Muñoz-Pandiella (UPC), Carlos Andujar (UPC)",
+      "reviewers": "Alexandra Sicobean (UPC)",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "METADATA_DIM_COMPLETENESS",
+      "level": "2",
+      "name": "Completeness",
+      "description": "Ensures that metadata contains all the information required.",
+      "example": "",
+      "display": "        Completeness",
+      "contributors": "Alexandra Sicobean (UPC), Imanol Muñoz-Pandiella (UPC), Carlos Andujar (UPC)",
+      "reviewers": "Alexandra Sicobean (UPC)",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "METADATA_DIM_STRUCTURAL_COMPLETENESS",
+      "level": "3",
+      "name": "Structural Completeness",
+      "description": "Assesses whether individual records contain values for all required metadata fields defined by the schema; can be measured as ratio of filled fields to expected fields.",
+      "example": "A book that contains title, author, and publication date as fields, but lacks the ISBN identifier",
+      "display": "            Structural Completeness",
+      "contributors": "Alexandra Sicobean (UPC), Imanol Muñoz-Pandiella (UPC), Carlos Andujar (UPC)",
+      "reviewers": "Alexandra Sicobean (UPC)",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "METADATA_DIM_SCHEMA_COMPLETENESS",
+      "level": "3",
+      "name": "Schema Completeness",
+      "description": "Validates whether the metadata model itself is appropriately used to describe a given type of resource; assesses whether relevant classes and properties defined in the schema are employed across the dataset.",
+      "example": "People described without birth place despite schema support.",
+      "display": "            Schema Completeness",
+      "contributors": "Alexandra Sicobean (UPC), Imanol Muñoz-Pandiella (UPC), Carlos Andujar (UPC)",
+      "reviewers": "Alexandra Sicobean (UPC)",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "METADATA_DIM_POPULATION_COMPLETENESS",
+      "level": "3",
+      "name": "Population Completeness",
+      "description": "Assesses the extent to which real-world objects are represented in the dataset.",
+      "example": "If a museum has 500 artifacts, but only 350 are published, population completeness is 70%.",
+      "display": "            Population Completeness",
+      "contributors": "Alexandra Sicobean (UPC), Imanol Muñoz-Pandiella (UPC), Carlos Andujar (UPC)",
+      "reviewers": "Alexandra Sicobean (UPC)",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "METADATA_DIM_RICHNESS_INFORMATION_CONTENT",
+      "level": "3",
+      "name": "Richness (Information Content)",
+      "description": "Evaluates the amount and diversity of descriptive information available for a resource; adds a gradual, qualitative layer beyond the minimum ensured by structural completeness.",
+      "example": "Consider two Wikidata entries for historical monuments: one with detailed architectural style, heritage designation, materials, and images; another with only the title and the location. Although both entities are considered complete at a basic level, the second one provides only a minimal identification and lacks descriptive richness",
+      "display": "            Richness (Information Content)",
+      "contributors": "Alexandra Sicobean (UPC), Imanol Muñoz-Pandiella (UPC), Carlos Andujar (UPC)",
+      "reviewers": "Alexandra Sicobean (UPC)",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "METADATA_DIM_MULTILINGUAL_LABELING_COVERAGE",
+      "level": "3",
+      "name": "Multilingual Labeling Coverage",
+      "description": "Validates the presence, correctness, and consistency of multilingual metadata; includes appropriate language tags and consistency across multilingual descriptions.",
+      "example": "Multilingual environments require language-tagged labels for search and discovery",
+      "display": "            Multilingual Labeling Coverage",
+      "contributors": "Alexandra Sicobean (UPC), Imanol Muñoz-Pandiella (UPC), Carlos Andujar (UPC)",
+      "reviewers": "Alexandra Sicobean (UPC)",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "METADATA_DIM_TIMELINESS",
+      "level": "2",
+      "name": "Timeliness",
+      "description": "Ensures that metadata remains up-to-date and relevant to the present; modification dates should be documented to avoid outdated contradictory knowledge.",
+      "example": "An item representing a politician might still contain an outdated position (e.g., Mayor from 2010 to 2014)\nRecords associated with a museum might have been moved or loaned to another institution without being updated. ",
+      "display": "        Timeliness",
+      "contributors": "Alexandra Sicobean (UPC), Imanol Muñoz-Pandiella (UPC), Carlos Andujar (UPC)",
+      "reviewers": "Alexandra Sicobean (UPC)",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "METADATA_DIM_CONTEXT_AND_RELEVANCE",
+      "level": "2",
+      "name": "Context and Relevance",
+      "description": "Measures whether the metadata is useful for the intended audience or use case; assesses whether the information meets the user's needs.",
+      "example": "Metadata designed for cultural heritage programs may prioritize visual material and narrative descriptions, while metadata intended for scholarly research should include references to primary sources and detailed provenance.",
+      "display": "        Context and Relevance",
+      "contributors": "Alexandra Sicobean (UPC), Imanol Muñoz-Pandiella (UPC), Carlos Andujar (UPC)",
+      "reviewers": "Alexandra Sicobean (UPC)",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "METADATA_DIM_REPRESENTATIONAL_QUALITY",
+      "level": "1",
+      "name": "Representational Quality",
+      "description": "Evaluates how well the data is expressed, structured, and presented; focuses on readability, interpretability, structural representation, and the quality of language.",
+      "example": "",
+      "display": "    Representational Quality",
+      "contributors": "Alexandra Sicobean (UPC), Imanol Muñoz-Pandiella (UPC), Carlos Andujar (UPC)",
+      "reviewers": "Alexandra Sicobean (UPC)",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "METADATA_DIM_INTERPRETABILITY_AND_UNDERSTANDABILITY",
+      "level": "2",
+      "name": "Interpretability and Understandability",
+      "description": "Evaluates how easily interpretable by human users and machine agents metadata is; identifies poor wording, lack of context, and ambiguous phrasing.",
+      "example": "",
+      "display": "        Interpretability and Understandability",
+      "contributors": "Alexandra Sicobean (UPC), Imanol Muñoz-Pandiella (UPC), Carlos Andujar (UPC)",
+      "reviewers": "Alexandra Sicobean (UPC)",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "METADATA_DIM_GENERAL_UNDERSTANDABILITY",
+      "level": "3",
+      "name": "General Understandability",
+      "description": "Assesses whether data is presented clearly and can be easily interpreted by its intended audience (user or machine); influenced by schema usage and clarity of labels, identifiers, and short descriptive fields.",
+      "example": "A record using abbreviated or highly\ntechnical codes (e.g., loc crt: FR-75) without\nexplanation may be difficult to interpret, even if it is technically correct",
+      "display": "            General Understandability",
+      "contributors": "Alexandra Sicobean (UPC), Imanol Muñoz-Pandiella (UPC), Carlos Andujar (UPC)",
+      "reviewers": "Alexandra Sicobean (UPC)",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "METADATA_DIM_COGNITIVE_ACCESSIBILITY_READABILITY",
+      "level": "3",
+      "name": "Cognitive Accessibility (Readability)",
+      "description": "Checks whether textual metadata is easy to read; focuses on the cognitive effort required to read it (assuming it is already interpretable).",
+      "example": "Long, technical, or machine-translated abstracts with reduced readability for general audiences",
+      "display": "            Cognitive Accessibility (Readability)",
+      "contributors": "Alexandra Sicobean (UPC), Imanol Muñoz-Pandiella (UPC), Carlos Andujar (UPC)",
+      "reviewers": "Alexandra Sicobean (UPC)",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "METADATA_DIM_STRUCTURE",
+      "level": "2",
+      "name": "Structure",
+      "description": "Concerned with the syntactic and structural correctness of metadata; validates representation types including URIs and RDF constructs.",
+      "example": "",
+      "display": "        Structure",
+      "contributors": "Alexandra Sicobean (UPC), Imanol Muñoz-Pandiella (UPC), Carlos Andujar (UPC)",
+      "reviewers": "Alexandra Sicobean (UPC)",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "METADATA_DIM_FOUNDATIONAL_AND_FORMAT",
+      "level": "3",
+      "name": "Foundational and Format Consistency",
+      "description": "Checks whether metadata respects structural and syntactic rules of the underlying data model (datatype compliance, correct use of object vs. datatype properties, valid/resolvable URIs, valid language-tagged strings).",
+      "example": "Textual fields, for instance, are evaluated only with respect to their datatype and encoding (valid string literals, language tags)",
+      "display": "            Foundational and Format Consistency",
+      "contributors": "Alexandra Sicobean (UPC), Imanol Muñoz-Pandiella (UPC), Carlos Andujar (UPC)",
+      "reviewers": "Alexandra Sicobean (UPC)",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "METADATA_DIM_CONCISENESS_ABSENCE_OF",
+      "level": "3",
+      "name": "Conciseness (Absence of Redundancy)",
+      "description": "Evaluates how efficiently metadata describes resources; checks for unnecessary redundancy such as duplicate entities under multiple identifiers or repeated equivalent values.",
+      "example": "Identical entities under multiple identifiers or repetition of properties with equivalent\nvalues",
+      "display": "            Conciseness (Absence of Redundancy)",
+      "contributors": "Alexandra Sicobean (UPC), Imanol Muñoz-Pandiella (UPC), Carlos Andujar (UPC)",
+      "reviewers": "Alexandra Sicobean (UPC)",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "METADATA_DIM_ACCESSIBILITY_QUALITY",
+      "level": "1",
+      "name": "Accessibility Quality",
+      "description": "Assesses how easily the data can be found, accessed, and reused.",
+      "example": "",
+      "display": "    Accessibility Quality",
+      "contributors": "Alexandra Sicobean (UPC), Imanol Muñoz-Pandiella (UPC), Carlos Andujar (UPC)",
+      "reviewers": "Alexandra Sicobean (UPC)",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "METADATA_DIM_ACCESSIBILITY_AND_CONNECTIVITY",
+      "level": "2",
+      "name": "Accessibility and Connectivity",
+      "description": "Ensures metadata can be accessed reliably in Knowledge Graphs and Linked Data; checks dereferenceable URIs, reachable resources, downloadable metadata files in standard formats, and stable/responsive endpoints.",
+      "example": "Broken URIs, inaccessible endpoints, or missing download links.",
+      "display": "        Accessibility and Connectivity",
+      "contributors": "Alexandra Sicobean (UPC), Imanol Muñoz-Pandiella (UPC), Carlos Andujar (UPC)",
+      "reviewers": "Alexandra Sicobean (UPC)",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "METADATA_DIM_GOVERNANCE_AND_REUSABILITY",
+      "level": "2",
+      "name": "Governance and Reusability",
+      "description": "Ensures metadata can be reused, shared, and maintained long-term.",
+      "example": "",
+      "display": "        Governance and Reusability",
+      "contributors": "Alexandra Sicobean (UPC), Imanol Muñoz-Pandiella (UPC), Carlos Andujar (UPC)",
+      "reviewers": "Alexandra Sicobean (UPC)",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "METADATA_DIM_INTERLINKING_CONNECTIVITY",
+      "level": "3",
+      "name": "Interlinking (Connectivity)",
+      "description": "Verifies both internal and external metadata links, including links to authority files, equivalences, and internal links between related resources.",
+      "example": "Artist not linked to authority file (e.g., VIAF).",
+      "display": "            Interlinking (Connectivity)",
+      "contributors": "Alexandra Sicobean (UPC), Imanol Muñoz-Pandiella (UPC), Carlos Andujar (UPC)",
+      "reviewers": "Alexandra Sicobean (UPC)",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "METADATA_DIM_LICENSING_RIGHTS",
+      "level": "3",
+      "name": "Licensing (Rights)",
+      "description": "Checks that metadata includes accurate information about rights, permissions, and licensing, which determines whether metadata can be reused and under what conditions.",
+      "example": "Image without license information.",
+      "display": "            Licensing (Rights)",
+      "contributors": "Alexandra Sicobean (UPC), Imanol Muñoz-Pandiella (UPC), Carlos Andujar (UPC)",
+      "reviewers": "Alexandra Sicobean (UPC)",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "METADATA_DIM_INTEROPERABILITY_SHAREABILITY",
+      "level": "3",
+      "name": "Interoperability (Shareability)",
+      "description": "Evaluates the ease with which metadata can be shared across systems/platforms/institutions; assesses use of common standards, adherence to controlled vocabularies, and compatibility with Linked Data technologies.",
+      "example": "Two knowledge graphs using different vocabularies for the same concept: one referring to the creator as schema:creator, and the other one as dc:creator",
+      "display": "            Interoperability (Shareability)",
+      "contributors": "Alexandra Sicobean (UPC), Imanol Muñoz-Pandiella (UPC), Carlos Andujar (UPC)",
+      "reviewers": "Alexandra Sicobean (UPC)",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "METADATA_DIM_CONFORMANCE_TO_STANDARDS",
+      "level": "3",
+      "name": "Conformance to Standards",
+      "description": "Assesses whether metadata follows community standards, schemas, and best practices, supporting reusability and automated validation.",
+      "example": "Records not following EDM.",
+      "display": "            Conformance to Standards",
+      "contributors": "Alexandra Sicobean (UPC), Imanol Muñoz-Pandiella (UPC), Carlos Andujar (UPC)",
+      "reviewers": "Alexandra Sicobean (UPC)",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "METADATA_DIM_VERSIONABILITY",
+      "level": "3",
+      "name": "Versionability",
+      "description": "Capacity to maintain multiple versions of the same record, track changes over time, and allow rollback in case of errors.",
+      "example": "No record of who changed a description and when.\n",
+      "display": "            Versionability",
+      "contributors": "Alexandra Sicobean (UPC), Imanol Muñoz-Pandiella (UPC), Carlos Andujar (UPC)",
+      "reviewers": "Alexandra Sicobean (UPC)",
+      "status": "",
+      "notes": ""
+    }
+  ],
+  "ontology_dim": [
+    {
+      "id": "ONTOLOGY_DIM_ONTOLOGY_DIMENSIONS",
+      "level": "0",
+      "name": "Ontology dimensions",
+      "description": "",
+      "display": "Ontology dimensions",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "ONTOLOGY_DIM_COMPREHENSIVENESS",
+      "level": "1",
+      "name": "Comprehensiveness",
+      "description": "The extent to which the ontology can represent cultural heritage information in a sufficiently broad and appropriate way. This includes coverage of relevant asset types, entities, relationships, and properties across different cultural heritage domains and use cases.",
+      "display": "    Comprehensiveness",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "ONTOLOGY_DIM_USABILITY_AND_UNDERSTANDABILITY",
+      "level": "1",
+      "name": "Usability and Understandability",
+      "description": "The extent to which the ontology can be understood, adopted, and applied effectively by stakeholders. This includes conceptual clarity, accessibility, quality of documentation, and practical usefulness.",
+      "display": "    Usability and Understandability",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "ONTOLOGY_DIM_INTEROPERABILITY_AND_COMPATIBILITY",
+      "level": "1",
+      "name": "Interoperability and Compatibility",
+      "description": "The extent to which the ontology can be integrated and used with other models, standards, and systems. This includes alignment with established data models, controlled vocabularies, and relevant standards, as well as technical compatibility through supported formats and interfaces.",
+      "display": "    Interoperability and Compatibility",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "ONTOLOGY_DIM_USAGE_AND_IMPACT",
+      "level": "1",
+      "name": "Usage and Impact",
+      "description": "The extent to which the ontology is adopted, reused, and influential in cultural heritage research and practice, including its contribution to collaboration within the ECCCH ecosystem.",
+      "display": "    Usage and Impact",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "ONTOLOGY_DIM_SUSTAINABILITY",
+      "level": "1",
+      "name": "Sustainability",
+      "description": "The extent to which the ontology can remain viable over time, including ease of maintenance, adaptability to new domains or standards, scalability, and the existence of appropriate governance and versioning practices.",
+      "display": "    Sustainability",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    }
+  ],
+  "software_dim": [
+    {
+      "id": "SOFTWARE_DIM_SOFTWARE_DIMENSIONS",
+      "level": "0",
+      "name": "Software dimensions",
+      "description": "Software",
+      "display": "Software dimensions",
+      "source_name": "",
+      "source_url": "",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_COMPATIBILITY",
+      "level": "1",
+      "name": "Compatibility",
+      "description": "Degree to which a product, system or component can exchange information with other products, systems or components, and/or perform its required functions while sharing the same common environment and resources.",
+      "display": "    Compatibility",
+      "source_name": "ISO/IEC 25010 standard",
+      "source_url": "https://iso25000.com/index.php/en/iso-25000-standards/iso-25010",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": "Addopted from https://github.com/EVERSE-ResearchSoftware/RSQKit "
+    },
+    {
+      "id": "SOFTWARE_DIM_CO_EXISTENCE",
+      "level": "2",
+      "name": "Co-existence",
+      "description": "Degree to which a product can perform its required functions efficiently while sharing a common environment and resources with other products, without detrimental impact on any other product.",
+      "display": "        Co-existence",
+      "source_name": "ISO/IEC 25010 standard",
+      "source_url": "https://iso25000.com/index.php/en/iso-25000-standards/iso-25011",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_INTEROPERABILITY",
+      "level": "2",
+      "name": "Interoperability",
+      "description": "Degree to which a system, product or component can exchange information with other products and mutually use the information that has been exchanged.",
+      "display": "        Interoperability",
+      "source_name": "ISO/IEC 25010 standard",
+      "source_url": "https://iso25000.com/index.php/en/iso-25000-standards/iso-25012",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_FAIRNESS",
+      "level": "1",
+      "name": "FAIRness",
+      "description": "Degree to which research software adheres to the FAIR principles: Findable, Accessible, Interoperable, and Reusable. These principles, adapted for research software, aim to enhance the discoverability, accessibility, interoperability, and reusability of software, thereby maximizing its value and impact in scientific research.",
+      "display": "    FAIRness",
+      "source_name": "Introducing the FAIR Principles for research software",
+      "source_url": "https://www.nature.com/articles/s41597-022-01710-x",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_FLEXIBILITY",
+      "level": "1",
+      "name": "Flexibility",
+      "description": "Degree to which a product can be adapted to changes in its requirements, contexts of use or system environment.",
+      "display": "    Flexibility",
+      "source_name": "ISO/IEC 25010 standard",
+      "source_url": "https://iso25000.com/index.php/en/iso-25000-standards/iso-25010",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_ADAPTABILITY",
+      "level": "2",
+      "name": "Adaptability",
+      "description": "Degree to which a product or system can effectively and efficiently be adapted for or transferred to different hardware, software or other operational or usage environments.",
+      "display": "        Adaptability",
+      "source_name": "ISO/IEC 25010 standard",
+      "source_url": "https://iso25000.com/index.php/en/iso-25000-standards/iso-25011",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_SCALABILITY",
+      "level": "2",
+      "name": "Scalability",
+      "description": "Degree to which a product can handle growing or shrinking workloads or to adapt its capacity to handle variability.",
+      "display": "        Scalability",
+      "source_name": "ISO/IEC 25010 standard",
+      "source_url": "https://iso25000.com/index.php/en/iso-25000-standards/iso-25012",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_INSTALLABILITY",
+      "level": "2",
+      "name": "Installability",
+      "description": "Degree of effectiveness and efficiency with which a product or system can be successfully installed and/or uninstalled in a specified environment.",
+      "display": "        Installability",
+      "source_name": "ISO/IEC 25010 standard",
+      "source_url": "https://iso25000.com/index.php/en/iso-25000-standards/iso-25013",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_REPLACEABILITY",
+      "level": "2",
+      "name": "Replaceability",
+      "description": "Degree to which a product can replace another specified software product for the same purpose in the same environment.",
+      "display": "        Replaceability",
+      "source_name": "ISO/IEC 25010 standard",
+      "source_url": "https://iso25000.com/index.php/en/iso-25000-standards/iso-25014",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_FUNCTIONAL_SUITABILITY",
+      "level": "1",
+      "name": "Functional suitability",
+      "description": "This characteristic represents the degree to which a product or system provides functions that meet stated and implied needs when used under specified conditions.",
+      "display": "    Functional suitability",
+      "source_name": "ISO/IEC 25010 standard",
+      "source_url": "https://iso25000.com/index.php/en/iso-25000-standards/iso-25010",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_FUNCTIONAL_COMPLETENESS",
+      "level": "2",
+      "name": "Functional completeness",
+      "description": "Degree to which the set of functions covers all the specified tasks and intended users’ objectives.",
+      "display": "        Functional completeness",
+      "source_name": "ISO/IEC 25010 standard",
+      "source_url": "https://iso25000.com/index.php/en/iso-25000-standards/iso-25011",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_FUNCTIONAL_CORRECTNESS",
+      "level": "2",
+      "name": "Functional correctness",
+      "description": "Degree to which a product or system provides accurate results when used by intended users.",
+      "display": "        Functional correctness",
+      "source_name": "ISO/IEC 25010 standard",
+      "source_url": "https://iso25000.com/index.php/en/iso-25000-standards/iso-25012",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_FUNCTIONAL_APPROPRIATENESS",
+      "level": "2",
+      "name": "Functional appropriateness",
+      "description": "Degree to which the functions facilitate the accomplishment of specified tasks and objectives.",
+      "display": "        Functional appropriateness",
+      "source_name": "ISO/IEC 25010 standard",
+      "source_url": "https://iso25000.com/index.php/en/iso-25000-standards/iso-25013",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_INTERACTION_CAPABILITY",
+      "level": "1",
+      "name": "Interaction Capability",
+      "description": "Degree to which a product or system can be interacted with by specified users to exchange information via the user interface to complete specific tasks in a variety of contexts of use.",
+      "display": "    Interaction Capability",
+      "source_name": "ISO/IEC 25010 standard",
+      "source_url": "https://iso25000.com/index.php/en/iso-25000-standards/iso-25010",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_APPROPRIATENESS_RECOGNIZABILITY",
+      "level": "2",
+      "name": "Appropriateness recognizability",
+      "description": "Degree to which users can recognize whether a product or system is appropriate for their needs.",
+      "display": "        Appropriateness recognizability",
+      "source_name": "ISO/IEC 25010 standard",
+      "source_url": "https://iso25000.com/index.php/en/iso-25000-standards/iso-25011",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_LEARNABILITY",
+      "level": "2",
+      "name": "Learnability",
+      "description": "Degree to which the functions of a product or system can be learnt to be used by specified users within a specified amount of time.",
+      "display": "        Learnability",
+      "source_name": "ISO/IEC 25010 standard",
+      "source_url": "https://iso25000.com/index.php/en/iso-25000-standards/iso-25012",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_OPERABILITY",
+      "level": "2",
+      "name": "Operability",
+      "description": "Degree to which a product or system has attributes that make it easy to operate and control.",
+      "display": "        Operability",
+      "source_name": "ISO/IEC 25010 standard",
+      "source_url": "https://iso25000.com/index.php/en/iso-25000-standards/iso-25013",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_USER_ERROR_PROTECTION",
+      "level": "2",
+      "name": "User error protection",
+      "description": "Degree to which a system prevents users against operation errors.",
+      "display": "        User error protection",
+      "source_name": "ISO/IEC 25010 standard",
+      "source_url": "https://iso25000.com/index.php/en/iso-25000-standards/iso-25014",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_USER_ENGAGEMENT",
+      "level": "2",
+      "name": "User engagement",
+      "description": "Degree to which a user interface presents functions and information in an inviting and motivating manner encouraging continued interaction.",
+      "display": "        User engagement",
+      "source_name": "ISO/IEC 25010 standard",
+      "source_url": "https://iso25000.com/index.php/en/iso-25000-standards/iso-25015",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_INCLUSIVITY",
+      "level": "2",
+      "name": "Inclusivity",
+      "description": "Degree to which a product or system can be used by people of various backgrounds (such as people of various ages, abilities, cultures, ethnicities, languages, genders, economic situations, etc.).",
+      "display": "        Inclusivity",
+      "source_name": "ISO/IEC 25010 standard",
+      "source_url": "https://iso25000.com/index.php/en/iso-25000-standards/iso-25016",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_USER_ASSISTANCE",
+      "level": "2",
+      "name": "User assistance",
+      "description": "Degree to which a product can be used by people with the widest range of characteristics and capabilities to achieve specified goals in a specified context of use.",
+      "display": "        User assistance",
+      "source_name": "ISO/IEC 25010 standard",
+      "source_url": "https://iso25000.com/index.php/en/iso-25000-standards/iso-25017",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_SELF_DESCRIPTIVENESS",
+      "level": "2",
+      "name": "Self-descriptiveness",
+      "description": "Degree to which a product presents appropriate information, where needed by the user, to make its capabilities and use immediately obvious to the user without excessive interactions with a product or other resources (such as user documentation, help desks or other users).",
+      "display": "        Self-descriptiveness",
+      "source_name": "ISO/IEC 25010 standard",
+      "source_url": "https://iso25000.com/index.php/en/iso-25000-standards/iso-25018",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_MAINTAINABILITY",
+      "level": "1",
+      "name": "Maintainability",
+      "description": "his characteristic represents the degree of effectiveness and efficiency with which a product or system can be modified to improve it, correct it or adapt it to changes in environment, and in requirements.",
+      "display": "    Maintainability",
+      "source_name": "ISO/IEC 25010 standard",
+      "source_url": "https://iso25000.com/index.php/en/iso-25000-standards/iso-25010",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_MODULARITY",
+      "level": "2",
+      "name": "Modularity",
+      "description": "Degree to which a system or computer program is composed of discrete components such that a change to one component has minimal impact on other components.",
+      "display": "        Modularity",
+      "source_name": "ISO/IEC 25010 standard",
+      "source_url": "https://iso25000.com/index.php/en/iso-25000-standards/iso-25011",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_REUSABILITY",
+      "level": "2",
+      "name": "Reusability",
+      "description": "Degree to which a product can be used as an asset in more than one system, or in building other assets.",
+      "display": "        Reusability",
+      "source_name": "ISO/IEC 25010 standard",
+      "source_url": "https://iso25000.com/index.php/en/iso-25000-standards/iso-25012",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_ANALYSABILITY",
+      "level": "2",
+      "name": "Analysability",
+      "description": "Degree of effectiveness and efficiency with which it is possible to assess the impact on a product or system of an intended change to one or more of its parts, to diagnose a product for deficiencies or causes of failures, or to identify parts to be modified.",
+      "display": "        Analysability",
+      "source_name": "ISO/IEC 25010 standard",
+      "source_url": "https://iso25000.com/index.php/en/iso-25000-standards/iso-25013",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_MODIFIABILITY",
+      "level": "2",
+      "name": "Modifiability",
+      "description": "Degree to which a product or system can be effectively and efficiently modified without introducing defects or degrading existing product quality.",
+      "display": "        Modifiability",
+      "source_name": "ISO/IEC 25010 standard",
+      "source_url": "https://iso25000.com/index.php/en/iso-25000-standards/iso-25014",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_TESTABILITY",
+      "level": "2",
+      "name": "Testability",
+      "description": "Degree of effectiveness and efficiency with which test criteria can be established for a system, product or component and tests can be performed to determine whether those criteria have been met.",
+      "display": "        Testability",
+      "source_name": "ISO/IEC 25010 standard",
+      "source_url": "https://iso25000.com/index.php/en/iso-25000-standards/iso-25015",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_OPEN_SOURCE_SOFTWARE",
+      "level": "1",
+      "name": "Open Source Software",
+      "description": "Degree to which software source code is openly available for inspection, use, modification, and redistribution under an open licence. Open source software is software with source code that anyone can inspect, modify, and enhance. Research software can be published with or without open access to the source code. Open access to source code aligns better with academic research purposes than closed source software; open source software aligns with the FAIR4RS principles. It allows other researchers to directly verify the methods used to produce the results published in papers. It also makes reproducibility much easier. In addition to these research-driven reasons, publishing research software as open source software can help with long term maintenance in a cost-effective way, since interested developers can easily contribute new functionality or fix bugs. Moreover, by integrating with the greater open source ecosystem, researchers can leverage tools and support communities already available. As such, for most academic communities with limited resources, it is also a good choice from a software engineering perspective",
+      "display": "    Open Source Software",
+      "source_name": "EVERSE Reference Framework",
+      "source_url": "https://doi.org/10.5281/zenodo.14204478",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_PERFORMANCE_EFFICIENCY",
+      "level": "1",
+      "name": "Performance Efficiency",
+      "description": "This characteristic represents the degree to which a product performs its functions within specified time and throughput parameters and is efficient in the use of resources (such as CPU, memory, storage, network devices, energy, materials…) under specified conditions.",
+      "display": "    Performance Efficiency",
+      "source_name": "ISO/IEC 25010 standard",
+      "source_url": "https://iso25000.com/index.php/en/iso-25000-standards/iso-25010",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_TIME_BEHAVIOUR",
+      "level": "2",
+      "name": "Time behaviour",
+      "description": "Degree to which the response time and throughput rates of a product or system, when performing its functions, meet requirements.",
+      "display": "        Time behaviour",
+      "source_name": "ISO/IEC 25010 standard",
+      "source_url": "https://iso25000.com/index.php/en/iso-25000-standards/iso-25011",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_RESOURCE_UTILIZATION",
+      "level": "2",
+      "name": "Resource utilization",
+      "description": "Degree to which the amounts and types of resources used by a product or system, when performing its functions, meet requirements.",
+      "display": "        Resource utilization",
+      "source_name": "ISO/IEC 25010 standard",
+      "source_url": "https://iso25000.com/index.php/en/iso-25000-standards/iso-25012",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_CAPACITY",
+      "level": "2",
+      "name": "Capacity",
+      "description": "Degree to which the maximum limits of a product or system parameter meet requirements.",
+      "display": "        Capacity",
+      "source_name": "ISO/IEC 25010 standard",
+      "source_url": "https://iso25000.com/index.php/en/iso-25000-standards/iso-25013",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_RELIABILITY",
+      "level": "1",
+      "name": "Reliability",
+      "description": "Degree to which a system, product or component performs specified functions under specified conditions for a specified period of time.",
+      "display": "    Reliability",
+      "source_name": "ISO/IEC 25010 standard",
+      "source_url": "https://iso25000.com/index.php/en/iso-25000-standards/iso-25010",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_FAULTLESSNESS",
+      "level": "2",
+      "name": "Faultlessness",
+      "description": "Degree to which a system, product or component performs specified functions without fault under normal operation.",
+      "display": "        Faultlessness",
+      "source_name": "ISO/IEC 25010 standard",
+      "source_url": "https://iso25000.com/index.php/en/iso-25000-standards/iso-25011",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_AVAILABILITY",
+      "level": "2",
+      "name": "Availability",
+      "description": "Degree to which a system, product or component is operational and accessible when required for use.",
+      "display": "        Availability",
+      "source_name": "ISO/IEC 25010 standard",
+      "source_url": "https://iso25000.com/index.php/en/iso-25000-standards/iso-25012",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_FAULT_TOLERANCE",
+      "level": "2",
+      "name": "Fault tolerance",
+      "description": "Degree to which a system, product or component operates as intended despite the presence of hardware or software faults.",
+      "display": "        Fault tolerance",
+      "source_name": "ISO/IEC 25010 standard",
+      "source_url": "https://iso25000.com/index.php/en/iso-25000-standards/iso-25013",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_RECOVERABILITY",
+      "level": "2",
+      "name": "Recoverability",
+      "description": "Degree to which, in the event of an interruption or a failure, a product or system can recover the data directly affected and re-establish the desired state of the system.",
+      "display": "        Recoverability",
+      "source_name": "ISO/IEC 25010 standard",
+      "source_url": "https://iso25000.com/index.php/en/iso-25000-standards/iso-25014",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_SAFETY",
+      "level": "1",
+      "name": "Safety",
+      "description": "This characteristic represents the degree to which a product under defined conditions avoids a state in which human life, health, property, or the environment is endangered.",
+      "display": "    Safety",
+      "source_name": "ISO/IEC 25010 standard",
+      "source_url": "https://iso25000.com/index.php/en/iso-25000-standards/iso-25010",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_OPERATIONAL_CONSTRAINT",
+      "level": "2",
+      "name": "Operational constraint",
+      "description": "Degree to which a product or system constrains its operation to within safe parameters or states when encountering operational hazard.",
+      "display": "        Operational constraint",
+      "source_name": "ISO/IEC 25010 standard",
+      "source_url": "https://iso25000.com/index.php/en/iso-25000-standards/iso-25011",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_RISK_IDENTIFICATION",
+      "level": "2",
+      "name": "Risk identification",
+      "description": "Degree to which a product can identify a course of events or operations that can expose life, property or environment to unacceptable risk.",
+      "display": "        Risk identification",
+      "source_name": "ISO/IEC 25010 standard",
+      "source_url": "https://iso25000.com/index.php/en/iso-25000-standards/iso-25012",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_FAIL_SAFE",
+      "level": "2",
+      "name": "Fail safe",
+      "description": "Degree to which a product can automatically place itself in a safe operating mode, or to revert to a safe condition in the event of a failure.",
+      "display": "        Fail safe",
+      "source_name": "ISO/IEC 25010 standard",
+      "source_url": "https://iso25000.com/index.php/en/iso-25000-standards/iso-25013",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_HAZARD_WARNING",
+      "level": "2",
+      "name": "Hazard warning",
+      "description": "Degree to which a product or system provides warnings of unacceptable risks to operations or internal controls so that they can react in sufficient time to sustain safe operations.",
+      "display": "        Hazard warning",
+      "source_name": "ISO/IEC 25010 standard",
+      "source_url": "https://iso25000.com/index.php/en/iso-25000-standards/iso-25014",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_SAFE_INTEGRATION",
+      "level": "2",
+      "name": "Safe integration",
+      "description": "Degree to which a product can maintain safety during and after integration with one or more components.",
+      "display": "        Safe integration",
+      "source_name": "ISO/IEC 25010 standard",
+      "source_url": "https://iso25000.com/index.php/en/iso-25000-standards/iso-25015",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_SECURITY",
+      "level": "1",
+      "name": "Security",
+      "description": "Degree to which a product or system defends against attack patterns by malicious actors and protects information and data so that persons or other products or systems have the degree of data access appropriate to their types and levels of authorization.",
+      "display": "    Security",
+      "source_name": "ISO/IEC 25010 standard",
+      "source_url": "https://iso25000.com/index.php/en/iso-25000-standards/iso-25010",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_CONFIDENTIALITY",
+      "level": "2",
+      "name": "Confidentiality",
+      "description": "Degree to which a product or system ensures that data are accessible only to those authorized to have access.",
+      "display": "        Confidentiality",
+      "source_name": "ISO/IEC 25010 standard",
+      "source_url": "https://iso25000.com/index.php/en/iso-25000-standards/iso-25011",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_INTEGRITY",
+      "level": "2",
+      "name": "Integrity",
+      "description": "Degree to which a system, product or component ensures that the state of its system and data are protected from unauthorized modification or deletion either by malicious action or computer error.",
+      "display": "        Integrity",
+      "source_name": "ISO/IEC 25010 standard",
+      "source_url": "https://iso25000.com/index.php/en/iso-25000-standards/iso-25012",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_NON_REPUDIATION",
+      "level": "2",
+      "name": "Non-repudiation",
+      "description": "Degree to which actions or events can be proven to have taken place so that the events or actions cannot be repudiated later.",
+      "display": "        Non-repudiation",
+      "source_name": "ISO/IEC 25010 standard",
+      "source_url": "https://iso25000.com/index.php/en/iso-25000-standards/iso-25013",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_ACCOUNTABILITY",
+      "level": "2",
+      "name": "Accountability",
+      "description": "Degree to which the actions of an entity can be traced uniquely to the entity.",
+      "display": "        Accountability",
+      "source_name": "ISO/IEC 25010 standard",
+      "source_url": "https://iso25000.com/index.php/en/iso-25000-standards/iso-25014",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_AUTHENTICITY",
+      "level": "2",
+      "name": "Authenticity",
+      "description": "Degree to which the identity of a subject or resource can be proved to be the one claimed.",
+      "display": "        Authenticity",
+      "source_name": "ISO/IEC 25010 standard",
+      "source_url": "https://iso25000.com/index.php/en/iso-25000-standards/iso-25015",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_RESISTANCE",
+      "level": "2",
+      "name": "Resistance",
+      "description": "Degree to which the product or system sustains operations while under attack from a malicious actor.",
+      "display": "        Resistance",
+      "source_name": "ISO/IEC 25010 standard",
+      "source_url": "https://iso25000.com/index.php/en/iso-25000-standards/iso-25016",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_SUSTAINABILITY",
+      "level": "1",
+      "name": "Sustainability",
+      "description": "Degree to which software can continue to exist, be maintained, and remain useful over time across changing platforms, dependencies, and user needs.",
+      "display": "    Sustainability",
+      "source_name": "Defining Software Sustainability",
+      "source_url": "https://danielskatzblog.wordpress.com/2016/09/13/defining-software-sustainability/",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_USABILITY",
+      "level": "1",
+      "name": "Usability",
+      "description": "This dimension refers to how easy, efficient, and satisfactory the ECCCH applications and tools are for their intended users.",
+      "display": "    Usability",
+      "source_name": "ECHOES",
+      "source_url": "",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_USEFULNESS",
+      "level": "2",
+      "name": "Usefulness",
+      "description": "Measures the extent to which the application effectively addresses the specific needs and goals of CH professionals.",
+      "display": "        Usefulness",
+      "source_name": "ECHOES",
+      "source_url": "",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_EFFICIENCY_OF_USE",
+      "level": "2",
+      "name": "Efficiency of Use",
+      "description": "Measures how quickly and effectively experienced users can accomplish tasks with the tools.",
+      "display": "        Efficiency of Use",
+      "source_name": "ECHOES",
+      "source_url": "",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_EASE_OF_LEARNING",
+      "level": "2",
+      "name": "Ease of Learning",
+      "description": "Indicates how quickly new users can understand and effectively operate the application.",
+      "display": "        Ease of Learning",
+      "source_name": "ECHOES",
+      "source_url": "",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_USER_INTERFACE_QUALITY",
+      "level": "2",
+      "name": "User Interface Quality",
+      "description": "Assesses the intuitiveness, consistency, and visual clarity of the application's design and layout.",
+      "display": "        User Interface Quality",
+      "source_name": "ECHOES",
+      "source_url": "",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_DOCUMENTATION_QUALITY",
+      "level": "2",
+      "name": "Documentation quality",
+      "description": "Evaluates the clarity, comprehensiveness, and accessibility of user guides, tutorials, FAQs, and other support materials about the application.",
+      "display": "        Documentation quality",
+      "source_name": "ECHOES",
+      "source_url": "",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_COMPLIANCE",
+      "level": "1",
+      "name": "Compliance",
+      "description": "This dimension evaluates the adherence of the application to established standards, regulations, and project-specific guidelines. Subdimensions are very preliminar.",
+      "display": "    Compliance",
+      "source_name": "ECHOES",
+      "source_url": "",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_ACCESS_MANAGEMENT_FOR",
+      "level": "2",
+      "name": "Access Management for IPR",
+      "description": "Evaluates the effectiveness of the application in managing and restricting access based on intellectual propert",
+      "display": "        Access Management for IPR",
+      "source_name": "ECHOES",
+      "source_url": "",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_LICENSING_CLARITY",
+      "level": "2",
+      "name": "Licensing Clarity",
+      "description": "Measures the application's ability to enforce explicit licensing terms for all data.",
+      "display": "        Licensing Clarity",
+      "source_name": "ECHOES",
+      "source_url": "",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_DATA_QUALITY_AND",
+      "level": "2",
+      "name": "Data quality and Provenance",
+      "description": "Measures the application's ability to ensure data quality, consistency, and clear traceability of its origin and modifications.",
+      "display": "        Data quality and Provenance",
+      "source_name": "ECHOES",
+      "source_url": "",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_DATA_GOVERNANCE_AND",
+      "level": "1",
+      "name": "Data Governance and IPR enforcement",
+      "description": "This dimension focuses on how the application facilitates or enforces the data governance model and the preservation of intellectual property rights.",
+      "display": "    Data Governance and IPR enforcement",
+      "source_name": "ECHOES",
+      "source_url": "",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_STANDARD_ADHERENCE",
+      "level": "2",
+      "name": "Standard Adherence",
+      "description": "Assesses conformity with relevant technical standards, data formats, and open models.",
+      "display": "        Standard Adherence",
+      "source_name": "ECHOES",
+      "source_url": "",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_REGULATORY_ALIGNMENT",
+      "level": "2",
+      "name": "Regulatory Alignment",
+      "description": "Measures compliance with national, European, and international legal and ethical frameworks.",
+      "display": "        Regulatory Alignment",
+      "source_name": "ECHOES",
+      "source_url": "",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_GUIDELINE_COMPLIANCE",
+      "level": "2",
+      "name": "Guideline Compliance",
+      "description": "Ensures adherence to specific integration, development, and communication guidelines provided by the ECHOES consortium.",
+      "display": "        Guideline Compliance",
+      "source_name": "ECHOES",
+      "source_url": "",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_LEARNING_VALUE_FOR",
+      "level": "1",
+      "name": "Learning value for developers",
+      "description": "This dimension considers how well the application supports and educates developers willing to contribute with their own applications.",
+      "display": "    Learning value for developers",
+      "source_name": "ECHOES",
+      "source_url": "",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_DEVELOPER_DOCUMENTATION_QUALITY",
+      "level": "2",
+      "name": "Developer Documentation Quality",
+      "description": "Assesses the clarity, comprehensiveness, and utility of technical documentation tailored for developers, including examples and guidelines.",
+      "display": "        Developer Documentation Quality",
+      "source_name": "ECHOES",
+      "source_url": "",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_TRAINING_RESOURCES_AVAILABILITY",
+      "level": "2",
+      "name": "Training Resources Availability",
+      "description": "Evaluates the provision of educational materials, tutorials, and capacity-building activities specifically for developers to enhance their skills.",
+      "display": "        Training Resources Availability",
+      "source_name": "ECHOES",
+      "source_url": "",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_COMMUNITY_SUPPORT_AND",
+      "level": "2",
+      "name": "Community Support and Collaboration",
+      "description": "Measures the effectiveness of mechanisms that facilitate knowledge exchange, problem-solving, and collaborative development among the developer community regarding a specific application.",
+      "display": "        Community Support and Collaboration",
+      "source_name": "ECHOES",
+      "source_url": "",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_USER_ADOPTION",
+      "level": "1",
+      "name": "User Adoption",
+      "description": "This dimension measures the extent to which CH stakeholders embrace and effectively use a specific application.",
+      "display": "    User Adoption",
+      "source_name": "ECHOES",
+      "source_url": "",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_AWARENESS_AND_UNDERSTANDING",
+      "level": "2",
+      "name": "Awareness and Understanding",
+      "description": "Reflects how well target communities are informed about and comprehend the advantages of using a specific ECCCH application.",
+      "display": "        Awareness and Understanding",
+      "source_name": "ECHOES",
+      "source_url": "",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_ENGAGEMENT_RATE",
+      "level": "2",
+      "name": "Engagement Rate",
+      "description": "Indicates the frequency and depth of active use of the application by users (active users, session duration...).",
+      "display": "        Engagement Rate",
+      "source_name": "ECHOES",
+      "source_url": "",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_ACCEPTANCE_RATE",
+      "level": "2",
+      "name": "Acceptance Rate",
+      "description": "Measures the overall willingness and readiness of the community to integrate and use a specific application in their workflows.",
+      "display": "        Acceptance Rate",
+      "source_name": "ECHOES",
+      "source_url": "",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SOFTWARE_DIM_TRAINING_EFFECTIVENESS",
+      "level": "2",
+      "name": "Training Effectiveness",
+      "description": "Evaluates the success of capacity-building activities and the ECHOES curriculum in equipping users with the necessary skills for using the application.",
+      "display": "        Training Effectiveness",
+      "source_name": "ECHOES",
+      "source_url": "",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    }
+  ],
+  "service_dim": [
+    {
+      "id": "SERVICE_DIM_DIGITAL_SERVICE_EVALUATION",
+      "level": "0",
+      "name": "Digital Service Evaluation Dimensions",
+      "description": "",
+      "display": "Digital Service Evaluation Dimensions",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SERVICE_DIM_AVAILABILITY",
+      "level": "1",
+      "name": "Availability",
+      "description": "This dimension assesses the extent to which the digital services are continuously operational and accessible, minimizing downtime and ensuring users can reliably access CH resources at any time.",
+      "display": "    Availability",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SERVICE_DIM_SERVICE_UPTIME",
+      "level": "2",
+      "name": "Service Uptime",
+      "description": "Measures the proportion of time that the services remain fully operational and accessible to users.",
+      "display": "        Service Uptime",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SERVICE_DIM_REDUNDANCY_AND_FAILOVER",
+      "level": "2",
+      "name": "Redundancy and Failover Mechanisms",
+      "description": "Assesses the presence and effectiveness of backup systems, load balancing, and failover strategies that ensure service continuity in case of component failure.",
+      "display": "        Redundancy and Failover Mechanisms",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SERVICE_DIM_INCIDENT_RESPONSE_TIME",
+      "level": "2",
+      "name": "Incident Response Time",
+      "description": "Evaluates how quickly the infrastructure team can detect, respond to, and resolve outages or service interruptions.",
+      "display": "        Incident Response Time",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SERVICE_DIM_MONITORING_AND_ALERTING",
+      "level": "2",
+      "name": "Monitoring and Alerting",
+      "description": "Examines the robustness of monitoring systems and real-time alert mechanisms that track service health and performance.",
+      "display": "        Monitoring and Alerting",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SERVICE_DIM_RELIABILITY",
+      "level": "1",
+      "name": "Reliability",
+      "description": "This dimension evaluates the infrastructure’s ability to deliver consistent and dependable service performance under expected and peak workloads, avoiding system failures and data loss.",
+      "display": "    Reliability",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SERVICE_DIM_FAULT_TOLERANCE",
+      "level": "2",
+      "name": "Fault Tolerance",
+      "description": "Assesses the infrastructure’s capacity to continue operating correctly even when components fail or experience errors.",
+      "display": "        Fault Tolerance",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SERVICE_DIM_DATA_INTEGRITY",
+      "level": "2",
+      "name": "Data Integrity",
+      "description": "Evaluates mechanisms ensuring that data remains accurate, complete, and consistent during storage, processing, and transmission.",
+      "display": "        Data Integrity",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SERVICE_DIM_BACKUP_AND_RECOVERY",
+      "level": "2",
+      "name": "Backup and Recovery Procedures",
+      "description": "Measures the effectiveness and frequency of data backups and the ability to restore systems quickly after a failure or data loss.",
+      "display": "        Backup and Recovery Procedures",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SERVICE_DIM_SERVICE_CONSISTENCY",
+      "level": "2",
+      "name": "Service Consistency",
+      "description": "Examines the ability of the infrastructure to provide predictable and stable service performance under varying workloads and operational conditions.",
+      "display": "        Service Consistency",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SERVICE_DIM_PERFORMANCE",
+      "level": "1",
+      "name": "Performance",
+      "description": "This dimension measures the responsiveness, speed, and efficiency of the infrastructure and its services in processing, storing, and retrieving CH data and metadata.",
+      "display": "    Performance",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SERVICE_DIM_RESPONSE_TIME",
+      "level": "2",
+      "name": "Response Time",
+      "description": "Measures how quickly the infrastructure and its services respond to user actions or data requests.",
+      "display": "        Response Time",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SERVICE_DIM_THROUGHPUT",
+      "level": "2",
+      "name": "Throughput",
+      "description": "Evaluates the volume of operations, transactions, or data processed by the infrastructure within a given time period.",
+      "display": "        Throughput",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SERVICE_DIM_RESOURCE_UTILIZATION_EFFICIENCY",
+      "level": "2",
+      "name": "Resource Utilization Efficiency",
+      "description": "Assesses how effectively the system uses available computing resources (CPU, memory, storage, and network) to deliver optimal performance.",
+      "display": "        Resource Utilization Efficiency",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SERVICE_DIM_SCALABILITY_UNDER_LOAD",
+      "level": "2",
+      "name": "Scalability Under Load",
+      "description": "Examines the infrastructure’s ability to maintain or improve performance as the number of users, data volume, or computational demand increases.",
+      "display": "        Scalability Under Load",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SERVICE_DIM_SECURITY",
+      "level": "1",
+      "name": "Security",
+      "description": "This dimension evaluates the mechanisms protecting data, metadata, and services from unauthorized access, alteration, or loss, ensuring confidentiality, integrity, and compliance with relevant security standards.",
+      "display": "    Security",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SERVICE_DIM_ACCESS_CONTROL",
+      "level": "2",
+      "name": "Access Control",
+      "description": "Assesses the effectiveness of authentication and authorization mechanisms that manage and restrict user access to systems and data.",
+      "display": "        Access Control",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SERVICE_DIM_DATA_PROTECTION",
+      "level": "2",
+      "name": "Data Protection",
+      "description": "Evaluates the safeguards ensuring confidentiality, integrity, and availability of CH data during storage, transfer, and processing.",
+      "display": "        Data Protection",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SERVICE_DIM_VULNERABILITY_MANAGEMENT",
+      "level": "2",
+      "name": "Vulnerability Management",
+      "description": "Measures the processes for identifying, assessing, and mitigating security risks, vulnerabilities, and potential threats within the infrastructure.",
+      "display": "        Vulnerability Management",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    },
+    {
+      "id": "SERVICE_DIM_COMPLIANCE_AND_AUDITING",
+      "level": "2",
+      "name": "Compliance and Auditing",
+      "description": "Examines adherence to relevant security standards and regulations, and the implementation of regular audits to verify compliance and detect anomalies.",
+      "display": "        Compliance and Auditing",
+      "contributors": "",
+      "reviewers": "",
+      "status": "",
+      "notes": ""
+    }
+  ],
+  "software_quality_tools": [
+    {
+      "id": "SOFTWARE_QUALITY_TOOLS_ISO_IEC_SOFTWARE",
+      "name": "ISO/IEC 25010 software product quality model",
+      "dimensions_covered": "Functional suitability, performance efficiency, compatibility, usability, reliability, security, maintainability, portability.",
+      "description": "Defines a standardised model of software product quality characteristics and sub-characteristics, providing a common vocabulary and reference framework for specifying, evaluating and comparing software quality.",
+      "link": "https://www.iso.org/standard/35733.html",
+      "other": {
+        "Adoption Likelihood": "Low",
+        "Type of tool": "International standard; quality model",
+        "License": "ISO standards are proprietary documents. Full access requires purchase, and the text is protected by copyright; redistribution or republication of the content is not permitted."
+      }
+    },
+    {
+      "id": "SOFTWARE_QUALITY_TOOLS_ISO_IEC_MEASUREMENT",
+      "name": "ISO/IEC 25023 measurement of system and software product quality",
+      "dimensions_covered": "Quantitative measures for maintainability, reliability, performance efficiency, functional suitability, usability and other ISO 25010 characteristics",
+      "description": "Provides a standard catalog of quantitative measures for assessing system and software product quality characteristics defined in ISO/IEC 25010.",
+      "link": "https://www.iso.org/standard/35747.html",
+      "other": {
+        "Adoption Likelihood": "Low",
+        "Type of tool": "International standard; measurement catalog",
+        "License": "ISO standards are proprietary documents. Full access requires purchase, and the text is protected by copyright; redistribution or republication of the content is not permitted."
+      }
+    },
+    {
+      "id": "SOFTWARE_QUALITY_TOOLS_ISO_IEC_AUTOMATED",
+      "name": "ISO/IEC 5055 Automated Source Code Quality Measures",
+      "dimensions_covered": "Maintainability, reliability, performance efficiency, security (structural quality of source code)",
+      "description": "Defines automated measures for assessing the structural quality of source code, focusing on maintainability, reliability, performance efficiency and security weaknesses.",
+      "link": "https://www.iso.org/standard/80623.html",
+      "other": {
+        "Adoption Likelihood": "Low",
+        "Type of tool": "International standard; automated source-code quality measurement model",
+        "License": "ISO standards are proprietary documents. Full access requires purchase, and the text is protected by copyright; redistribution or republication of the content is not permitted."
+      }
+    },
+    {
+      "id": "SOFTWARE_QUALITY_TOOLS_OMG_ASCQM_AUTOMATED",
+      "name": "OMG ASCQM (Automated Source Code Quality Measures) v1.1",
+      "dimensions_covered": "Maintainability; Reliability; Performance Efficiency; Security",
+      "description": "OMG specification for automatically measuring software structural quality through static source-code analysis. It defines a catalog of weaknesses and detection patterns; scores per quality dimension are computed by counting and aggregating occurrences of these weaknesses by quality characteristic. The specification also defines conformance requirements to ensure that measurements are automated, objective, transparent, and repeatable.",
+      "link": "https://www.omg.org/spec/ASCQM/1.1/PDF",
+      "other": {
+        "Adoption Likelihood": "High",
+        "Type of tool": "OMG specification; automated source-code structural quality measurement model (static-analysis-based)",
+        "License": "Copyrighted OMG specification; publicly downloadable, but redistribution, modification, or republication of the text is restricted by license."
+      }
+    },
+    {
+      "id": "SOFTWARE_QUALITY_TOOLS_RADON_PYTHON_CODE",
+      "name": "Radon (Python code metrics)",
+      "dimensions_covered": "Maintainability index, cyclomatic complexity, Halstead metrics, source lines of code, comment density",
+      "description": "Computes code complexity, maintainability and size metrics for Python codebases to support early identification of hard-to-maintain modules.",
+      "link": "https://radon.readthedocs.io/en/latest/intro.html, https://pypi.org/project/radon/",
+      "other": {
+        "Adoption Likelihood": "",
+        "Type of tool": "Static analysis and metrics tool",
+        "License": ""
+      }
+    },
+    {
+      "id": "SOFTWARE_QUALITY_TOOLS_VISUAL_STUDIO_IDE",
+      "name": "Visual Studio (IDE) Code Metrics (Maintainability Index and related metrics)",
+      "dimensions_covered": "Maintainability index, cyclomatic complexity, depth of inheritance, class coupling, lines of code",
+      "description": "Provides IDE-integrated metrics for analysing maintainability, complexity and structural properties of object-oriented code, mainly for .NET projects.",
+      "link": "https://learn.microsoft.com/en-us/visualstudio/code-quality/code-metrics-values",
+      "other": {
+        "Adoption Likelihood": "",
+        "Type of tool": "IDE-integrated metrics tool",
+        "License": ""
+      }
+    },
+    {
+      "id": "SOFTWARE_QUALITY_TOOLS_CHIDAMBER_KEMERER_CK",
+      "name": "Chidamber Kemerer (CK) metrics suite (e.g. via CKJM or similar tools)",
+      "dimensions_covered": "Object-oriented design quality: complexity, inheritance depth, coupling, cohesion, potential fault-proneness and maintainability",
+      "description": "Offers a widely used suite of object-oriented design metrics to assess complexity, coupling, cohesion and inheritance-related maintainability risks.",
+      "link": "https://www.aivosto.com/project/help/pm-oo-ck.html",
+      "other": {
+        "Adoption Likelihood": "",
+        "Type of tool": "Metrics suite and measurement methodology",
+        "License": ""
+      }
+    },
+    {
+      "id": "SOFTWARE_QUALITY_TOOLS_DORA_FOUR_KEY",
+      "name": "DORA Four Key Metrics (Four Keys)",
+      "dimensions_covered": "Change failure rate, mean time to recovery (MTTR), deployment frequency, lead time for changes",
+      "description": "Defines a set of four key metrics to measure software delivery performance and operational reliability in DevOps and continuous delivery environments.",
+      "link": "https://dora.dev/guides/dora-metrics-four-keys/",
+      "other": {
+        "Adoption Likelihood": "",
+        "Type of tool": "Process/performance metric model and associated data collection tooling",
+        "License": ""
+      }
+    },
+    {
+      "id": "SOFTWARE_QUALITY_TOOLS_DORA_DOCUMENTATION_QUALITY",
+      "name": "DORA “Documentation quality” capability",
+      "dimensions_covered": "Quality of internal documentation: clarity, completeness, findability, accuracy, up-to-dateness",
+      "description": "Provides a capability-based assessment framework to evaluate the quality of internal documentation using structured, survey-based indicators.",
+      "link": "https://dora.dev/capabilities/documentation-quality/",
+      "other": {
+        "Adoption Likelihood": "",
+        "Type of tool": "Capability model and questionnaire-style assessment",
+        "License": ""
+      }
+    },
+    {
+      "id": "SOFTWARE_QUALITY_TOOLS_OPENSSF_BEST_PRACTICES",
+      "name": "OpenSSF Best Practices Badge",
+      "dimensions_covered": "Project-level practices covering documentation, testing, code review, security, CI, issue management and release process",
+      "description": "Provides a checklist-based assessment and public badge to evaluate and communicate adherence to recognised best practices in open-source software projects.",
+      "link": "https://www.bestpractices.dev/en, https://openssf.org/projects/best-practices-badge/",
+      "other": {
+        "Adoption Likelihood": "",
+        "Type of tool": "Checklist and badging system for FLOSS project practices",
+        "License": ""
+      }
+    },
+    {
+      "id": "SOFTWARE_QUALITY_TOOLS_FAIR_FOR_RESEARCH",
+      "name": "FAIR for Research Software (FAIR4RS) Principles",
+      "dimensions_covered": "Findability, accessibility, interoperability, reusability of research software and associated documentation and metadata",
+      "description": "Defines principles and assessment criteria to improve the findability, accessibility, interoperability and reusability of research software.",
+      "link": "https://doi.org/10.1038/s41597-022-01710-x, https://zenodo.org/records/6623556",
+      "other": {
+        "Adoption Likelihood": "",
+        "Type of tool": "Principle set and assessment checklist",
+        "License": ""
+      }
+    },
+    {
+      "id": "SOFTWARE_QUALITY_TOOLS_SPDX_SPECIFICATION",
+      "name": "SPDX specification",
+      "dimensions_covered": "Security, Maintainability, Compatibility, Reliability",
+      "description": "SPDX is a standardized format for describing the components of a software system. It provides a common way for development teams to document what is included in their software, typically in the form of a Software Bill of Materials (SBOM). ",
+      "link": "https://spdx.dev/",
+      "other": {
+        "Adoption Likelihood": "",
+        "Type of tool": "Specification",
+        "License": ""
+      }
+    }
+  ],
+  "software_functional_tools": [
+    {
+      "id": "SOFTWARE_FUNCTIONAL_TOOLS_ISO_IEC_EVALUATION",
+      "name": "ISO/IEC 25040 – Evaluation Process (SQuaRE)",
+      "dimensions_covered": "Process for evaluating all quality characteristics, including functional suitability",
+      "description": "Defines a standard process model for planning, executing and concluding software quality evaluations, ensuring that assessments are systematic, repeatable and auditable.",
+      "link": "https://www.iso.org/standard/83467.html",
+      "other": {
+        "Type of tool": "standard / process model",
+        "Degree of automation": "manual process guidance"
+      }
+    },
+    {
+      "id": "SOFTWARE_FUNCTIONAL_TOOLS_REQUIREMENTS_TRACEABILITY_MATRIX",
+      "name": "Requirements Traceability Matrix (RTM)",
+      "dimensions_covered": "Coverage of functional requirements; implementation and test status (completeness and correctness)",
+      "description": "Provides a structured artefact to map functional requirements to implementation and test artefacts, supporting monitoring of functional completeness and correctness.",
+      "link": "https://community.atlassian.com/forums/Jira-questions/How-to-generate-Requirement-Traceability-Matrix-in-JIRA/qaq-p/2683082",
+      "other": {
+        "Type of tool": "artefact / checklist",
+        "Degree of automation": "partially automated (via ALM tools) but requiring manual maintenance"
+      }
+    },
+    {
+      "id": "SOFTWARE_FUNCTIONAL_TOOLS_AUTOMATED_FUNCTIONAL_TEST",
+      "name": "Automated functional test suites + coverage tools (e.g. JUnit/pytest/Jest with JaCoCo, coverage.py, Istanbul)",
+      "dimensions_covered": "Pass/fail status of functional behaviour; test coverage (correctness, partial completeness)",
+      "description": "Provides automated execution and measurement of functional tests to verify correctness of implemented behaviour and quantify test coverage of functional requirements.",
+      "link": "https://www.jacoco.org/jacoco/\nhttps://coverage.readthedocs.io/\nhttps://istanbul.js.org/",
+      "other": {
+        "Type of tool": "testing tools / software libraries",
+        "Degree of automation": "highly automated execution within CI pipelines"
+      }
+    },
+    {
+      "id": "SOFTWARE_FUNCTIONAL_TOOLS_OPENAPI_BASED_API",
+      "name": "OpenAPI-based API contract testing (e.g. Dredd, Schemathesis)",
+      "dimensions_covered": "Conformance of API behaviour to specified contract; robustness and correctness of API-level functions",
+      "description": "Provides automated validation of API behaviour against formally specified OpenAPI contracts to ensure functional correctness and robustness at the interface level.",
+      "link": "https://dredd.org/\nhttps://schemathesis.io/\nhttps://schemathesis.readthedocs.io/",
+      "other": {
+        "Type of tool": "testing frameworks / tools",
+        "Degree of automation": "fully automated once configured"
+      }
+    },
+    {
+      "id": "SOFTWARE_FUNCTIONAL_TOOLS_PROPERTY_BASED_FUZZ",
+      "name": "Property-based / fuzz testing libraries (e.g. Hypothesis; Schemathesis property-based mode)",
+      "dimensions_covered": "Correctness and robustness of functional behaviour under varied and edge-case inputs",
+      "description": "Provides automated generation and execution of test cases based on properties and invariants to detect functional defects under a wide range of input conditions.",
+      "link": "https://hypothesis.works\nhttps://hypothesis.readthedocs.io/\nhttps://schemathesis.io/",
+      "other": {
+        "Type of tool": "testing methodology and libraries",
+        "Degree of automation": "largely automated test generation and execution"
+      }
+    },
+    {
+      "id": "SOFTWARE_FUNCTIONAL_TOOLS_TASK_BASED_USER",
+      "name": "Task-based user test protocol",
+      "dimensions_covered": "Task success, errors, efficiency, alignment of functions with real workflows (appropriateness, plus completeness/correctness checks)",
+      "description": "Provides a scenario-based testing protocol to evaluate whether users can successfully complete representative tasks using available system functions.",
+      "link": "(can be implemented with tools such as open-source screen recording combined with log analysis)",
+      "other": {
+        "Type of tool": "usability / functional testing protocol",
+        "Degree of automation": "user-based observation; metrics collection can be semi-automated (screen recording, logging)"
+      }
+    }
+  ],
+  "software_e2e_testing_tools": [
+    {
+      "id": "SOFTWARE_E_E_SELENIUM_WEBDRIVER",
+      "name": "Selenium WebDriver",
+      "dimensions_covered": "Functionality (E2E testing)",
+      "description": "Widely used open-source framework for automating web browsers and performing functional end-to-end tests using the W3C WebDriver standard",
+      "link": "https://www.selenium.dev",
+      "other": {
+        "Adoption Likelihood": "High",
+        "Type of tool": "End-to-end framework",
+        "Interactions": "Mouse clicks, typing into inputs, selecting from menus, form submission, navigation across pages, scrolling, handling alerts and frames",
+        "Supported languages (not exhaustive list)": "Java, Python, JavaScript, C#, Ruby and others",
+        "Target": "Web applications"
+      }
+    },
+    {
+      "id": "SOFTWARE_E_E_PLAYWRIGHT",
+      "name": "Playwright",
+      "dimensions_covered": "Functionality (E2E testing)",
+      "description": "Modern cross-browser end-to-end testing framework maintained by Microsoft, designed for reliable automation of web applications",
+      "link": "https://playwright.dev",
+      "other": {
+        "Adoption Likelihood": "High",
+        "Type of tool": "End-to-end framework",
+        "Interactions": "Mouse clicks and double-clicks, hover, drag and drop, typing, file uploads, multi-tab and multi-page scenarios, mobile emulation",
+        "Supported languages (not exhaustive list)": "TypeScript, JavaScript, Python, Java, .NET",
+        "Target": "Web applications"
+      }
+    },
+    {
+      "id": "SOFTWARE_E_E_PUPPETEER",
+      "name": "Puppeteer",
+      "dimensions_covered": "Functionality (E2E testing)",
+      "description": "Node.js library for controlling Chromium and other browsers via DevTools or WebDriver BiDi, often used for lightweight end-to-end tests and browser automation",
+      "link": "https://pptr.dev",
+      "other": {
+        "Adoption Likelihood": "Medium",
+        "Type of tool": "End-to-end framework",
+        "Interactions": "Clicks, typing, scrolling, file uploads, interaction with dialogs, capturing screenshots and PDFs, collecting performance metrics",
+        "Supported languages (not exhaustive list)": "JavaScript, TypeScript (via Node.js)",
+        "Target": "Web applications"
+      }
+    },
+    {
+      "id": "SOFTWARE_E_E_WEBDRIVERIO",
+      "name": "WebdriverIO",
+      "dimensions_covered": "Functionality (E2E testing)",
+      "description": "Open-source automation framework for Node.js that wraps WebDriver and WebDriver BiDi, supporting web, mobile and component testing",
+      "link": "https://webdriver.io",
+      "other": {
+        "Adoption Likelihood": "Medium",
+        "Type of tool": "End-to-end framework",
+        "Interactions": "Clicks, typing, element selection, scrolling, drag and drop, navigation, assertions, interaction with native browser dialogs",
+        "Supported languages (not exhaustive list)": "JavaScript, TypeScript",
+        "Target": "Web applications"
+      }
+    },
+    {
+      "id": "SOFTWARE_E_E_TESTCAFE",
+      "name": "TestCafe",
+      "dimensions_covered": "Functionality (E2E testing)",
+      "description": "End-to-end testing framework for web applications that does not require WebDriver or browser plugins and runs on Node.js",
+      "link": "https://testcafe.io",
+      "other": {
+        "Adoption Likelihood": "Medium",
+        "Type of tool": "End-to-end framework",
+        "Interactions": "Clicks, typing, drag and drop, file upload, navigation, screenshots, execution in multiple local and remote browsers",
+        "Supported languages (not exhaustive list)": "JavaScript, TypeScript",
+        "Target": "Web applications"
+      }
+    },
+    {
+      "id": "SOFTWARE_E_E_NIGHTWATCH_JS",
+      "name": "Nightwatch.js",
+      "dimensions_covered": "Functionality (E2E testing)",
+      "description": "Integrated end-to-end testing framework for web applications based on the W3C WebDriver API, with built-in test runner",
+      "link": "https://nightwatchjs.org",
+      "other": {
+        "Adoption Likelihood": "Medium",
+        "Type of tool": "End-to-end framework",
+        "Interactions": "Clicks, navigation, form filling, assertions on DOM elements, screenshot capture, interaction with iframes and windows",
+        "Supported languages (not exhaustive list)": "JavaScript, TypeScript",
+        "Target": "Web applications"
+      }
+    },
+    {
+      "id": "SOFTWARE_E_E_APPIUM",
+      "name": "Appium",
+      "dimensions_covered": "Functionality (E2E testing)",
+      "description": "Open-source automation framework for testing native, hybrid and mobile web applications on iOS, Android and other platforms using the WebDriver protocol",
+      "link": "https://appium.io",
+      "other": {
+        "Adoption Likelihood": "Medium",
+        "Type of tool": "End-to-end framework",
+        "Interactions": "Touches and taps, long presses, swipes, scrolls, typing, multi-touch gestures, navigation, interaction with system dialogs and mobile web views",
+        "Supported languages (not exhaustive list)": "Java, JavaScript, Python, Ruby, C#, PHP and others via client libraries",
+        "Target": "Web, mobile, desktop"
+      }
+    }
+  ],
+  "software_static_analysis_tools": [
+    {
+      "id": "SOFTWARE_STATIC_ANALYSIS_SEMGREP",
+      "name": "Semgrep",
+      "dimensions_covered": "security, quality",
+      "description": "Multi-language static analysis tool with customizable rules.",
+      "link": "https://github.com/semgrep/semgrep",
+      "other": {
+        "Analysis type": "Static",
+        "JS support": "yes",
+        "C++ support": "yes",
+        "python support": "yes",
+        "Java support": "yes",
+        "Open source": "yes",
+        "License (for use in open source platforms)": "LGPL-2.1",
+        "GitHub integration": "Yes (via CI/GitHub Actions)"
+      }
+    },
+    {
+      "id": "SOFTWARE_STATIC_ANALYSIS_SONARQUBE_COMMUNITY_EDITION",
+      "name": "SonarQube (Community Edition)",
+      "dimensions_covered": "quality, security",
+      "description": "Comprehensive code quality and security analysis platform. Community edition does not cover all languages/features.",
+      "link": "https://www.sonarqube.org ",
+      "other": {
+        "Analysis type": "Static",
+        "JS support": "yes",
+        "C++ support": "no in Community Edition",
+        "python support": "yes",
+        "Java support": "yes",
+        "Open source": "mixed (LGPLv3 core; bundled analyzers SSALv1)",
+        "License (for use in open source platforms)": "LGPLv3 (server); bundled analyzers SSALv1",
+        "GitHub integration": "Partial (Community: main-branch analysis only; PR decoration requires paid editions)"
+      }
+    },
+    {
+      "id": "SOFTWARE_STATIC_ANALYSIS_CODEQL",
+      "name": "CodeQL",
+      "dimensions_covered": "security",
+      "description": "Semantic code analysis engine developed by GitHub; focuses on security vulnerabilities.",
+      "link": "https://codeql.github.com",
+      "other": {
+        "Analysis type": "Static",
+        "JS support": "yes",
+        "C++ support": "yes",
+        "python support": "yes",
+        "Java support": "yes",
+        "Open source": "Partly (queries/libraries OSS; CLI/binaries not OSS)",
+        "License (for use in open source platforms)": "MIT (queries/libraries); CodeQL CLI under GitHub CodeQL license/terms",
+        "GitHub integration": "yes"
+      }
+    },
+    {
+      "id": "SOFTWARE_STATIC_ANALYSIS_LIZARD",
+      "name": "Lizard",
+      "dimensions_covered": "complexity",
+      "description": "Cyclomatic Complexity Analyzer for many programming languages includingC#, C/C++, Java, JavaScript, Python and TypeScript. ",
+      "link": "https://github.com/terryyin/lizard",
+      "other": {
+        "Analysis type": "Static",
+        "JS support": "yes",
+        "C++ support": "yes",
+        "python support": "yes",
+        "Java support": "yes",
+        "Open source": "yes",
+        "License (for use in open source platforms)": "MIT",
+        "GitHub integration": "Yes (via CI/GitHub Actions), not native"
+      }
+    },
+    {
+      "id": "SOFTWARE_STATIC_ANALYSIS_PMD",
+      "name": "PMD",
+      "dimensions_covered": "quality, style",
+      "description": "Static analyzer for Java and other languages (includes JS support).",
+      "link": "https://pmd.github.io",
+      "other": {
+        "Analysis type": "Static",
+        "JS support": "yes",
+        "C++ support": "no",
+        "python support": "no",
+        "Java support": "yes",
+        "Open source": "yes",
+        "License (for use in open source platforms)": "BSD-style (mostly); some components Apache-2.0",
+        "GitHub integration": "Yes (via CI/GitHub Actions), not native"
+      }
+    },
+    {
+      "id": "SOFTWARE_STATIC_ANALYSIS_CPPCHECK",
+      "name": "cppcheck",
+      "dimensions_covered": "quality",
+      "description": "Static analysis tool for C and C++ detecting bugs and undefined behavior.",
+      "link": "https://cppcheck.sourceforge.io/",
+      "other": {
+        "Analysis type": "Static",
+        "JS support": "no",
+        "C++ support": "yes",
+        "python support": "no",
+        "Java support": "no",
+        "Open source": "yes",
+        "License (for use in open source platforms)": "GPL-3.0",
+        "GitHub integration": "Yes (via CI/GitHub Actions), not native"
+      }
+    },
+    {
+      "id": "SOFTWARE_STATIC_ANALYSIS_CLANG_TIDY",
+      "name": "Clang-Tidy",
+      "dimensions_covered": "quality, style",
+      "description": "Part of LLVM/Clang project; performs linting and static analysis for C/C++/Objective-C.",
+      "link": "https://clang.llvm.org/extra/clang-tidy",
+      "other": {
+        "Analysis type": "Static",
+        "JS support": "no",
+        "C++ support": "yes",
+        "python support": "no",
+        "Java support": "no",
+        "Open source": "yes",
+        "License (for use in open source platforms)": "Apache-2.0 with LLVM-exception",
+        "GitHub integration": "yes"
+      }
+    },
+    {
+      "id": "SOFTWARE_STATIC_ANALYSIS_INFER",
+      "name": "Infer",
+      "dimensions_covered": "security, quality",
+      "description": "Static analysis tool from Meta for C, C++, Java, and Objective-C focused on bug detection.",
+      "link": "https://fbinfer.com",
+      "other": {
+        "Analysis type": "Static",
+        "JS support": "no",
+        "C++ support": "yes",
+        "python support": "no",
+        "Java support": "yes",
+        "Open source": "yes",
+        "License (for use in open source platforms)": "MIT",
+        "GitHub integration": "yes"
+      }
+    },
+    {
+      "id": "SOFTWARE_STATIC_ANALYSIS_OCLINT",
+      "name": "OCLint",
+      "dimensions_covered": "style, quality",
+      "description": "Analyzes C, C++, and Objective-C code for potential issues and style violations.",
+      "link": "http://oclint.org",
+      "other": {
+        "Analysis type": "Static",
+        "JS support": "no",
+        "C++ support": "yes",
+        "python support": "no",
+        "Java support": "no",
+        "Open source": "yes",
+        "License (for use in open source platforms)": "BSD-3-Clause",
+        "GitHub integration": "Yes (via CI/GitHub Actions), not native"
+      }
+    }
+  ],
+  "software_performance_tools": [
+    {
+      "id": "SOFTWARE_PERFORMANCE_TOOLS_GOOGLE_LIGHTHOUSE",
+      "name": "Google Lighthouse",
+      "dimensions_covered": "performance (load times, Core Web Vitals), accessibility, best practices, SEO",
+      "description": "Automated auditing tool for web pages that reports performance, accessibility, best practices and SEO scores based on lab tests in a real or headless browser",
+      "link": "https://github.com/GoogleChrome/lighthouse",
+      "other": {
+        "Category": "web performance audit",
+        "Target layer": "web frontend",
+        "Target environment": "web application",
+        "Resource type measured": "browser loading behavior, DOM rendering, JavaScript execution",
+        "Open source": "yes",
+        "Delivery model": "CLI tool, browser DevTools integration, Node.js library, CI integrations",
+        "Self-hosted possible": "yes"
+      }
+    },
+    {
+      "id": "SOFTWARE_PERFORMANCE_TOOLS_WEBPAGETEST_SELF_HOSTED",
+      "name": "WebPageTest (self-hosted)",
+      "dimensions_covered": "performance (page load, rendering, Core Web Vitals), network behavior, caching efficiency",
+      "description": "Deep web performance testing and diagnostics tool that runs scripted browser sessions and produces detailed waterfalls, visual metrics and Core Web Vitals",
+      "link": "https://github.com/catchpoint/WebPageTest",
+      "other": {
+        "Category": "web performance audit and diagnostics",
+        "Target layer": "web frontend",
+        "Target environment": "web application",
+        "Resource type measured": "HTTP requests, browser resource loading, DNS/SSL negotiation, rendering timeline",
+        "Open source": "mixed (Polyform Shield on main branch; Apache 2.0 available via apache branch)",
+        "Delivery model": "self-hosted web UI and API, optional public SaaS",
+        "Self-hosted possible": "yes"
+      }
+    },
+    {
+      "id": "SOFTWARE_PERFORMANCE_TOOLS_PAGESPEED_INSIGHTS",
+      "name": "PageSpeed Insights",
+      "dimensions_covered": "performance (Core Web Vitals), UX quality for real users, best practices",
+      "description": "Free Google service that combines Lighthouse lab tests with field data from the Chrome User Experience Report to rate page performance on mobile and desktop",
+      "link": "https://pagespeed.web.dev",
+      "other": {
+        "Category": "web performance assessment service",
+        "Target layer": "web frontend",
+        "Target environment": "public web application",
+        "Resource type measured": "browser loading behavior, real-user timing data (RUM)",
+        "Open source": "no (service; uses open-source Lighthouse internally)",
+        "Delivery model": "web SaaS service",
+        "Self-hosted possible": "no"
+      }
+    },
+    {
+      "id": "SOFTWARE_PERFORMANCE_TOOLS_SITESPEED_IO",
+      "name": "Sitespeed.io",
+      "dimensions_covered": "performance (load times, Web Vitals, visual metrics), network behavior, JavaScript execution cost",
+      "description": "Open-source toolkit that orchestrates browsers and tools such as Browsertime and Lighthouse to collect and store web performance metrics over time",
+      "link": "https://www.sitespeed.io",
+      "other": {
+        "Category": "web performance monitoring toolkit",
+        "Target layer": "web frontend",
+        "Target environment": "web application",
+        "Resource type measured": "browser loading behavior, HTTP requests, rendering and visual changes",
+        "Open source": "yes",
+        "Delivery model": "CLI tool with self-hosted web UI and integrations to time-series backends",
+        "Self-hosted possible": "yes"
+      }
+    },
+    {
+      "id": "SOFTWARE_PERFORMANCE_TOOLS_APACHE_JMETER",
+      "name": "Apache JMeter",
+      "dimensions_covered": "performance (latency, throughput), scalability, error rates",
+      "description": "Open-source Java application for load, stress and functional testing of web applications and a wide range of networked services",
+      "link": "https://jmeter.apache.org",
+      "other": {
+        "Category": "load testing",
+        "Target layer": "backend / API, web frontend (HTTP), other protocols",
+        "Target environment": "web application, service / API, microservices, databases and messaging systems",
+        "Resource type measured": "HTTP endpoints, TCP/UDP services, JDBC, JMS, FTP, and other protocol traffic",
+        "Open source": "yes",
+        "Delivery model": "desktop GUI, CLI tool, self-hosted test engine",
+        "Self-hosted possible": "yes"
+      }
+    }
+  ],
+  "software_security_tools": [
+    {
+      "id": "SOFTWARE_SECURITY_TOOLS_OWASP_APPLICATION_SECURITY",
+      "name": "OWASP Application Security Verification Standard (ASVS)",
+      "dimensions_covered": "Security",
+      "description": "A standard that defines security requirements and verification levels for designing, building, and testing secure web applications and APIs.",
+      "link": "https://owasp.org/www-project-application-security-verification-standard/ ",
+      "other": {
+        "Security dimensions": "Application and API security controls; secure coding requirements",
+        "Type of tool": "Standard + requirements checklist (verification standard)"
+      }
+    },
+    {
+      "id": "SOFTWARE_SECURITY_TOOLS_OWASP_WEB_SECURITY",
+      "name": "OWASP Web Security Testing Guide (WSTG)",
+      "dimensions_covered": "Security",
+      "description": "A comprehensive guide that provides methodologies and test cases for performing web application security testing and penetration testing.",
+      "link": "https://owasp.org/www-project-web-security-testing-guide/",
+      "other": {
+        "Security dimensions": "Application and API security controls; penetration testing coverage",
+        "Type of tool": "Methodology + test catalog"
+      }
+    },
+    {
+      "id": "SOFTWARE_SECURITY_TOOLS_OWASP_ZED_ATTACK",
+      "name": "OWASP Zed Attack Proxy (ZAP)",
+      "dimensions_covered": "Security",
+      "description": "An open-source dynamic application security testing tool for finding vulnerabilities in running web applications through automated and manual testing.",
+      "link": "https://www.zaproxy.org/\nhttps://www.zaproxy.org/intro-video/",
+      "other": {
+        "Security dimensions": "Application and API runtime security; web vulnerability exposure",
+        "Type of tool": "Application (DAST scanner)"
+      }
+    },
+    {
+      "id": "SOFTWARE_SECURITY_TOOLS_BANDIT_PYTHON_SECURITY",
+      "name": "Bandit (Python security linter)",
+      "dimensions_covered": "Security",
+      "description": "A static analysis tool that identifies common security issues and insecure coding practices in Python source code.",
+      "link": "https://bandit.readthedocs.io/",
+      "other": {
+        "Security dimensions": "Secure coding practices for Python-based components",
+        "Type of tool": "Application (SAST security linter)"
+      }
+    },
+    {
+      "id": "SOFTWARE_SECURITY_TOOLS_OWASP_SOFTWARE_ASSURANCE",
+      "name": "OWASP Software Assurance Maturity Model (SAMM)",
+      "dimensions_covered": "Security",
+      "description": "A framework for measuring and improving the maturity of secure software development practices across governance, design, implementation, and operations.",
+      "link": "https://owaspsamm.org/",
+      "other": {
+        "Security dimensions": "Secure development lifecycle maturity; security governance and process quality",
+        "Type of tool": "Maturity model + self-assessment toolkit"
+      }
+    },
+    {
+      "id": "SOFTWARE_SECURITY_TOOLS_CIS_CRITICAL_SECURITY",
+      "name": "CIS Critical Security Controls",
+      "dimensions_covered": "Security",
+      "description": "A prioritized set of best-practice security controls to improve an organisation’s overall cybersecurity posture and resilience.",
+      "link": "https://www.cisecurity.org/controls",
+      "other": {
+        "Security dimensions": "Cloud and infrastructure security; organisational security posture; incident response readiness",
+        "Type of tool": "Control framework + checklist"
+      }
+    },
+    {
+      "id": "SOFTWARE_SECURITY_TOOLS_CIS_BENCHMARKS",
+      "name": "CIS Benchmarks",
+      "dimensions_covered": "Security",
+      "description": "Configuration best practices and hardening guidelines for operating systems, cloud services, containers, and applications.",
+      "link": "https://www.cisecurity.org/cis-benchmarks",
+      "other": {
+        "Security dimensions": "Cloud and infrastructure configuration hardening; secure configuration management",
+        "Type of tool": "Benchmark baselines + configuration checklists"
+      }
+    },
+    {
+      "id": "SOFTWARE_SECURITY_TOOLS_CLOUD_SECURITY_ALLIANCE",
+      "name": "Cloud Security Alliance Cloud Controls Matrix (CCM) and CAIQ",
+      "dimensions_covered": "Security",
+      "description": "A cloud security control framework and questionnaire that helps assess and communicate cloud security capabilities and assurance.",
+      "link": "https://cloudsecurityalliance.org/research/cloud-controls-matrix",
+      "other": {
+        "Security dimensions": "Cloud security controls; transparency and assurance for cloud consumers",
+        "Type of tool": "Control matrix + assessment questionnaire"
+      }
+    },
+    {
+      "id": "SOFTWARE_SECURITY_TOOLS_ENISA_CLOUD_COMPUTING",
+      "name": "ENISA Cloud Computing Security Risk Assessment and Information Assurance Framework",
+      "dimensions_covered": "Security",
+      "description": "Guidance and frameworks from ENISA for assessing, managing, and assuring cloud computing security risks.",
+      "link": "https://www.enisa.europa.eu/publications/cloud-computing-risk-assessment \nhttps://www.enisa.europa.eu/publications/cloud-computing-information-assurance-framework",
+      "other": {
+        "Security dimensions": "Cloud and infrastructure security risk; alignment with EU cloud-assurance expectations",
+        "Type of tool": "Risk assessment methodology + assurance criteria framework"
+      }
+    },
+    {
+      "id": "SOFTWARE_SECURITY_TOOLS_OWASP_DEPENDENCY_CHECK",
+      "name": "OWASP Dependency-Check",
+      "dimensions_covered": "Security",
+      "description": "A tool that identifies known vulnerabilities in third-party dependencies by scanning project dependency manifests.",
+      "link": "https://owasp.org/www-project-dependency-check/",
+      "other": {
+        "Security dimensions": "Supply chain and third-party dependency security; vulnerable component exposure",
+        "Type of tool": "Application (Software Composition Analysis tool)"
+      }
+    },
+    {
+      "id": "SOFTWARE_SECURITY_TOOLS_OSV_SCANNER",
+      "name": "OSV-Scanner",
+      "dimensions_covered": "Security",
+      "description": "A command-line tool that scans source code, dependencies, and SBOMs for known vulnerabilities using the OSV database.",
+      "link": "https://github.com/google/osv-scanner",
+      "other": {
+        "Security dimensions": "Supply chain security; vulnerability exposure in open-source dependencies and SBOMs",
+        "Type of tool": "Application (CLI vulnerability scanner)"
+      }
+    },
+    {
+      "id": "SOFTWARE_SECURITY_TOOLS_TRIVY",
+      "name": "Trivy",
+      "dimensions_covered": "Security",
+      "description": "A security scanner for containers, cloud-native workloads, dependencies, and infrastructure-as-code configurations.",
+      "link": "https://aquasecurity.github.io/trivy/",
+      "other": {
+        "Security dimensions": "Container and cloud-native workload security; dependency vulnerabilities; infrastructure-as-code misconfigurations",
+        "Type of tool": "Application (multi-target security scanner)"
+      }
+    },
+    {
+      "id": "SOFTWARE_SECURITY_TOOLS_SLSA_SUPPLY_CHAIN",
+      "name": "SLSA (Supply-chain Levels for Software Artifacts)",
+      "dimensions_covered": "Security",
+      "description": "A framework that defines maturity levels and best practices for securing software supply chains and build processes.",
+      "link": "https://slsa.dev/",
+      "other": {
+        "Security dimensions": "Software supply-chain integrity; build and release process maturity",
+        "Type of tool": "Maturity model / framework"
+      }
+    },
+    {
+      "id": "SOFTWARE_SECURITY_TOOLS_CHAOSS_LIBYEARS_AND",
+      "name": "CHAOSS Libyears and related risk metrics",
+      "dimensions_covered": "Security",
+      "description": "A set of metrics that quantify how outdated software dependencies are and help assess open-source dependency risk.",
+      "link": "https://chaoss.community/ \nhttps://chaoss.community/kb/metric-libyears/",
+      "other": {
+        "Security dimensions": "Dependency freshness; open-source project risk and sustainability",
+        "Type of tool": "Metric model + tooling"
+      }
+    },
+    {
+      "id": "SOFTWARE_SECURITY_TOOLS_OPENSSF_SCORECARD",
+      "name": "OpenSSF Scorecard",
+      "dimensions_covered": "Security",
+      "description": "An automated tool that assesses open-source projects against a set of security best practices and produces a security score.",
+      "link": "https://scorecard.dev/",
+      "other": {
+        "Security dimensions": "Open-source project security practices; governance and automation quality",
+        "Type of tool": "Automated assessment tool + score model"
+      }
+    },
+    {
+      "id": "SOFTWARE_SECURITY_TOOLS_OWASP_DEFECTDOJO",
+      "name": "OWASP DefectDojo",
+      "dimensions_covered": "Security",
+      "description": "An open-source vulnerability management platform that aggregates, tracks, and prioritises security findings from multiple tools.",
+      "link": "https://www.defectdojo.org/",
+      "other": {
+        "Security dimensions": "Vulnerability management; remediation workflow; overall application security posture",
+        "Type of tool": "Application (vulnerability management platform)"
+      }
+    },
+    {
+      "id": "SOFTWARE_SECURITY_TOOLS_BEARER_CLI",
+      "name": "Bearer CLI",
+      "dimensions_covered": "Security",
+      "description": "Bearer CLI is a static application security testing (SAST) tool that scans your source code and analyzes your data flows to discover, filter and prioritize security and privacy risks.",
+      "link": "https://github.com/bearer/bearer",
+      "other": {
+        "Security dimensions": "Confidentiality, integrity",
+        "Type of tool": "Application (CLI)"
+      }
+    }
+  ],
+  "ontology_tools": [
+    {
+      "id": "ONTOLOGY_TOOLS_PROTEGE_DESKTOP",
+      "name": "Protégé Desktop",
+      "dimensions_covered": "Usability and Understandability; Interoperability and Compatibility; Sustainability",
+      "description": "Free, open-source OWL ontology editor with built-in integration to DL reasoners and support for debugging inconsistencies and refactoring ontologies.",
+      "link": "https://protege.stanford.edu/",
+      "other": {
+        "Main assessment use": "Ontology editing; structural inspection; consistency checking through integrated reasoners; explanation and debugging of modeling issues"
+      }
+    },
+    {
+      "id": "ONTOLOGY_TOOLS_WEBPROTEGE",
+      "name": "WebProtégé",
+      "dimensions_covered": "Usability and Understandability; Sustainability; Usage and Impact",
+      "description": "Web-based collaborative ontology development environment supporting OWL 2, permissions, discussions, and change tracking for team-based ontology maintenance.",
+      "link": "https://webprotege.stanford.edu/",
+      "other": {
+        "Main assessment use": "Collaborative editing; discussion and review; change tracking; governance and versioning support"
+      }
+    },
+    {
+      "id": "ONTOLOGY_TOOLS_OOPS_ONTOLOGY_PITFALL",
+      "name": "OOPS! (OntOlogy Pitfall Scanner!)",
+      "dimensions_covered": "Usability and Understandability; Interoperability and Compatibility; Sustainability",
+      "description": "Web-based ontology evaluation tool that detects common ontology “pitfalls” that can lead to modeling errors and quality issues.",
+      "link": "https://oops.linkeddata.es/",
+      "other": {
+        "Main assessment use": "Detection of common modeling pitfalls; ontology quality diagnostics; identification of best-practice violations"
+      }
+    },
+    {
+      "id": "ONTOLOGY_TOOLS_HERMIT_OWL_REASONER",
+      "name": "HermiT OWL Reasoner",
+      "dimensions_covered": "Interoperability and Compatibility; Sustainability",
+      "description": "OWL 2 DL reasoner that checks ontology consistency and computes class hierarchies (classification) and related inferences.",
+      "link": "https://www.hermit-reasoner.com/",
+      "other": {
+        "Main assessment use": "Consistency checking; classification; inference validation"
+      }
+    },
+    {
+      "id": "ONTOLOGY_TOOLS_ELK_REASONER",
+      "name": "ELK Reasoner",
+      "dimensions_covered": "Interoperability and Compatibility; Sustainability",
+      "description": "High-performance OWL 2 EL reasoner for large ontologies; used to classify and validate profile-consistent ontologies efficiently.",
+      "link": "https://liveontologies.github.io/elk-reasoner/",
+      "other": {
+        "Main assessment use": "High-performance consistency checking and classification for ontologies within the OWL 2 EL profile"
+      }
+    },
+    {
+      "id": "ONTOLOGY_TOOLS_OPENLLET_PELLET_DERIVED",
+      "name": "Openllet (Pellet-derived) Reasoner",
+      "dimensions_covered": "Interoperability and Compatibility; Sustainability",
+      "description": "OWL 2 reasoner (Pellet lineage) for checking ontology consistency, classification, and inference services.",
+      "link": "https://github.com/Galigator/openllet",
+      "other": {
+        "Main assessment use": "Consistency checking; classification; inference validation"
+      }
+    },
+    {
+      "id": "ONTOLOGY_TOOLS_ONTOMETRICS",
+      "name": "OntoMetrics",
+      "dimensions_covered": "Comprehensiveness; Sustainability",
+      "description": "Web-based tool that validates and displays statistics/metrics about a given ontology (upload OWL/RDF and obtain metric summaries).",
+      "link": "https://ontometrics.informatik.uni-rostock.de/",
+      "other": {
+        "Main assessment use": "Ontology statistics; size and complexity profiling; metric-based summaries"
+      }
+    },
+    {
+      "id": "ONTOLOGY_TOOLS_ONTOSPY",
+      "name": "Ontospy",
+      "dimensions_covered": "Usability and Understandability; Comprehensiveness; Sustainability",
+      "description": "Python library/CLI for inspecting and visualizing RDF/OWL vocabularies, extracting ontology structure and generating lightweight documentation.",
+      "link": "https://lambdamusic.github.io/Ontospy/",
+      "other": {
+        "Main assessment use": "Schema inspection; vocabulary profiling; visualization of ontology structure; lightweight documentation support"
+      }
+    },
+    {
+      "id": "ONTOLOGY_TOOLS_WIDOCO",
+      "name": "WIDOCO",
+      "dimensions_covered": "Usability and Understandability; Sustainability; Interoperability and Compatibility",
+      "description": "Wizard to generate enriched, customizable ontology documentation (terms, sections, visualizations) for publishing and reuse.",
+      "link": "https://dgarijo.github.io/Widoco/",
+      "other": {
+        "Main assessment use": "Documentation generation; publishing readiness; support for understandability, reuse, and dissemination"
+      }
+    },
+    {
+      "id": "ONTOLOGY_TOOLS_PLETKA",
+      "name": "Pletka",
+      "dimensions_covered": "Usability and Understandability; Interoperability and Compatibility; Sustainability",
+      "description": "Pletka is a platform for collaboratively creating, documenting, and sharing semantic data models.",
+      "link": "https://dev.pletka.io/",
+      "other": {
+        "Main assessment use": "Collaborative semantic modeling; documentation; review"
+      }
+    },
+    {
+      "id": "ONTOLOGY_TOOLS_FRAMEWORK_FOR_ONTOLOGY",
+      "name": "Framework for Ontology Quality Assessment (FOCA)",
+      "dimensions_covered": "Comprehensiveness; Usability and Understandability; Interoperability and Compatibility; Sustainability",
+      "description": "Methodology for ontology evaluation based on a Goal–Question–Metric approach. It includes a questionnaire and a scoring model to assess ontology quality beyond formal consistency, with questions about completeness, reuse, documentation, organizational fitness, and alignment.",
+      "link": "https://arxiv.org/abs/1612.03353",
+      "other": {
+        "Main assessment use": "Questionnaire-based and score-based ontology quality assessment beyond formal validation"
+      }
+    },
+    {
+      "id": "ONTOLOGY_TOOLS_ONTOLOGY_USABILITY_SCALE",
+      "name": "Ontology Usability Scale (OUS)",
+      "dimensions_covered": "Usability and Understandability; Usage and Impact",
+      "description": "A questionnaire-style usability instrument proposed specifically for ontologies, with short statements intended to assess ontology usability in terms of effectiveness, efficiency, satisfaction, contextual relevance, maturity, intended use, and fitness for use. It is especially suitable for expert/user evaluation workshops or pilot-based assessment.",
+      "link": "https://datascience.codata.org/articles/799/files/submission/proof/799-1-3963-1-10-20180510.pdf",
+      "other": {
+        "Main assessment use": "Expert- and user-based assessment of ontology usability, fitness for use, and practical adoption"
+      }
+    },
+    {
+      "id": "ONTOLOGY_TOOLS_QASAR",
+      "name": "QASAR",
+      "dimensions_covered": "Comprehensiveness; Usability and Understandability; Interoperability and Compatibility; Sustainability",
+      "description": "Recent ontology quality-assurance platform that integrates multiple QA methodologies, interactive reports, and guided recommendations to support broader ontology evaluation.",
+      "link": "https://semantics.inf.um.es/qasar",
+      "other": {
+        "Main assessment use": "Integrated ontology quality-assurance workflow; guided review; interactive reporting; broader ontology evaluation support"
+      }
+    }
+  ],
+  "kg_tools": [
+    {
+      "id": "KG_TOOLS_SHAPES_CONSTRAINT_LANGUAGE",
+      "name": "Shapes Constraint Language (SHACL)",
+      "dimensions_covered": "Consistency; Format",
+      "description": "A W3C language for validating RDF graphs against a set of conditions. These conditions are provided as shapes and other constructs expressed in the form of an RDF graph.",
+      "link": "https://www.w3.org/TR/shacl/",
+      "other": {
+        "Quality Category": "Intrinsic; Representational",
+        "Automation": "automatic"
+      }
+    },
+    {
+      "id": "KG_TOOLS_APACHE_JENA_SHACL",
+      "name": "Apache Jena SHACL",
+      "dimensions_covered": "Consistency; Format",
+      "description": "Apache implementation of the W3C SHACL. It implements SHACL Core and SHACL SPARQL Constraints.",
+      "link": "https://jena.apache.org/documentation/shacl/",
+      "other": {
+        "Quality Category": "Intrinsic; Representational",
+        "Automation": "automatic"
+      }
+    },
+    {
+      "id": "KG_TOOLS_PYSHACL",
+      "name": "pySHACL",
+      "dimensions_covered": "Consistency; Format",
+      "description": "Python-based SHACL validator for RDF graphs.",
+      "link": "https://github.com/RDFLib/pySHACL",
+      "other": {
+        "Quality Category": "Intrinsic; Representational",
+        "Automation": "automatic"
+      }
+    },
+    {
+      "id": "KG_TOOLS_SHACL_PLAYGROUND",
+      "name": "SHACL Playground",
+      "dimensions_covered": "Consistency; Format",
+      "description": "A constraint validator for the Shapes Constraint Language, written in JavaScript. ",
+      "link": "https://shacl.org/playground/",
+      "other": {
+        "Quality Category": "Intrinsic; Representational",
+        "Automation": "automatic"
+      }
+    },
+    {
+      "id": "KG_TOOLS_SHACL_PLAY",
+      "name": "SHACL Play!",
+      "dimensions_covered": "Consistency; Format",
+      "description": "Free suite of tools from Sparna to work with SHACL.",
+      "link": "https://shacl-play.sparna.fr/play/home",
+      "other": {
+        "Quality Category": "Intrinsic; Representational",
+        "Automation": "automatic"
+      }
+    },
+    {
+      "id": "KG_TOOLS_SHAPE_EXPRESSIONS",
+      "name": "Shape Expressions",
+      "dimensions_covered": "Consistency; Format",
+      "description": "A structural schema language for validation, traversal and transformation of RDF graphs.",
+      "link": "http://shex.io/",
+      "other": {
+        "Quality Category": "Intrinsic; Representational",
+        "Automation": "automatic"
+      }
+    },
+    {
+      "id": "KG_TOOLS_SHEX_JS",
+      "name": "ShEx.js ",
+      "dimensions_covered": "Consistency; Format",
+      "description": "Shape Expressions validator for JavaScript",
+      "link": "https://github.com/shexjs/shex.js",
+      "other": {
+        "Quality Category": "Intrinsic; Representational",
+        "Automation": "automatic"
+      }
+    },
+    {
+      "id": "KG_TOOLS_RDFUNIT",
+      "name": "RDFUnit",
+      "dimensions_covered": "Schema; Property; Consistency; Interlinking",
+      "description": "Rule-based validation framework using SPARQL test patterns to detect structural issues and missing links.",
+      "link": "https://github.com/AKSW/RDFUnit",
+      "other": {
+        "Quality Category": "Intrinsic; Contextual; Accessibility",
+        "Automation": "automatic"
+      }
+    },
+    {
+      "id": "KG_TOOLS_F_UJI",
+      "name": "F-UJI",
+      "dimensions_covered": "Accessibility; Interoperability",
+      "description": "A web service to programatically assess FAIRness of research data objects based on metrics developed by the FAIRsFAIR project.",
+      "link": "https://www.f-uji.net/",
+      "other": {
+        "Quality Category": "Accessibility",
+        "Automation": "automatic"
+      }
+    },
+    {
+      "id": "KG_TOOLS_FAIR_CHECKER",
+      "name": "FAIR-Checker",
+      "dimensions_covered": "Accessibility; Interoperability; Standards",
+      "description": "A web and command line tool to assess FAIRness of web resources.",
+      "link": "https://github.com/IFB-ElixirFr/FAIR-checker",
+      "other": {
+        "Quality Category": "Accessibility",
+        "Automation": "automatic"
+      }
+    },
+    {
+      "id": "KG_TOOLS_FAIR_EVALUATOR",
+      "name": "FAIR Evaluator",
+      "dimensions_covered": "Accessibility; Interoperability; Licensing",
+      "description": "Resources and guidelines to assess the FAIRness of digital resources.",
+      "link": "https://fairsharing.github.io/FAIR-Evaluator-FrontEnd/",
+      "other": {
+        "Quality Category": "Accessibility",
+        "Automation": "automatic"
+      }
+    },
+    {
+      "id": "KG_TOOLS_FAIR_SHAKE",
+      "name": "FAIR-Shake",
+      "dimensions_covered": "Accessibility; Interoperability; Licensing; Standards",
+      "description": "Combines automated FAIR checks with human-evaluated rubrics.",
+      "link": "https://github.com/MaayanLab/FAIRshake",
+      "other": {
+        "Quality Category": "Accessibility",
+        "Automation": "semi-automatic"
+      }
+    },
+    {
+      "id": "KG_TOOLS_TRIPLECHECKMATE",
+      "name": "TripleCheckMate",
+      "dimensions_covered": "Factual; Semantic; Believability; Structural",
+      "description": "Crowdsourcing platform for human validation of RDF triples selected automatically.",
+      "link": "https://aksw.org/Projects/TripleCheckMate.html",
+      "other": {
+        "Quality Category": "Intrinsic; Contextual",
+        "Automation": "semi-automatic"
+      }
+    },
+    {
+      "id": "KG_TOOLS_CROWDHERITAGE",
+      "name": "CrowdHeritage",
+      "dimensions_covered": "Context and Relevance; Richness; Multilingual Labeling Coverage; Semantic Accuracy; Interpretability",
+      "description": "Open crowdsourcing platform for cultural heritage institutions to run campaigns in which contributors enrich and validate digitised cultural heritage metadata by adding annotations or reviewing existing ones.",
+      "link": "https://crowdheritage.eu/",
+      "other": {
+        "Quality Category": "Contextual; Representational; Intrinsic.",
+        "Automation": "semi-automatic"
+      }
+    },
+    {
+      "id": "KG_TOOLS_EUROPEANA_METHODOLOGY_FOR",
+      "name": "Europeana methodology for validating enrichments",
+      "dimensions_covered": "Factual; Semantic; Context and Relevance; Completeness",
+      "description": "Methodology used by the Europeana Foundation to validate metadata enrichment efforts before acceptance. It combines documentation of the enrichment context, representative sampling, manual or semi-automated assessment of sample outputs, validation against agreed quality requirements, and, where relevant, calibration of confidence thresholds and iterative improvement of the enrichment process.",
+      "link": "https://pro.europeana.eu/post/methodology-for-validating-enrichments",
+      "other": {
+        "Quality Category": "Intrinsic; Contextual.",
+        "Automation": "semi-automatic"
+      }
+    }
+  ]
+}

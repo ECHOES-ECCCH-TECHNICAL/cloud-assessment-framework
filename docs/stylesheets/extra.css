@@ -1,0 +1,11 @@
+/* Justify normal page text */
+.md-typeset p,
+.md-typeset li {
+  text-align: justify;
+}
+
+/* Optional: better word spacing / long-word handling */
+.md-typeset {
+  hyphens: auto;
+  overflow-wrap: break-word;
+}
