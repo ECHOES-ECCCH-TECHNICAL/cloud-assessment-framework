@@ -163,3 +163,7 @@ extra:
     title: Cookie Consent
     description: >-
         We use cookies and similar technologies to help us understand how this documentation is used and improve it over time. Analytics will only be enabled if you accept. Read more in our <a href="https://www.echoes-eccch.eu/cookie-policy-ue/" target="_blank">Cookie Policy</a>.
+    actions:
+      - accept
+      - reject
+      #- manage
