@@ -167,3 +167,7 @@ extra:
       - accept
       - reject
       #- manage
+copyright: >
+    &copy; ECHOES D9.1 authors. Except where otherwise noted, this wiki is
+    licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.
+    <a href="#__consent">Change cookie settings</a>
