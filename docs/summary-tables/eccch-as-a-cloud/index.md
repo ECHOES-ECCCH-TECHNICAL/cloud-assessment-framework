@@ -1,0 +1,11 @@
+# ECCCH as a Cloud
+
+| | |
+| --- | --- |
+| **Primary section** | **Section 6.10 — Evaluation of the ECCCH as a Cloud** |
+| **Evaluation basis** | <ul><li>ECCCH strategic objectives</li><li>Cloud-level KPIs and indicators</li><li>Resource and service inventories</li><li>Usage, participation, training and engagement evidence</li><li>Evidence of openness, reuse, collaboration and outputs</li><li>Governance and sustainability evidence</li><li>Qualitative interpretation and contextual evidence</li></ul> |
+| **Core dimensions / criteria** | <ul><li>Ecosystem availability and interoperability</li><li>Participation and ecosystem reach</li><li>Training, engagement, and capacity building</li><li>Openness and reusability</li><li>Meaningful reuse and adoption</li><li>Perceived usefulness and community value</li><li>Collaboration and co-creation</li><li>Scientific and professional contribution</li><li>Sustainability and institutional readiness</li></ul> |
+| **Main instruments** | <ul><li>Strategic KPI reporting</li><li>Resource and service inventories</li><li>Usage and participation monitoring</li><li>Training and engagement reporting</li><li>Survey and pilot evaluation synthesis</li><li>Collaboration and output tracking</li><li>Governance and sustainability review</li><li>Narrative interpretation of quantitative indicators</li></ul> |
+| **Expected output** | <ul><li>Cloud-level strategic monitoring evidence</li><li>Aggregated view of availability, participation, reuse, value, collaboration, outputs and sustainability</li><li>Evidence supporting governance, prioritization and continuous improvement</li><li>Contextual interpretation of quantitative indicators</li><li>Identification of gaps, risks or areas requiring further development</li></ul> |
+| **What resource providers should prepare** | <ul><li>Updated information on resources and services contributed to the ECCCH</li><li>Evidence of accessibility, interoperability, openness or reuse where relevant</li><li>Usage, participation or engagement evidence where available</li><li>Examples of reuse, collaboration or outputs enabled by the resource</li><li>Relevant documentation, repository links or Knowledge Base references</li><li>Maintenance, governance or sustainability information where relevant</li></ul> |
+

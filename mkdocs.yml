@@ -1,5 +1,6 @@
 site_name: "ECCCH - Cloud Assessment Framework Documentation"
 site_description: "ECCCH components, categories, dimensions, and assessment tools"
+use_directory_urls: false
 theme:
   name: material
   features:
@@ -44,6 +45,17 @@ nav:
     - Main ECCCH components: components/main_components.md
     - Components by evaluable units: components/components_by_evaluable_units.md
   - Resource Categories: categories/index.md
+  - Evaluation Summary Tables:
+    - Overview: summary-tables/index.md
+    - Metadata and Knowledge Graph Data: summary-tables/metadata-and-knowledge-graph-data/index.md
+    - Digital Assets: summary-tables/digital-assets/index.md
+    - Data usage: summary-tables/data-usage/index.md
+    - Semantic Resources: summary-tables/semantic-resources/index.md
+    - Software: summary-tables/software/index.md
+    - Infrastructure and Digital Services: summary-tables/infrastructure-and-digital-services/index.md
+    - Community Services: summary-tables/community-services/index.md
+    - AI-enabled Resources: summary-tables/ai-enabled-resources/index.md
+    - ECCCH as a Cloud: summary-tables/eccch-as-a-cloud/index.md
   - Evaluation Dimensions:
     - Overview: dimensions/index.md
     - Data: dimensions/data_dim.md
