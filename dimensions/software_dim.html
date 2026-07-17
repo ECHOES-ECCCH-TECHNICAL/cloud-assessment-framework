@@ -1,0 +1,7358 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="ECCCH components, categories, dimensions, and assessment tools">
+      
+      
+      
+      
+        <link rel="prev" href="ontology_dim.html">
+      
+      
+        <link rel="next" href="service_dim.html">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Software - ECCCH - Cloud Assessment Framework Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-HW3428RPEZ"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-HW3428RPEZ",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-HW3428RPEZ",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>if("undefined"!=typeof __md_analytics){var consent=__md_get("__consent");consent&&consent.analytics&&__md_analytics()}</script>
+  
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#software" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../index.html" title="ECCCH - Cloud Assessment Framework Documentation" class="md-header__button md-logo" aria-label="ECCCH - Cloud Assessment Framework Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            ECCCH - Cloud Assessment Framework Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Software
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../index.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../components/index.html" class="md-tabs__link">
+          
+  
+  
+    
+  
+  ECCCH Components
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../categories/index.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Resource Categories
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../summary-tables/index.html" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Evaluation Summary Tables
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="index.html" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Evaluation Dimensions
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../tools/index.html" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Assessment Tools
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../index.html" title="ECCCH - Cloud Assessment Framework Documentation" class="md-nav__button md-logo" aria-label="ECCCH - Cloud Assessment Framework Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    ECCCH - Cloud Assessment Framework Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../components/index.html" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ECCCH Components
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    ECCCH Components
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../components/main_components.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Main ECCCH components
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../components/components_by_evaluable_units.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Components by evaluable units
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../categories/index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resource Categories
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../summary-tables/index.html" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Evaluation Summary Tables
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Evaluation Summary Tables
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../summary-tables/metadata-and-knowledge-graph-data/index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Metadata and Knowledge Graph Data
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../summary-tables/digital-assets/index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Digital Assets
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../summary-tables/data-usage/index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Data usage
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../summary-tables/semantic-resources/index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Semantic Resources
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../summary-tables/software/index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Software
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../summary-tables/infrastructure-and-digital-services/index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infrastructure and Digital Services
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../summary-tables/community-services/index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Community Services
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../summary-tables/ai-enabled-resources/index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI-enabled Resources
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../summary-tables/eccch-as-a-cloud/index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ECCCH as a Cloud
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="index.html" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Evaluation Dimensions
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Evaluation Dimensions
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="data_dim.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Data
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="metadata_dim.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Metadata
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ontology_dim.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ontology
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Software
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="software_dim.html" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Software
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#hierarchy-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hierarchy diagram
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overview
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Overview">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#software-dimensions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Software dimensions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Software dimensions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#compatibility" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Compatibility
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Compatibility">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#co-existence" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Co-existence
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interoperability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Interoperability
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fairness" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        FAIRness
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#flexibility" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Flexibility
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Flexibility">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#adaptability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adaptability
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scalability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Scalability
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#installability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Installability
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#replaceability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Replaceability
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#functional-suitability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Functional suitability
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Functional suitability">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#functional-completeness" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Functional completeness
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#functional-correctness" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Functional correctness
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#functional-appropriateness" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Functional appropriateness
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interaction-capability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Interaction Capability
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Interaction Capability">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#appropriateness-recognizability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Appropriateness recognizability
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#learnability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Learnability
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#operability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Operability
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#user-error-protection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        User error protection
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#user-engagement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        User engagement
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inclusivity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Inclusivity
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#user-assistance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        User assistance
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#self-descriptiveness" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Self-descriptiveness
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#maintainability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Maintainability
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Maintainability">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#modularity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Modularity
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reusability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reusability
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analysability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Analysability
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#modifiability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Modifiability
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#testability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Testability
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#open-source-software" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Open Source Software
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#performance-efficiency" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Performance Efficiency
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Performance Efficiency">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#time-behaviour" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Time behaviour
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resource-utilization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resource utilization
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#capacity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Capacity
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reliability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reliability
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Reliability">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#faultlessness" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Faultlessness
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#availability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Availability
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fault-tolerance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fault tolerance
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recoverability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Recoverability
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#safety" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Safety
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Safety">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#operational-constraint" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Operational constraint
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#risk-identification" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Risk identification
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fail-safe" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fail safe
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hazard-warning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hazard warning
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#safe-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Safe integration
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#security" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Security
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Security">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#confidentiality" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Confidentiality
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#integrity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Integrity
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#non-repudiation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Non-repudiation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#accountability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Accountability
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#authenticity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Authenticity
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resistance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resistance
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sustainability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sustainability
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Usability
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Usability">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#usefulness" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Usefulness
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#efficiency-of-use" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Efficiency of Use
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ease-of-learning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ease of Learning
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#user-interface-quality" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        User Interface Quality
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#documentation-quality" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Documentation quality
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#compliance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Compliance
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Compliance">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#access-management-for-ipr" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Access Management for IPR
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#licensing-clarity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Licensing Clarity
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#data-quality-and-provenance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Data quality and Provenance
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#data-governance-and-ipr-enforcement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Data Governance and IPR enforcement
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Data Governance and IPR enforcement">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#standard-adherence" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Standard Adherence
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#regulatory-alignment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Regulatory Alignment
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#guideline-compliance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Guideline Compliance
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#learning-value-for-developers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Learning value for developers
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Learning value for developers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#developer-documentation-quality" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Developer Documentation Quality
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#training-resources-availability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Training Resources Availability
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#community-support-and-collaboration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community Support and Collaboration
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#user-adoption" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        User Adoption
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="User Adoption">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#awareness-and-understanding" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Awareness and Understanding
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#engagement-rate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Engagement Rate
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#acceptance-rate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Acceptance Rate
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#training-effectiveness" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Training Effectiveness
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="service_dim.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Digital services
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../tools/index.html" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Assessment Tools
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6" id="__nav_6_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Assessment Tools
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../tools/software_quality_tools/index.html" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Software quality tools
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6_2" id="__nav_6_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Software quality tools
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/software_quality_tools/isoiec-25010-software-product-quality-model.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ISO/IEC 25010 software product quality model
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/software_quality_tools/isoiec-25023-measurement-of-system-and-software-product-quality.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ISO/IEC 25023 measurement of system and software product quality
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/software_quality_tools/isoiec-5055-automated-source-code-quality-measures.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ISO/IEC 5055 Automated Source Code Quality Measures
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/software_quality_tools/omg-ascqm-automated-source-code-quality-measures-v11.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    OMG ASCQM (Automated Source Code Quality Measures) v1.1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/software_quality_tools/radon-python-code-metrics.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Radon (Python code metrics)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/software_quality_tools/visual-studio-ide-code-metrics-maintainability-index-and-related-metrics.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Visual Studio (IDE) Code Metrics (Maintainability Index and related metrics)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/software_quality_tools/chidamber-kemerer-ck-metrics-suite-eg-via-ckjm-or-similar-tools.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chidamber Kemerer (CK) metrics suite (e.g. via CKJM or similar tools)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/software_quality_tools/dora-four-key-metrics-four-keys.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DORA Four Key Metrics (Four Keys)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/software_quality_tools/dora-documentation-quality-capability.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DORA “Documentation quality” capability
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/software_quality_tools/openssf-best-practices-badge.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    OpenSSF Best Practices Badge
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/software_quality_tools/fair-for-research-software-fair4rs-principles.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FAIR for Research Software (FAIR4RS) Principles
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/software_quality_tools/spdx-specification.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SPDX specification
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../tools/software_functional_tools/index.html" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Software functional tools
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6_3" id="__nav_6_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Software functional tools
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/software_functional_tools/isoiec-25040-evaluation-process-square.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ISO/IEC 25040 – Evaluation Process (SQuaRE)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/software_functional_tools/requirements-traceability-matrix-rtm.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Requirements Traceability Matrix (RTM)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/software_functional_tools/automated-functional-test-suites-coverage-tools-eg-junitpytestjest-with-jacoco-coveragepy-istanbul.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Automated functional test suites + coverage tools (e.g. JUnit/pytest/Jest with JaCoCo, coverage.py, Istanbul)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/software_functional_tools/openapi-based-api-contract-testing-eg-dredd-schemathesis.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    OpenAPI-based API contract testing (e.g. Dredd, Schemathesis)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/software_functional_tools/property-based-fuzz-testing-libraries-eg-hypothesis-schemathesis-property-based-mode.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Property-based / fuzz testing libraries (e.g. Hypothesis; Schemathesis property-based mode)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/software_functional_tools/task-based-user-test-protocol.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Task-based user test protocol
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../tools/software_e2e_testing_tools/index.html" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Software E2E testing tools
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6_4" id="__nav_6_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Software E2E testing tools
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/software_e2e_testing_tools/selenium-webdriver.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Selenium WebDriver
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/software_e2e_testing_tools/playwright.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Playwright
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/software_e2e_testing_tools/puppeteer.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Puppeteer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/software_e2e_testing_tools/webdriverio.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    WebdriverIO
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/software_e2e_testing_tools/testcafe.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TestCafe
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/software_e2e_testing_tools/nightwatchjs.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Nightwatch.js
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/software_e2e_testing_tools/appium.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Appium
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_5" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../tools/software_static_analysis_tools/index.html" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Software static analysis tools
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6_5" id="__nav_6_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Software static analysis tools
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/software_static_analysis_tools/semgrep.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Semgrep
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/software_static_analysis_tools/sonarqube.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SonarQube
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/software_static_analysis_tools/codeql.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CodeQL
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/software_static_analysis_tools/lizard.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lizard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/software_static_analysis_tools/pmd.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PMD
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/software_static_analysis_tools/cppcheck.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    cppcheck
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/software_static_analysis_tools/clang-tidy.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Clang-Tidy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/software_static_analysis_tools/infer.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/software_static_analysis_tools/oclint.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    OCLint
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_6" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../tools/software_performance_tools/index.html" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Software performance tools
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6_6" id="__nav_6_6_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Software performance tools
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/software_performance_tools/google-lighthouse.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Google Lighthouse
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/software_performance_tools/webpagetest-self-hosted.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    WebPageTest (self-hosted)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/software_performance_tools/pagespeed-insights.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PageSpeed Insights
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/software_performance_tools/sitespeedio.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sitespeed.io
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/software_performance_tools/apache-jmeter.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Apache JMeter
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_7" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../tools/software_security_tools/index.html" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Software security tools
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6_7" id="__nav_6_7_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Software security tools
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/software_security_tools/owasp-application-security-verification-standard-asvs.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    OWASP Application Security Verification Standard (ASVS)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/software_security_tools/owasp-web-security-testing-guide-wstg.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    OWASP Web Security Testing Guide (WSTG)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/software_security_tools/owasp-zed-attack-proxy-zap.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    OWASP Zed Attack Proxy (ZAP)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/software_security_tools/bandit.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bandit
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/software_security_tools/owasp-software-assurance-maturity-model-samm.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    OWASP Software Assurance Maturity Model (SAMM)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/software_security_tools/cis-critical-security-controls.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CIS Critical Security Controls
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/software_security_tools/cis-benchmarks.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CIS Benchmarks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/software_security_tools/cloud-security-alliance-cloud-controls-matrix-ccm-and-caiq.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cloud Security Alliance Cloud Controls Matrix (CCM) and CAIQ
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/software_security_tools/enisa-cloud-computing-security-risk-assessment-and-information-assurance-framework.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ENISA Cloud Computing Security Risk Assessment and Information Assurance Framework
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/software_security_tools/owasp-dependency-check.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    OWASP Dependency-Check
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/software_security_tools/osv-scanner.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    OSV-Scanner
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/software_security_tools/trivy.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Trivy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/software_security_tools/slsa-supply-chain-levels-for-software-artifacts.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SLSA (Supply-chain Levels for Software Artifacts)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/software_security_tools/chaoss-libyears-and-related-risk-metrics.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CHAOSS Libyears and related risk metrics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/software_security_tools/openssf-scorecard.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    OpenSSF Scorecard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/software_security_tools/owasp-defectdojo.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    OWASP DefectDojo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/software_security_tools/bearer-cli.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bearer CLI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_8" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../tools/ontology_tools/index.html" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ontology tools
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6_8" id="__nav_6_8_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Ontology tools
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/ontology_tools/protege-desktop.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Protégé Desktop
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/ontology_tools/webprotege.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    WebProtégé
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/ontology_tools/oops-ontology-pitfall-scanner.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    OOPS! (OntOlogy Pitfall Scanner!)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/ontology_tools/hermit-owl-reasoner.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    HermiT OWL Reasoner
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/ontology_tools/elk-reasoner.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ELK Reasoner
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/ontology_tools/openllet-pellet-derived-reasoner.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Openllet (Pellet-derived) Reasoner
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/ontology_tools/ontometrics.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    OntoMetrics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/ontology_tools/ontospy.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ontospy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/ontology_tools/widoco.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    WIDOCO
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/ontology_tools/pletka.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pletka
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/ontology_tools/framework-for-ontology-quality-assessment-foca.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Framework for Ontology Quality Assessment (FOCA)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/ontology_tools/ontology-usability-scale-ous.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ontology Usability Scale (OUS)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/ontology_tools/qasar.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    QASAR
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_9" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../tools/kg_tools/index.html" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    KG tools
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6_9" id="__nav_6_9_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    KG tools
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/kg_tools/shapes-constraint-language-shacl.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Shapes Constraint Language (SHACL)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/kg_tools/apache-jena-shacl.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Apache Jena SHACL
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/kg_tools/pyshacl.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    pySHACL
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/kg_tools/shacl-playground.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SHACL Playground
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/kg_tools/shacl-play.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SHACL Play!
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/kg_tools/shape-expressions.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Shape Expressions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/kg_tools/shexjs.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ShEx.js
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/kg_tools/rdfunit.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RDFUnit
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/kg_tools/f-uji.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    F-UJI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/kg_tools/fair-checker.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FAIR-Checker
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/kg_tools/fair-evaluator.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FAIR Evaluator
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/kg_tools/fair-shake.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FAIR-Shake
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/kg_tools/triplecheckmate.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TripleCheckMate
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/kg_tools/crowdheritage.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CrowdHeritage
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/kg_tools/europeana-methodology-for-validating-enrichments.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Europeana methodology for validating enrichments
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#hierarchy-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hierarchy diagram
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overview
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Overview">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#software-dimensions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Software dimensions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Software dimensions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#compatibility" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Compatibility
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Compatibility">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#co-existence" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Co-existence
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interoperability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Interoperability
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fairness" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        FAIRness
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#flexibility" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Flexibility
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Flexibility">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#adaptability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adaptability
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scalability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Scalability
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#installability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Installability
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#replaceability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Replaceability
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#functional-suitability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Functional suitability
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Functional suitability">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#functional-completeness" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Functional completeness
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#functional-correctness" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Functional correctness
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#functional-appropriateness" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Functional appropriateness
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interaction-capability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Interaction Capability
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Interaction Capability">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#appropriateness-recognizability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Appropriateness recognizability
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#learnability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Learnability
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#operability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Operability
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#user-error-protection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        User error protection
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#user-engagement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        User engagement
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inclusivity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Inclusivity
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#user-assistance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        User assistance
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#self-descriptiveness" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Self-descriptiveness
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#maintainability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Maintainability
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Maintainability">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#modularity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Modularity
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reusability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reusability
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analysability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Analysability
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#modifiability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Modifiability
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#testability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Testability
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#open-source-software" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Open Source Software
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#performance-efficiency" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Performance Efficiency
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Performance Efficiency">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#time-behaviour" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Time behaviour
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resource-utilization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resource utilization
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#capacity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Capacity
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reliability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reliability
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Reliability">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#faultlessness" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Faultlessness
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#availability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Availability
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fault-tolerance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fault tolerance
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recoverability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Recoverability
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#safety" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Safety
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Safety">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#operational-constraint" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Operational constraint
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#risk-identification" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Risk identification
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fail-safe" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fail safe
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hazard-warning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hazard warning
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#safe-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Safe integration
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#security" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Security
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Security">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#confidentiality" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Confidentiality
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#integrity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Integrity
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#non-repudiation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Non-repudiation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#accountability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Accountability
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#authenticity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Authenticity
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resistance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resistance
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sustainability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sustainability
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Usability
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Usability">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#usefulness" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Usefulness
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#efficiency-of-use" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Efficiency of Use
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ease-of-learning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ease of Learning
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#user-interface-quality" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        User Interface Quality
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#documentation-quality" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Documentation quality
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#compliance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Compliance
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Compliance">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#access-management-for-ipr" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Access Management for IPR
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#licensing-clarity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Licensing Clarity
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#data-quality-and-provenance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Data quality and Provenance
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#data-governance-and-ipr-enforcement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Data Governance and IPR enforcement
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Data Governance and IPR enforcement">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#standard-adherence" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Standard Adherence
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#regulatory-alignment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Regulatory Alignment
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#guideline-compliance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Guideline Compliance
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#learning-value-for-developers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Learning value for developers
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Learning value for developers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#developer-documentation-quality" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Developer Documentation Quality
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#training-resources-availability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Training Resources Availability
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#community-support-and-collaboration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community Support and Collaboration
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#user-adoption" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        User Adoption
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="User Adoption">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#awareness-and-understanding" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Awareness and Understanding
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#engagement-rate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Engagement Rate
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#acceptance-rate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Acceptance Rate
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#training-effectiveness" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Training Effectiveness
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navigation" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../index.html" class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Home
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="index.html" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Evaluation Dimensions
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="software">Software<a class="headerlink" href="#software" title="Permanent link">&para;</a></h1>
+<p>This page lists the evaluation dimensions and related entries for this resource family.</p>
+<h2 id="hierarchy-diagram">Hierarchy diagram<a class="headerlink" href="#hierarchy-diagram" title="Permanent link">&para;</a></h2>
+<pre class="mermaid"><code>flowchart LR
+    software_dim_software_dimensions["Software dimensions"]
+    software_dim_compatibility["Compatibility"]
+    software_dim_software_dimensions --&gt; software_dim_compatibility
+    software_dim_co_existence["Co-existence"]
+    software_dim_compatibility --&gt; software_dim_co_existence
+    software_dim_interoperability["Interoperability"]
+    software_dim_compatibility --&gt; software_dim_interoperability
+    software_dim_fairness["FAIRness"]
+    software_dim_software_dimensions --&gt; software_dim_fairness
+    software_dim_flexibility["Flexibility"]
+    software_dim_software_dimensions --&gt; software_dim_flexibility
+    software_dim_adaptability["Adaptability"]
+    software_dim_flexibility --&gt; software_dim_adaptability
+    software_dim_scalability["Scalability"]
+    software_dim_flexibility --&gt; software_dim_scalability
+    software_dim_installability["Installability"]
+    software_dim_flexibility --&gt; software_dim_installability
+    software_dim_replaceability["Replaceability"]
+    software_dim_flexibility --&gt; software_dim_replaceability
+    software_dim_functional_suitability["Functional suitability"]
+    software_dim_software_dimensions --&gt; software_dim_functional_suitability
+    software_dim_functional_completeness["Functional completeness"]
+    software_dim_functional_suitability --&gt; software_dim_functional_completeness
+    software_dim_functional_correctness["Functional correctness"]
+    software_dim_functional_suitability --&gt; software_dim_functional_correctness
+    software_dim_functional_appropriateness["Functional appropriateness"]
+    software_dim_functional_suitability --&gt; software_dim_functional_appropriateness
+    software_dim_interaction_capability["Interaction Capability"]
+    software_dim_software_dimensions --&gt; software_dim_interaction_capability
+    software_dim_appropriateness_recognizability["Appropriateness recognizability"]
+    software_dim_interaction_capability --&gt; software_dim_appropriateness_recognizability
+    software_dim_learnability["Learnability"]
+    software_dim_interaction_capability --&gt; software_dim_learnability
+    software_dim_operability["Operability"]
+    software_dim_interaction_capability --&gt; software_dim_operability
+    software_dim_user_error_protection["User error protection"]
+    software_dim_interaction_capability --&gt; software_dim_user_error_protection
+    software_dim_user_engagement["User engagement"]
+    software_dim_interaction_capability --&gt; software_dim_user_engagement
+    software_dim_inclusivity["Inclusivity"]
+    software_dim_interaction_capability --&gt; software_dim_inclusivity
+    software_dim_user_assistance["User assistance"]
+    software_dim_interaction_capability --&gt; software_dim_user_assistance
+    software_dim_self_descriptiveness["Self-descriptiveness"]
+    software_dim_interaction_capability --&gt; software_dim_self_descriptiveness
+    software_dim_maintainability["Maintainability"]
+    software_dim_software_dimensions --&gt; software_dim_maintainability
+    software_dim_modularity["Modularity"]
+    software_dim_maintainability --&gt; software_dim_modularity
+    software_dim_reusability["Reusability"]
+    software_dim_maintainability --&gt; software_dim_reusability
+    software_dim_analysability["Analysability"]
+    software_dim_maintainability --&gt; software_dim_analysability
+    software_dim_modifiability["Modifiability"]
+    software_dim_maintainability --&gt; software_dim_modifiability
+    software_dim_testability["Testability"]
+    software_dim_maintainability --&gt; software_dim_testability
+    software_dim_open_source_software["Open Source Software"]
+    software_dim_software_dimensions --&gt; software_dim_open_source_software
+    software_dim_performance_efficiency["Performance Efficiency"]
+    software_dim_software_dimensions --&gt; software_dim_performance_efficiency
+    software_dim_time_behaviour["Time behaviour"]
+    software_dim_performance_efficiency --&gt; software_dim_time_behaviour
+    software_dim_resource_utilization["Resource utilization"]
+    software_dim_performance_efficiency --&gt; software_dim_resource_utilization
+    software_dim_capacity["Capacity"]
+    software_dim_performance_efficiency --&gt; software_dim_capacity
+    software_dim_reliability["Reliability"]
+    software_dim_software_dimensions --&gt; software_dim_reliability
+    software_dim_faultlessness["Faultlessness"]
+    software_dim_reliability --&gt; software_dim_faultlessness
+    software_dim_availability["Availability"]
+    software_dim_reliability --&gt; software_dim_availability
+    software_dim_fault_tolerance["Fault tolerance"]
+    software_dim_reliability --&gt; software_dim_fault_tolerance
+    software_dim_recoverability["Recoverability"]
+    software_dim_reliability --&gt; software_dim_recoverability
+    software_dim_safety["Safety"]
+    software_dim_software_dimensions --&gt; software_dim_safety
+    software_dim_operational_constraint["Operational constraint"]
+    software_dim_safety --&gt; software_dim_operational_constraint
+    software_dim_risk_identification["Risk identification"]
+    software_dim_safety --&gt; software_dim_risk_identification
+    software_dim_fail_safe["Fail safe"]
+    software_dim_safety --&gt; software_dim_fail_safe
+    software_dim_hazard_warning["Hazard warning"]
+    software_dim_safety --&gt; software_dim_hazard_warning
+    software_dim_safe_integration["Safe integration"]
+    software_dim_safety --&gt; software_dim_safe_integration
+    software_dim_security["Security"]
+    software_dim_software_dimensions --&gt; software_dim_security
+    software_dim_confidentiality["Confidentiality"]
+    software_dim_security --&gt; software_dim_confidentiality
+    software_dim_integrity["Integrity"]
+    software_dim_security --&gt; software_dim_integrity
+    software_dim_non_repudiation["Non-repudiation"]
+    software_dim_security --&gt; software_dim_non_repudiation
+    software_dim_accountability["Accountability"]
+    software_dim_security --&gt; software_dim_accountability
+    software_dim_authenticity["Authenticity"]
+    software_dim_security --&gt; software_dim_authenticity
+    software_dim_resistance["Resistance"]
+    software_dim_security --&gt; software_dim_resistance
+    software_dim_sustainability["Sustainability"]
+    software_dim_software_dimensions --&gt; software_dim_sustainability
+    software_dim_usability["Usability"]
+    software_dim_software_dimensions --&gt; software_dim_usability
+    software_dim_usefulness["Usefulness"]
+    software_dim_usability --&gt; software_dim_usefulness
+    software_dim_efficiency_of_use["Efficiency of Use"]
+    software_dim_usability --&gt; software_dim_efficiency_of_use
+    software_dim_ease_of_learning["Ease of Learning"]
+    software_dim_usability --&gt; software_dim_ease_of_learning
+    software_dim_user_interface_quality["User Interface Quality"]
+    software_dim_usability --&gt; software_dim_user_interface_quality
+    software_dim_documentation_quality["Documentation quality"]
+    software_dim_usability --&gt; software_dim_documentation_quality
+    software_dim_compliance["Compliance"]
+    software_dim_software_dimensions --&gt; software_dim_compliance
+    software_dim_access_management_for["Access Management for IPR"]
+    software_dim_compliance --&gt; software_dim_access_management_for
+    software_dim_licensing_clarity["Licensing Clarity"]
+    software_dim_compliance --&gt; software_dim_licensing_clarity
+    software_dim_data_quality_and["Data quality and Provenance"]
+    software_dim_compliance --&gt; software_dim_data_quality_and
+    software_dim_data_governance_and["Data Governance and IPR enforcement"]
+    software_dim_software_dimensions --&gt; software_dim_data_governance_and
+    software_dim_standard_adherence["Standard Adherence"]
+    software_dim_data_governance_and --&gt; software_dim_standard_adherence
+    software_dim_regulatory_alignment["Regulatory Alignment"]
+    software_dim_data_governance_and --&gt; software_dim_regulatory_alignment
+    software_dim_guideline_compliance["Guideline Compliance"]
+    software_dim_data_governance_and --&gt; software_dim_guideline_compliance
+    software_dim_learning_value_for["Learning value for developers"]
+    software_dim_software_dimensions --&gt; software_dim_learning_value_for
+    software_dim_developer_documentation_quality["Developer Documentation Quality"]
+    software_dim_learning_value_for --&gt; software_dim_developer_documentation_quality
+    software_dim_training_resources_availability["Training Resources Availability"]
+    software_dim_learning_value_for --&gt; software_dim_training_resources_availability
+    software_dim_community_support_and["Community Support and Collaboration"]
+    software_dim_learning_value_for --&gt; software_dim_community_support_and
+    software_dim_user_adoption["User Adoption"]
+    software_dim_software_dimensions --&gt; software_dim_user_adoption
+    software_dim_awareness_and_understanding["Awareness and Understanding"]
+    software_dim_user_adoption --&gt; software_dim_awareness_and_understanding
+    software_dim_engagement_rate["Engagement Rate"]
+    software_dim_user_adoption --&gt; software_dim_engagement_rate
+    software_dim_acceptance_rate["Acceptance Rate"]
+    software_dim_user_adoption --&gt; software_dim_acceptance_rate
+    software_dim_training_effectiveness["Training Effectiveness"]
+    software_dim_user_adoption --&gt; software_dim_training_effectiveness</code></pre>
+<h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="#software-dimensions"><strong>Software dimensions</strong></a> — Software.<ul>
+<li><a href="#compatibility"><strong>Compatibility</strong></a> — Degree to which a product, system or component can exchange information with other products, systems or components, and/or perform its required functions while sharing the same common environment and resources.<ul>
+<li><a href="#co-existence"><strong>Co-existence</strong></a> — Degree to which a product can perform its required functions efficiently while sharing a common environment and resources with other products, without detrimental impact on any other product.</li>
+<li><a href="#interoperability"><strong>Interoperability</strong></a> — Degree to which a system, product or component can exchange information with other products and mutually use the information that has been exchanged.</li>
+</ul>
+</li>
+<li><a href="#fairness"><strong>FAIRness</strong></a> — Degree to which research software adheres to the FAIR principles: Findable, Accessible, Interoperable, and Reusable. These principles, adapted for research software, aim to enhance the discoverability, accessibility, interoperability, and reusability of software, thereby maximizing its value and impact in scientific research.</li>
+<li><a href="#flexibility"><strong>Flexibility</strong></a> — Degree to which a product can be adapted to changes in its requirements, contexts of use or system environment.<ul>
+<li><a href="#adaptability"><strong>Adaptability</strong></a> — Degree to which a product or system can effectively and efficiently be adapted for or transferred to different hardware, software or other operational or usage environments.</li>
+<li><a href="#scalability"><strong>Scalability</strong></a> — Degree to which a product can handle growing or shrinking workloads or to adapt its capacity to handle variability.</li>
+<li><a href="#installability"><strong>Installability</strong></a> — Degree of effectiveness and efficiency with which a product or system can be successfully installed and/or uninstalled in a specified environment.</li>
+<li><a href="#replaceability"><strong>Replaceability</strong></a> — Degree to which a product can replace another specified software product for the same purpose in the same environment.</li>
+</ul>
+</li>
+<li><a href="#functional-suitability"><strong>Functional suitability</strong></a> — This characteristic represents the degree to which a product or system provides functions that meet stated and implied needs when used under specified conditions.<ul>
+<li><a href="#functional-completeness"><strong>Functional completeness</strong></a> — Degree to which the set of functions covers all the specified tasks and intended users’ objectives.</li>
+<li><a href="#functional-correctness"><strong>Functional correctness</strong></a> — Degree to which a product or system provides accurate results when used by intended users.</li>
+<li><a href="#functional-appropriateness"><strong>Functional appropriateness</strong></a> — Degree to which the functions facilitate the accomplishment of specified tasks and objectives.</li>
+</ul>
+</li>
+<li><a href="#interaction-capability"><strong>Interaction Capability</strong></a> — Degree to which a product or system can be interacted with by specified users to exchange information via the user interface to complete specific tasks in a variety of contexts of use.<ul>
+<li><a href="#appropriateness-recognizability"><strong>Appropriateness recognizability</strong></a> — Degree to which users can recognize whether a product or system is appropriate for their needs.</li>
+<li><a href="#learnability"><strong>Learnability</strong></a> — Degree to which the functions of a product or system can be learnt to be used by specified users within a specified amount of time.</li>
+<li><a href="#operability"><strong>Operability</strong></a> — Degree to which a product or system has attributes that make it easy to operate and control.</li>
+<li><a href="#user-error-protection"><strong>User error protection</strong></a> — Degree to which a system prevents users against operation errors.</li>
+<li><a href="#user-engagement"><strong>User engagement</strong></a> — Degree to which a user interface presents functions and information in an inviting and motivating manner encouraging continued interaction.</li>
+<li><a href="#inclusivity"><strong>Inclusivity</strong></a> — Degree to which a product or system can be used by people of various backgrounds (such as people of various ages, abilities, cultures, ethnicities, languages, genders, economic situations, etc.).</li>
+<li><a href="#user-assistance"><strong>User assistance</strong></a> — Degree to which a product can be used by people with the widest range of characteristics and capabilities to achieve specified goals in a specified context of use.</li>
+<li><a href="#self-descriptiveness"><strong>Self-descriptiveness</strong></a> — Degree to which a product presents appropriate information, where needed by the user, to make its capabilities and use immediately obvious to the user without excessive interactions with a product or other resources (such as user documentation, help desks or other users).</li>
+</ul>
+</li>
+<li><a href="#maintainability"><strong>Maintainability</strong></a> — his characteristic represents the degree of effectiveness and efficiency with which a product or system can be modified to improve it, correct it or adapt it to changes in environment, and in requirements.<ul>
+<li><a href="#modularity"><strong>Modularity</strong></a> — Degree to which a system or computer program is composed of discrete components such that a change to one component has minimal impact on other components.</li>
+<li><a href="#reusability"><strong>Reusability</strong></a> — Degree to which a product can be used as an asset in more than one system, or in building other assets.</li>
+<li><a href="#analysability"><strong>Analysability</strong></a> — Degree of effectiveness and efficiency with which it is possible to assess the impact on a product or system of an intended change to one or more of its parts, to diagnose a product for deficiencies or causes of failures, or to identify parts to be modified.</li>
+<li><a href="#modifiability"><strong>Modifiability</strong></a> — Degree to which a product or system can be effectively and efficiently modified without introducing defects or degrading existing product quality.</li>
+<li><a href="#testability"><strong>Testability</strong></a> — Degree of effectiveness and efficiency with which test criteria can be established for a system, product or component and tests can be performed to determine whether those criteria have been met.</li>
+</ul>
+</li>
+<li><a href="#open-source-software"><strong>Open Source Software</strong></a> — Degree to which software source code is openly available for inspection, use, modification, and redistribution under an open licence. Open source software is software with source code that anyone can inspect, modify, and enhance. Research software can be published with or without open access to the source code. Open access to source code aligns better with academic research purposes than closed source software; open source software aligns with the FAIR4RS principles. It allows other researchers to directly verify the methods used to produce the results published in papers. It also makes reproducibility much easier. In addition to these research-driven reasons, publishing research software as open source software can help with long term maintenance in a cost-effective way, since interested developers can easily contribute new functionality or fix bugs. Moreover, by integrating with the greater open source ecosystem, researchers can leverage tools and support communities already available. As such, for most academic communities with limited resources, it is also a good choice from a software engineering perspective.</li>
+<li><a href="#performance-efficiency"><strong>Performance Efficiency</strong></a> — This characteristic represents the degree to which a product performs its functions within specified time and throughput parameters and is efficient in the use of resources (such as CPU, memory, storage, network devices, energy, materials…) under specified conditions.<ul>
+<li><a href="#time-behaviour"><strong>Time behaviour</strong></a> — Degree to which the response time and throughput rates of a product or system, when performing its functions, meet requirements.</li>
+<li><a href="#resource-utilization"><strong>Resource utilization</strong></a> — Degree to which the amounts and types of resources used by a product or system, when performing its functions, meet requirements.</li>
+<li><a href="#capacity"><strong>Capacity</strong></a> — Degree to which the maximum limits of a product or system parameter meet requirements.</li>
+</ul>
+</li>
+<li><a href="#reliability"><strong>Reliability</strong></a> — Degree to which a system, product or component performs specified functions under specified conditions for a specified period of time.<ul>
+<li><a href="#faultlessness"><strong>Faultlessness</strong></a> — Degree to which a system, product or component performs specified functions without fault under normal operation.</li>
+<li><a href="#availability"><strong>Availability</strong></a> — Degree to which a system, product or component is operational and accessible when required for use.</li>
+<li><a href="#fault-tolerance"><strong>Fault tolerance</strong></a> — Degree to which a system, product or component operates as intended despite the presence of hardware or software faults.</li>
+<li><a href="#recoverability"><strong>Recoverability</strong></a> — Degree to which, in the event of an interruption or a failure, a product or system can recover the data directly affected and re-establish the desired state of the system.</li>
+</ul>
+</li>
+<li><a href="#safety"><strong>Safety</strong></a> — This characteristic represents the degree to which a product under defined conditions avoids a state in which human life, health, property, or the environment is endangered.<ul>
+<li><a href="#operational-constraint"><strong>Operational constraint</strong></a> — Degree to which a product or system constrains its operation to within safe parameters or states when encountering operational hazard.</li>
+<li><a href="#risk-identification"><strong>Risk identification</strong></a> — Degree to which a product can identify a course of events or operations that can expose life, property or environment to unacceptable risk.</li>
+<li><a href="#fail-safe"><strong>Fail safe</strong></a> — Degree to which a product can automatically place itself in a safe operating mode, or to revert to a safe condition in the event of a failure.</li>
+<li><a href="#hazard-warning"><strong>Hazard warning</strong></a> — Degree to which a product or system provides warnings of unacceptable risks to operations or internal controls so that they can react in sufficient time to sustain safe operations.</li>
+<li><a href="#safe-integration"><strong>Safe integration</strong></a> — Degree to which a product can maintain safety during and after integration with one or more components.</li>
+</ul>
+</li>
+<li><a href="#security"><strong>Security</strong></a> — Degree to which a product or system defends against attack patterns by malicious actors and protects information and data so that persons or other products or systems have the degree of data access appropriate to their types and levels of authorization.<ul>
+<li><a href="#confidentiality"><strong>Confidentiality</strong></a> — Degree to which a product or system ensures that data are accessible only to those authorized to have access.</li>
+<li><a href="#integrity"><strong>Integrity</strong></a> — Degree to which a system, product or component ensures that the state of its system and data are protected from unauthorized modification or deletion either by malicious action or computer error.</li>
+<li><a href="#non-repudiation"><strong>Non-repudiation</strong></a> — Degree to which actions or events can be proven to have taken place so that the events or actions cannot be repudiated later.</li>
+<li><a href="#accountability"><strong>Accountability</strong></a> — Degree to which the actions of an entity can be traced uniquely to the entity.</li>
+<li><a href="#authenticity"><strong>Authenticity</strong></a> — Degree to which the identity of a subject or resource can be proved to be the one claimed.</li>
+<li><a href="#resistance"><strong>Resistance</strong></a> — Degree to which the product or system sustains operations while under attack from a malicious actor.</li>
+</ul>
+</li>
+<li><a href="#sustainability"><strong>Sustainability</strong></a> — Degree to which software can continue to exist, be maintained, and remain useful over time across changing platforms, dependencies, and user needs.</li>
+<li><a href="#usability"><strong>Usability</strong></a> — This dimension refers to how easy, efficient, and satisfactory the ECCCH applications and tools are for their intended users.<ul>
+<li><a href="#usefulness"><strong>Usefulness</strong></a> — Measures the extent to which the application effectively addresses the specific needs and goals of CH professionals.</li>
+<li><a href="#efficiency-of-use"><strong>Efficiency of Use</strong></a> — Measures how quickly and effectively experienced users can accomplish tasks with the tools.</li>
+<li><a href="#ease-of-learning"><strong>Ease of Learning</strong></a> — Indicates how quickly new users can understand and effectively operate the application.</li>
+<li><a href="#user-interface-quality"><strong>User Interface Quality</strong></a> — Assesses the intuitiveness, consistency, and visual clarity of the application's design and layout.</li>
+<li><a href="#documentation-quality"><strong>Documentation quality</strong></a> — Evaluates the clarity, comprehensiveness, and accessibility of user guides, tutorials, FAQs, and other support materials about the application.</li>
+</ul>
+</li>
+<li><a href="#compliance"><strong>Compliance</strong></a> — This dimension evaluates the adherence of the application to established standards, regulations, and project-specific guidelines. Subdimensions are very preliminar.<ul>
+<li><a href="#access-management-for-ipr"><strong>Access Management for IPR</strong></a> — Evaluates the effectiveness of the application in managing and restricting access based on intellectual propert.</li>
+<li><a href="#licensing-clarity"><strong>Licensing Clarity</strong></a> — Measures the application's ability to enforce explicit licensing terms for all data.</li>
+<li><a href="#data-quality-and-provenance"><strong>Data quality and Provenance</strong></a> — Measures the application's ability to ensure data quality, consistency, and clear traceability of its origin and modifications.</li>
+</ul>
+</li>
+<li><a href="#data-governance-and-ipr-enforcement"><strong>Data Governance and IPR enforcement</strong></a> — This dimension focuses on how the application facilitates or enforces the data governance model and the preservation of intellectual property rights.<ul>
+<li><a href="#standard-adherence"><strong>Standard Adherence</strong></a> — Assesses conformity with relevant technical standards, data formats, and open models.</li>
+<li><a href="#regulatory-alignment"><strong>Regulatory Alignment</strong></a> — Measures compliance with national, European, and international legal and ethical frameworks.</li>
+<li><a href="#guideline-compliance"><strong>Guideline Compliance</strong></a> — Ensures adherence to specific integration, development, and communication guidelines provided by the ECHOES consortium.</li>
+</ul>
+</li>
+<li><a href="#learning-value-for-developers"><strong>Learning value for developers</strong></a> — This dimension considers how well the application supports and educates developers willing to contribute with their own applications.<ul>
+<li><a href="#developer-documentation-quality"><strong>Developer Documentation Quality</strong></a> — Assesses the clarity, comprehensiveness, and utility of technical documentation tailored for developers, including examples and guidelines.</li>
+<li><a href="#training-resources-availability"><strong>Training Resources Availability</strong></a> — Evaluates the provision of educational materials, tutorials, and capacity-building activities specifically for developers to enhance their skills.</li>
+<li><a href="#community-support-and-collaboration"><strong>Community Support and Collaboration</strong></a> — Measures the effectiveness of mechanisms that facilitate knowledge exchange, problem-solving, and collaborative development among the developer community regarding a specific application.</li>
+</ul>
+</li>
+<li><a href="#user-adoption"><strong>User Adoption</strong></a> — This dimension measures the extent to which CH stakeholders embrace and effectively use a specific application.<ul>
+<li><a href="#awareness-and-understanding"><strong>Awareness and Understanding</strong></a> — Reflects how well target communities are informed about and comprehend the advantages of using a specific ECCCH application.</li>
+<li><a href="#engagement-rate"><strong>Engagement Rate</strong></a> — Indicates the frequency and depth of active use of the application by users (active users, session duration...).</li>
+<li><a href="#acceptance-rate"><strong>Acceptance Rate</strong></a> — Measures the overall willingness and readiness of the community to integrate and use a specific application in their workflows.</li>
+<li><a href="#training-effectiveness"><strong>Training Effectiveness</strong></a> — Evaluates the success of capacity-building activities and the ECHOES curriculum in equipping users with the necessary skills for using the application.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="software-dimensions">Software dimensions<a class="headerlink" href="#software-dimensions" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Level:</strong> 0</li>
+<li><strong>Description:</strong> Software.</li>
+<li><strong>Display:</strong> Software dimensions</li>
+</ul>
+<h4 id="compatibility">Compatibility<a class="headerlink" href="#compatibility" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Level:</strong> 1</li>
+<li><strong>Description:</strong> Degree to which a product, system or component can exchange information with other products, systems or components, and/or perform its required functions while sharing the same common environment and resources.</li>
+<li><strong>Display:</strong> Compatibility</li>
+<li><strong>Source Name:</strong> ISO/IEC 25010 standard</li>
+<li><strong>Source Url:</strong> <a href="https://iso25000.com/index.php/en/iso-25000-standards/iso-25010" target="_blank" rel="noopener noreferrer">https://iso25000.com/index.php/en/iso-25000-standards/iso-25010</a></li>
+<li><strong>Notes:</strong> Addopted from <a href="https://github.com/EVERSE-ResearchSoftware/RSQKit" target="_blank" rel="noopener noreferrer">https://github.com/EVERSE-ResearchSoftware/RSQKit</a></li>
+</ul>
+<h5 id="co-existence">Co-existence<a class="headerlink" href="#co-existence" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Level:</strong> 2</li>
+<li><strong>Description:</strong> Degree to which a product can perform its required functions efficiently while sharing a common environment and resources with other products, without detrimental impact on any other product.</li>
+<li><strong>Display:</strong> Co-existence</li>
+<li><strong>Source Name:</strong> ISO/IEC 25010 standard</li>
+<li><strong>Source Url:</strong> <a href="https://iso25000.com/index.php/en/iso-25000-standards/iso-25011" target="_blank" rel="noopener noreferrer">https://iso25000.com/index.php/en/iso-25000-standards/iso-25011</a></li>
+</ul>
+<h5 id="interoperability">Interoperability<a class="headerlink" href="#interoperability" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Level:</strong> 2</li>
+<li><strong>Description:</strong> Degree to which a system, product or component can exchange information with other products and mutually use the information that has been exchanged.</li>
+<li><strong>Display:</strong> Interoperability</li>
+<li><strong>Source Name:</strong> ISO/IEC 25010 standard</li>
+<li><strong>Source Url:</strong> <a href="https://iso25000.com/index.php/en/iso-25000-standards/iso-25012" target="_blank" rel="noopener noreferrer">https://iso25000.com/index.php/en/iso-25000-standards/iso-25012</a></li>
+</ul>
+<h4 id="fairness">FAIRness<a class="headerlink" href="#fairness" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Level:</strong> 1</li>
+<li><strong>Description:</strong> Degree to which research software adheres to the FAIR principles: Findable, Accessible, Interoperable, and Reusable. These principles, adapted for research software, aim to enhance the discoverability, accessibility, interoperability, and reusability of software, thereby maximizing its value and impact in scientific research.</li>
+<li><strong>Display:</strong> FAIRness</li>
+<li><strong>Source Name:</strong> Introducing the FAIR Principles for research software</li>
+<li><strong>Source Url:</strong> <a href="https://www.nature.com/articles/s41597-022-01710-x" target="_blank" rel="noopener noreferrer">https://www.nature.com/articles/s41597-022-01710-x</a></li>
+</ul>
+<h4 id="flexibility">Flexibility<a class="headerlink" href="#flexibility" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Level:</strong> 1</li>
+<li><strong>Description:</strong> Degree to which a product can be adapted to changes in its requirements, contexts of use or system environment.</li>
+<li><strong>Display:</strong> Flexibility</li>
+<li><strong>Source Name:</strong> ISO/IEC 25010 standard</li>
+<li><strong>Source Url:</strong> <a href="https://iso25000.com/index.php/en/iso-25000-standards/iso-25010" target="_blank" rel="noopener noreferrer">https://iso25000.com/index.php/en/iso-25000-standards/iso-25010</a></li>
+</ul>
+<h5 id="adaptability">Adaptability<a class="headerlink" href="#adaptability" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Level:</strong> 2</li>
+<li><strong>Description:</strong> Degree to which a product or system can effectively and efficiently be adapted for or transferred to different hardware, software or other operational or usage environments.</li>
+<li><strong>Display:</strong> Adaptability</li>
+<li><strong>Source Name:</strong> ISO/IEC 25010 standard</li>
+<li><strong>Source Url:</strong> <a href="https://iso25000.com/index.php/en/iso-25000-standards/iso-25011" target="_blank" rel="noopener noreferrer">https://iso25000.com/index.php/en/iso-25000-standards/iso-25011</a></li>
+</ul>
+<h5 id="scalability">Scalability<a class="headerlink" href="#scalability" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Level:</strong> 2</li>
+<li><strong>Description:</strong> Degree to which a product can handle growing or shrinking workloads or to adapt its capacity to handle variability.</li>
+<li><strong>Display:</strong> Scalability</li>
+<li><strong>Source Name:</strong> ISO/IEC 25010 standard</li>
+<li><strong>Source Url:</strong> <a href="https://iso25000.com/index.php/en/iso-25000-standards/iso-25012" target="_blank" rel="noopener noreferrer">https://iso25000.com/index.php/en/iso-25000-standards/iso-25012</a></li>
+</ul>
+<h5 id="installability">Installability<a class="headerlink" href="#installability" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Level:</strong> 2</li>
+<li><strong>Description:</strong> Degree of effectiveness and efficiency with which a product or system can be successfully installed and/or uninstalled in a specified environment.</li>
+<li><strong>Display:</strong> Installability</li>
+<li><strong>Source Name:</strong> ISO/IEC 25010 standard</li>
+<li><strong>Source Url:</strong> <a href="https://iso25000.com/index.php/en/iso-25000-standards/iso-25013" target="_blank" rel="noopener noreferrer">https://iso25000.com/index.php/en/iso-25000-standards/iso-25013</a></li>
+</ul>
+<h5 id="replaceability">Replaceability<a class="headerlink" href="#replaceability" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Level:</strong> 2</li>
+<li><strong>Description:</strong> Degree to which a product can replace another specified software product for the same purpose in the same environment.</li>
+<li><strong>Display:</strong> Replaceability</li>
+<li><strong>Source Name:</strong> ISO/IEC 25010 standard</li>
+<li><strong>Source Url:</strong> <a href="https://iso25000.com/index.php/en/iso-25000-standards/iso-25014" target="_blank" rel="noopener noreferrer">https://iso25000.com/index.php/en/iso-25000-standards/iso-25014</a></li>
+</ul>
+<h4 id="functional-suitability">Functional suitability<a class="headerlink" href="#functional-suitability" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Level:</strong> 1</li>
+<li><strong>Description:</strong> This characteristic represents the degree to which a product or system provides functions that meet stated and implied needs when used under specified conditions.</li>
+<li><strong>Display:</strong> Functional suitability</li>
+<li><strong>Source Name:</strong> ISO/IEC 25010 standard</li>
+<li><strong>Source Url:</strong> <a href="https://iso25000.com/index.php/en/iso-25000-standards/iso-25010" target="_blank" rel="noopener noreferrer">https://iso25000.com/index.php/en/iso-25000-standards/iso-25010</a></li>
+</ul>
+<h5 id="functional-completeness">Functional completeness<a class="headerlink" href="#functional-completeness" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Level:</strong> 2</li>
+<li><strong>Description:</strong> Degree to which the set of functions covers all the specified tasks and intended users’ objectives.</li>
+<li><strong>Display:</strong> Functional completeness</li>
+<li><strong>Source Name:</strong> ISO/IEC 25010 standard</li>
+<li><strong>Source Url:</strong> <a href="https://iso25000.com/index.php/en/iso-25000-standards/iso-25011" target="_blank" rel="noopener noreferrer">https://iso25000.com/index.php/en/iso-25000-standards/iso-25011</a></li>
+</ul>
+<h5 id="functional-correctness">Functional correctness<a class="headerlink" href="#functional-correctness" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Level:</strong> 2</li>
+<li><strong>Description:</strong> Degree to which a product or system provides accurate results when used by intended users.</li>
+<li><strong>Display:</strong> Functional correctness</li>
+<li><strong>Source Name:</strong> ISO/IEC 25010 standard</li>
+<li><strong>Source Url:</strong> <a href="https://iso25000.com/index.php/en/iso-25000-standards/iso-25012" target="_blank" rel="noopener noreferrer">https://iso25000.com/index.php/en/iso-25000-standards/iso-25012</a></li>
+</ul>
+<h5 id="functional-appropriateness">Functional appropriateness<a class="headerlink" href="#functional-appropriateness" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Level:</strong> 2</li>
+<li><strong>Description:</strong> Degree to which the functions facilitate the accomplishment of specified tasks and objectives.</li>
+<li><strong>Display:</strong> Functional appropriateness</li>
+<li><strong>Source Name:</strong> ISO/IEC 25010 standard</li>
+<li><strong>Source Url:</strong> <a href="https://iso25000.com/index.php/en/iso-25000-standards/iso-25013" target="_blank" rel="noopener noreferrer">https://iso25000.com/index.php/en/iso-25000-standards/iso-25013</a></li>
+</ul>
+<h4 id="interaction-capability">Interaction Capability<a class="headerlink" href="#interaction-capability" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Level:</strong> 1</li>
+<li><strong>Description:</strong> Degree to which a product or system can be interacted with by specified users to exchange information via the user interface to complete specific tasks in a variety of contexts of use.</li>
+<li><strong>Display:</strong> Interaction Capability</li>
+<li><strong>Source Name:</strong> ISO/IEC 25010 standard</li>
+<li><strong>Source Url:</strong> <a href="https://iso25000.com/index.php/en/iso-25000-standards/iso-25010" target="_blank" rel="noopener noreferrer">https://iso25000.com/index.php/en/iso-25000-standards/iso-25010</a></li>
+</ul>
+<h5 id="appropriateness-recognizability">Appropriateness recognizability<a class="headerlink" href="#appropriateness-recognizability" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Level:</strong> 2</li>
+<li><strong>Description:</strong> Degree to which users can recognize whether a product or system is appropriate for their needs.</li>
+<li><strong>Display:</strong> Appropriateness recognizability</li>
+<li><strong>Source Name:</strong> ISO/IEC 25010 standard</li>
+<li><strong>Source Url:</strong> <a href="https://iso25000.com/index.php/en/iso-25000-standards/iso-25011" target="_blank" rel="noopener noreferrer">https://iso25000.com/index.php/en/iso-25000-standards/iso-25011</a></li>
+</ul>
+<h5 id="learnability">Learnability<a class="headerlink" href="#learnability" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Level:</strong> 2</li>
+<li><strong>Description:</strong> Degree to which the functions of a product or system can be learnt to be used by specified users within a specified amount of time.</li>
+<li><strong>Display:</strong> Learnability</li>
+<li><strong>Source Name:</strong> ISO/IEC 25010 standard</li>
+<li><strong>Source Url:</strong> <a href="https://iso25000.com/index.php/en/iso-25000-standards/iso-25012" target="_blank" rel="noopener noreferrer">https://iso25000.com/index.php/en/iso-25000-standards/iso-25012</a></li>
+</ul>
+<h5 id="operability">Operability<a class="headerlink" href="#operability" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Level:</strong> 2</li>
+<li><strong>Description:</strong> Degree to which a product or system has attributes that make it easy to operate and control.</li>
+<li><strong>Display:</strong> Operability</li>
+<li><strong>Source Name:</strong> ISO/IEC 25010 standard</li>
+<li><strong>Source Url:</strong> <a href="https://iso25000.com/index.php/en/iso-25000-standards/iso-25013" target="_blank" rel="noopener noreferrer">https://iso25000.com/index.php/en/iso-25000-standards/iso-25013</a></li>
+</ul>
+<h5 id="user-error-protection">User error protection<a class="headerlink" href="#user-error-protection" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Level:</strong> 2</li>
+<li><strong>Description:</strong> Degree to which a system prevents users against operation errors.</li>
+<li><strong>Display:</strong> User error protection</li>
+<li><strong>Source Name:</strong> ISO/IEC 25010 standard</li>
+<li><strong>Source Url:</strong> <a href="https://iso25000.com/index.php/en/iso-25000-standards/iso-25014" target="_blank" rel="noopener noreferrer">https://iso25000.com/index.php/en/iso-25000-standards/iso-25014</a></li>
+</ul>
+<h5 id="user-engagement">User engagement<a class="headerlink" href="#user-engagement" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Level:</strong> 2</li>
+<li><strong>Description:</strong> Degree to which a user interface presents functions and information in an inviting and motivating manner encouraging continued interaction.</li>
+<li><strong>Display:</strong> User engagement</li>
+<li><strong>Source Name:</strong> ISO/IEC 25010 standard</li>
+<li><strong>Source Url:</strong> <a href="https://iso25000.com/index.php/en/iso-25000-standards/iso-25015" target="_blank" rel="noopener noreferrer">https://iso25000.com/index.php/en/iso-25000-standards/iso-25015</a></li>
+</ul>
+<h5 id="inclusivity">Inclusivity<a class="headerlink" href="#inclusivity" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Level:</strong> 2</li>
+<li><strong>Description:</strong> Degree to which a product or system can be used by people of various backgrounds (such as people of various ages, abilities, cultures, ethnicities, languages, genders, economic situations, etc.).</li>
+<li><strong>Display:</strong> Inclusivity</li>
+<li><strong>Source Name:</strong> ISO/IEC 25010 standard</li>
+<li><strong>Source Url:</strong> <a href="https://iso25000.com/index.php/en/iso-25000-standards/iso-25016" target="_blank" rel="noopener noreferrer">https://iso25000.com/index.php/en/iso-25000-standards/iso-25016</a></li>
+</ul>
+<h5 id="user-assistance">User assistance<a class="headerlink" href="#user-assistance" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Level:</strong> 2</li>
+<li><strong>Description:</strong> Degree to which a product can be used by people with the widest range of characteristics and capabilities to achieve specified goals in a specified context of use.</li>
+<li><strong>Display:</strong> User assistance</li>
+<li><strong>Source Name:</strong> ISO/IEC 25010 standard</li>
+<li><strong>Source Url:</strong> <a href="https://iso25000.com/index.php/en/iso-25000-standards/iso-25017" target="_blank" rel="noopener noreferrer">https://iso25000.com/index.php/en/iso-25000-standards/iso-25017</a></li>
+</ul>
+<h5 id="self-descriptiveness">Self-descriptiveness<a class="headerlink" href="#self-descriptiveness" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Level:</strong> 2</li>
+<li><strong>Description:</strong> Degree to which a product presents appropriate information, where needed by the user, to make its capabilities and use immediately obvious to the user without excessive interactions with a product or other resources (such as user documentation, help desks or other users).</li>
+<li><strong>Display:</strong> Self-descriptiveness</li>
+<li><strong>Source Name:</strong> ISO/IEC 25010 standard</li>
+<li><strong>Source Url:</strong> <a href="https://iso25000.com/index.php/en/iso-25000-standards/iso-25018" target="_blank" rel="noopener noreferrer">https://iso25000.com/index.php/en/iso-25000-standards/iso-25018</a></li>
+</ul>
+<h4 id="maintainability">Maintainability<a class="headerlink" href="#maintainability" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Level:</strong> 1</li>
+<li><strong>Description:</strong> his characteristic represents the degree of effectiveness and efficiency with which a product or system can be modified to improve it, correct it or adapt it to changes in environment, and in requirements.</li>
+<li><strong>Display:</strong> Maintainability</li>
+<li><strong>Source Name:</strong> ISO/IEC 25010 standard</li>
+<li><strong>Source Url:</strong> <a href="https://iso25000.com/index.php/en/iso-25000-standards/iso-25010" target="_blank" rel="noopener noreferrer">https://iso25000.com/index.php/en/iso-25000-standards/iso-25010</a></li>
+</ul>
+<h5 id="modularity">Modularity<a class="headerlink" href="#modularity" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Level:</strong> 2</li>
+<li><strong>Description:</strong> Degree to which a system or computer program is composed of discrete components such that a change to one component has minimal impact on other components.</li>
+<li><strong>Display:</strong> Modularity</li>
+<li><strong>Source Name:</strong> ISO/IEC 25010 standard</li>
+<li><strong>Source Url:</strong> <a href="https://iso25000.com/index.php/en/iso-25000-standards/iso-25011" target="_blank" rel="noopener noreferrer">https://iso25000.com/index.php/en/iso-25000-standards/iso-25011</a></li>
+</ul>
+<h5 id="reusability">Reusability<a class="headerlink" href="#reusability" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Level:</strong> 2</li>
+<li><strong>Description:</strong> Degree to which a product can be used as an asset in more than one system, or in building other assets.</li>
+<li><strong>Display:</strong> Reusability</li>
+<li><strong>Source Name:</strong> ISO/IEC 25010 standard</li>
+<li><strong>Source Url:</strong> <a href="https://iso25000.com/index.php/en/iso-25000-standards/iso-25012" target="_blank" rel="noopener noreferrer">https://iso25000.com/index.php/en/iso-25000-standards/iso-25012</a></li>
+</ul>
+<h5 id="analysability">Analysability<a class="headerlink" href="#analysability" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Level:</strong> 2</li>
+<li><strong>Description:</strong> Degree of effectiveness and efficiency with which it is possible to assess the impact on a product or system of an intended change to one or more of its parts, to diagnose a product for deficiencies or causes of failures, or to identify parts to be modified.</li>
+<li><strong>Display:</strong> Analysability</li>
+<li><strong>Source Name:</strong> ISO/IEC 25010 standard</li>
+<li><strong>Source Url:</strong> <a href="https://iso25000.com/index.php/en/iso-25000-standards/iso-25013" target="_blank" rel="noopener noreferrer">https://iso25000.com/index.php/en/iso-25000-standards/iso-25013</a></li>
+</ul>
+<h5 id="modifiability">Modifiability<a class="headerlink" href="#modifiability" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Level:</strong> 2</li>
+<li><strong>Description:</strong> Degree to which a product or system can be effectively and efficiently modified without introducing defects or degrading existing product quality.</li>
+<li><strong>Display:</strong> Modifiability</li>
+<li><strong>Source Name:</strong> ISO/IEC 25010 standard</li>
+<li><strong>Source Url:</strong> <a href="https://iso25000.com/index.php/en/iso-25000-standards/iso-25014" target="_blank" rel="noopener noreferrer">https://iso25000.com/index.php/en/iso-25000-standards/iso-25014</a></li>
+</ul>
+<h5 id="testability">Testability<a class="headerlink" href="#testability" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Level:</strong> 2</li>
+<li><strong>Description:</strong> Degree of effectiveness and efficiency with which test criteria can be established for a system, product or component and tests can be performed to determine whether those criteria have been met.</li>
+<li><strong>Display:</strong> Testability</li>
+<li><strong>Source Name:</strong> ISO/IEC 25010 standard</li>
+<li><strong>Source Url:</strong> <a href="https://iso25000.com/index.php/en/iso-25000-standards/iso-25015" target="_blank" rel="noopener noreferrer">https://iso25000.com/index.php/en/iso-25000-standards/iso-25015</a></li>
+</ul>
+<h4 id="open-source-software">Open Source Software<a class="headerlink" href="#open-source-software" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Level:</strong> 1</li>
+<li><strong>Description:</strong> Degree to which software source code is openly available for inspection, use, modification, and redistribution under an open licence. Open source software is software with source code that anyone can inspect, modify, and enhance. Research software can be published with or without open access to the source code. Open access to source code aligns better with academic research purposes than closed source software; open source software aligns with the FAIR4RS principles. It allows other researchers to directly verify the methods used to produce the results published in papers. It also makes reproducibility much easier. In addition to these research-driven reasons, publishing research software as open source software can help with long term maintenance in a cost-effective way, since interested developers can easily contribute new functionality or fix bugs. Moreover, by integrating with the greater open source ecosystem, researchers can leverage tools and support communities already available. As such, for most academic communities with limited resources, it is also a good choice from a software engineering perspective.</li>
+<li><strong>Display:</strong> Open Source Software</li>
+<li><strong>Source Name:</strong> EVERSE Reference Framework</li>
+<li><strong>Source Url:</strong> <a href="https://doi.org/10.5281/zenodo.14204478" target="_blank" rel="noopener noreferrer">https://doi.org/10.5281/zenodo.14204478</a></li>
+</ul>
+<h4 id="performance-efficiency">Performance Efficiency<a class="headerlink" href="#performance-efficiency" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Level:</strong> 1</li>
+<li><strong>Description:</strong> This characteristic represents the degree to which a product performs its functions within specified time and throughput parameters and is efficient in the use of resources (such as CPU, memory, storage, network devices, energy, materials…) under specified conditions.</li>
+<li><strong>Display:</strong> Performance Efficiency</li>
+<li><strong>Source Name:</strong> ISO/IEC 25010 standard</li>
+<li><strong>Source Url:</strong> <a href="https://iso25000.com/index.php/en/iso-25000-standards/iso-25010" target="_blank" rel="noopener noreferrer">https://iso25000.com/index.php/en/iso-25000-standards/iso-25010</a></li>
+</ul>
+<h5 id="time-behaviour">Time behaviour<a class="headerlink" href="#time-behaviour" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Level:</strong> 2</li>
+<li><strong>Description:</strong> Degree to which the response time and throughput rates of a product or system, when performing its functions, meet requirements.</li>
+<li><strong>Display:</strong> Time behaviour</li>
+<li><strong>Source Name:</strong> ISO/IEC 25010 standard</li>
+<li><strong>Source Url:</strong> <a href="https://iso25000.com/index.php/en/iso-25000-standards/iso-25011" target="_blank" rel="noopener noreferrer">https://iso25000.com/index.php/en/iso-25000-standards/iso-25011</a></li>
+</ul>
+<h5 id="resource-utilization">Resource utilization<a class="headerlink" href="#resource-utilization" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Level:</strong> 2</li>
+<li><strong>Description:</strong> Degree to which the amounts and types of resources used by a product or system, when performing its functions, meet requirements.</li>
+<li><strong>Display:</strong> Resource utilization</li>
+<li><strong>Source Name:</strong> ISO/IEC 25010 standard</li>
+<li><strong>Source Url:</strong> <a href="https://iso25000.com/index.php/en/iso-25000-standards/iso-25012" target="_blank" rel="noopener noreferrer">https://iso25000.com/index.php/en/iso-25000-standards/iso-25012</a></li>
+</ul>
+<h5 id="capacity">Capacity<a class="headerlink" href="#capacity" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Level:</strong> 2</li>
+<li><strong>Description:</strong> Degree to which the maximum limits of a product or system parameter meet requirements.</li>
+<li><strong>Display:</strong> Capacity</li>
+<li><strong>Source Name:</strong> ISO/IEC 25010 standard</li>
+<li><strong>Source Url:</strong> <a href="https://iso25000.com/index.php/en/iso-25000-standards/iso-25013" target="_blank" rel="noopener noreferrer">https://iso25000.com/index.php/en/iso-25000-standards/iso-25013</a></li>
+</ul>
+<h4 id="reliability">Reliability<a class="headerlink" href="#reliability" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Level:</strong> 1</li>
+<li><strong>Description:</strong> Degree to which a system, product or component performs specified functions under specified conditions for a specified period of time.</li>
+<li><strong>Display:</strong> Reliability</li>
+<li><strong>Source Name:</strong> ISO/IEC 25010 standard</li>
+<li><strong>Source Url:</strong> <a href="https://iso25000.com/index.php/en/iso-25000-standards/iso-25010" target="_blank" rel="noopener noreferrer">https://iso25000.com/index.php/en/iso-25000-standards/iso-25010</a></li>
+</ul>
+<h5 id="faultlessness">Faultlessness<a class="headerlink" href="#faultlessness" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Level:</strong> 2</li>
+<li><strong>Description:</strong> Degree to which a system, product or component performs specified functions without fault under normal operation.</li>
+<li><strong>Display:</strong> Faultlessness</li>
+<li><strong>Source Name:</strong> ISO/IEC 25010 standard</li>
+<li><strong>Source Url:</strong> <a href="https://iso25000.com/index.php/en/iso-25000-standards/iso-25011" target="_blank" rel="noopener noreferrer">https://iso25000.com/index.php/en/iso-25000-standards/iso-25011</a></li>
+</ul>
+<h5 id="availability">Availability<a class="headerlink" href="#availability" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Level:</strong> 2</li>
+<li><strong>Description:</strong> Degree to which a system, product or component is operational and accessible when required for use.</li>
+<li><strong>Display:</strong> Availability</li>
+<li><strong>Source Name:</strong> ISO/IEC 25010 standard</li>
+<li><strong>Source Url:</strong> <a href="https://iso25000.com/index.php/en/iso-25000-standards/iso-25012" target="_blank" rel="noopener noreferrer">https://iso25000.com/index.php/en/iso-25000-standards/iso-25012</a></li>
+</ul>
+<h5 id="fault-tolerance">Fault tolerance<a class="headerlink" href="#fault-tolerance" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Level:</strong> 2</li>
+<li><strong>Description:</strong> Degree to which a system, product or component operates as intended despite the presence of hardware or software faults.</li>
+<li><strong>Display:</strong> Fault tolerance</li>
+<li><strong>Source Name:</strong> ISO/IEC 25010 standard</li>
+<li><strong>Source Url:</strong> <a href="https://iso25000.com/index.php/en/iso-25000-standards/iso-25013" target="_blank" rel="noopener noreferrer">https://iso25000.com/index.php/en/iso-25000-standards/iso-25013</a></li>
+</ul>
+<h5 id="recoverability">Recoverability<a class="headerlink" href="#recoverability" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Level:</strong> 2</li>
+<li><strong>Description:</strong> Degree to which, in the event of an interruption or a failure, a product or system can recover the data directly affected and re-establish the desired state of the system.</li>
+<li><strong>Display:</strong> Recoverability</li>
+<li><strong>Source Name:</strong> ISO/IEC 25010 standard</li>
+<li><strong>Source Url:</strong> <a href="https://iso25000.com/index.php/en/iso-25000-standards/iso-25014" target="_blank" rel="noopener noreferrer">https://iso25000.com/index.php/en/iso-25000-standards/iso-25014</a></li>
+</ul>
+<h4 id="safety">Safety<a class="headerlink" href="#safety" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Level:</strong> 1</li>
+<li><strong>Description:</strong> This characteristic represents the degree to which a product under defined conditions avoids a state in which human life, health, property, or the environment is endangered.</li>
+<li><strong>Display:</strong> Safety</li>
+<li><strong>Source Name:</strong> ISO/IEC 25010 standard</li>
+<li><strong>Source Url:</strong> <a href="https://iso25000.com/index.php/en/iso-25000-standards/iso-25010" target="_blank" rel="noopener noreferrer">https://iso25000.com/index.php/en/iso-25000-standards/iso-25010</a></li>
+</ul>
+<h5 id="operational-constraint">Operational constraint<a class="headerlink" href="#operational-constraint" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Level:</strong> 2</li>
+<li><strong>Description:</strong> Degree to which a product or system constrains its operation to within safe parameters or states when encountering operational hazard.</li>
+<li><strong>Display:</strong> Operational constraint</li>
+<li><strong>Source Name:</strong> ISO/IEC 25010 standard</li>
+<li><strong>Source Url:</strong> <a href="https://iso25000.com/index.php/en/iso-25000-standards/iso-25011" target="_blank" rel="noopener noreferrer">https://iso25000.com/index.php/en/iso-25000-standards/iso-25011</a></li>
+</ul>
+<h5 id="risk-identification">Risk identification<a class="headerlink" href="#risk-identification" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Level:</strong> 2</li>
+<li><strong>Description:</strong> Degree to which a product can identify a course of events or operations that can expose life, property or environment to unacceptable risk.</li>
+<li><strong>Display:</strong> Risk identification</li>
+<li><strong>Source Name:</strong> ISO/IEC 25010 standard</li>
+<li><strong>Source Url:</strong> <a href="https://iso25000.com/index.php/en/iso-25000-standards/iso-25012" target="_blank" rel="noopener noreferrer">https://iso25000.com/index.php/en/iso-25000-standards/iso-25012</a></li>
+</ul>
+<h5 id="fail-safe">Fail safe<a class="headerlink" href="#fail-safe" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Level:</strong> 2</li>
+<li><strong>Description:</strong> Degree to which a product can automatically place itself in a safe operating mode, or to revert to a safe condition in the event of a failure.</li>
+<li><strong>Display:</strong> Fail safe</li>
+<li><strong>Source Name:</strong> ISO/IEC 25010 standard</li>
+<li><strong>Source Url:</strong> <a href="https://iso25000.com/index.php/en/iso-25000-standards/iso-25013" target="_blank" rel="noopener noreferrer">https://iso25000.com/index.php/en/iso-25000-standards/iso-25013</a></li>
+</ul>
+<h5 id="hazard-warning">Hazard warning<a class="headerlink" href="#hazard-warning" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Level:</strong> 2</li>
+<li><strong>Description:</strong> Degree to which a product or system provides warnings of unacceptable risks to operations or internal controls so that they can react in sufficient time to sustain safe operations.</li>
+<li><strong>Display:</strong> Hazard warning</li>
+<li><strong>Source Name:</strong> ISO/IEC 25010 standard</li>
+<li><strong>Source Url:</strong> <a href="https://iso25000.com/index.php/en/iso-25000-standards/iso-25014" target="_blank" rel="noopener noreferrer">https://iso25000.com/index.php/en/iso-25000-standards/iso-25014</a></li>
+</ul>
+<h5 id="safe-integration">Safe integration<a class="headerlink" href="#safe-integration" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Level:</strong> 2</li>
+<li><strong>Description:</strong> Degree to which a product can maintain safety during and after integration with one or more components.</li>
+<li><strong>Display:</strong> Safe integration</li>
+<li><strong>Source Name:</strong> ISO/IEC 25010 standard</li>
+<li><strong>Source Url:</strong> <a href="https://iso25000.com/index.php/en/iso-25000-standards/iso-25015" target="_blank" rel="noopener noreferrer">https://iso25000.com/index.php/en/iso-25000-standards/iso-25015</a></li>
+</ul>
+<h4 id="security">Security<a class="headerlink" href="#security" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Level:</strong> 1</li>
+<li><strong>Description:</strong> Degree to which a product or system defends against attack patterns by malicious actors and protects information and data so that persons or other products or systems have the degree of data access appropriate to their types and levels of authorization.</li>
+<li><strong>Display:</strong> Security</li>
+<li><strong>Source Name:</strong> ISO/IEC 25010 standard</li>
+<li><strong>Source Url:</strong> <a href="https://iso25000.com/index.php/en/iso-25000-standards/iso-25010" target="_blank" rel="noopener noreferrer">https://iso25000.com/index.php/en/iso-25000-standards/iso-25010</a></li>
+</ul>
+<h5 id="confidentiality">Confidentiality<a class="headerlink" href="#confidentiality" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Level:</strong> 2</li>
+<li><strong>Description:</strong> Degree to which a product or system ensures that data are accessible only to those authorized to have access.</li>
+<li><strong>Display:</strong> Confidentiality</li>
+<li><strong>Source Name:</strong> ISO/IEC 25010 standard</li>
+<li><strong>Source Url:</strong> <a href="https://iso25000.com/index.php/en/iso-25000-standards/iso-25011" target="_blank" rel="noopener noreferrer">https://iso25000.com/index.php/en/iso-25000-standards/iso-25011</a></li>
+</ul>
+<h5 id="integrity">Integrity<a class="headerlink" href="#integrity" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Level:</strong> 2</li>
+<li><strong>Description:</strong> Degree to which a system, product or component ensures that the state of its system and data are protected from unauthorized modification or deletion either by malicious action or computer error.</li>
+<li><strong>Display:</strong> Integrity</li>
+<li><strong>Source Name:</strong> ISO/IEC 25010 standard</li>
+<li><strong>Source Url:</strong> <a href="https://iso25000.com/index.php/en/iso-25000-standards/iso-25012" target="_blank" rel="noopener noreferrer">https://iso25000.com/index.php/en/iso-25000-standards/iso-25012</a></li>
+</ul>
+<h5 id="non-repudiation">Non-repudiation<a class="headerlink" href="#non-repudiation" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Level:</strong> 2</li>
+<li><strong>Description:</strong> Degree to which actions or events can be proven to have taken place so that the events or actions cannot be repudiated later.</li>
+<li><strong>Display:</strong> Non-repudiation</li>
+<li><strong>Source Name:</strong> ISO/IEC 25010 standard</li>
+<li><strong>Source Url:</strong> <a href="https://iso25000.com/index.php/en/iso-25000-standards/iso-25013" target="_blank" rel="noopener noreferrer">https://iso25000.com/index.php/en/iso-25000-standards/iso-25013</a></li>
+</ul>
+<h5 id="accountability">Accountability<a class="headerlink" href="#accountability" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Level:</strong> 2</li>
+<li><strong>Description:</strong> Degree to which the actions of an entity can be traced uniquely to the entity.</li>
+<li><strong>Display:</strong> Accountability</li>
+<li><strong>Source Name:</strong> ISO/IEC 25010 standard</li>
+<li><strong>Source Url:</strong> <a href="https://iso25000.com/index.php/en/iso-25000-standards/iso-25014" target="_blank" rel="noopener noreferrer">https://iso25000.com/index.php/en/iso-25000-standards/iso-25014</a></li>
+</ul>
+<h5 id="authenticity">Authenticity<a class="headerlink" href="#authenticity" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Level:</strong> 2</li>
+<li><strong>Description:</strong> Degree to which the identity of a subject or resource can be proved to be the one claimed.</li>
+<li><strong>Display:</strong> Authenticity</li>
+<li><strong>Source Name:</strong> ISO/IEC 25010 standard</li>
+<li><strong>Source Url:</strong> <a href="https://iso25000.com/index.php/en/iso-25000-standards/iso-25015" target="_blank" rel="noopener noreferrer">https://iso25000.com/index.php/en/iso-25000-standards/iso-25015</a></li>
+</ul>
+<h5 id="resistance">Resistance<a class="headerlink" href="#resistance" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Level:</strong> 2</li>
+<li><strong>Description:</strong> Degree to which the product or system sustains operations while under attack from a malicious actor.</li>
+<li><strong>Display:</strong> Resistance</li>
+<li><strong>Source Name:</strong> ISO/IEC 25010 standard</li>
+<li><strong>Source Url:</strong> <a href="https://iso25000.com/index.php/en/iso-25000-standards/iso-25016" target="_blank" rel="noopener noreferrer">https://iso25000.com/index.php/en/iso-25000-standards/iso-25016</a></li>
+</ul>
+<h4 id="sustainability">Sustainability<a class="headerlink" href="#sustainability" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Level:</strong> 1</li>
+<li><strong>Description:</strong> Degree to which software can continue to exist, be maintained, and remain useful over time across changing platforms, dependencies, and user needs.</li>
+<li><strong>Display:</strong> Sustainability</li>
+<li><strong>Source Name:</strong> Defining Software Sustainability</li>
+<li><strong>Source Url:</strong> <a href="https://danielskatzblog.wordpress.com/2016/09/13/defining-software-sustainability/" target="_blank" rel="noopener noreferrer">https://danielskatzblog.wordpress.com/2016/09/13/defining-software-sustainability/</a></li>
+</ul>
+<h4 id="usability">Usability<a class="headerlink" href="#usability" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Level:</strong> 1</li>
+<li><strong>Description:</strong> This dimension refers to how easy, efficient, and satisfactory the ECCCH applications and tools are for their intended users.</li>
+<li><strong>Display:</strong> Usability</li>
+<li><strong>Source Name:</strong> ECHOES</li>
+</ul>
+<h5 id="usefulness">Usefulness<a class="headerlink" href="#usefulness" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Level:</strong> 2</li>
+<li><strong>Description:</strong> Measures the extent to which the application effectively addresses the specific needs and goals of CH professionals.</li>
+<li><strong>Display:</strong> Usefulness</li>
+<li><strong>Source Name:</strong> ECHOES</li>
+</ul>
+<h5 id="efficiency-of-use">Efficiency of Use<a class="headerlink" href="#efficiency-of-use" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Level:</strong> 2</li>
+<li><strong>Description:</strong> Measures how quickly and effectively experienced users can accomplish tasks with the tools.</li>
+<li><strong>Display:</strong> Efficiency of Use</li>
+<li><strong>Source Name:</strong> ECHOES</li>
+</ul>
+<h5 id="ease-of-learning">Ease of Learning<a class="headerlink" href="#ease-of-learning" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Level:</strong> 2</li>
+<li><strong>Description:</strong> Indicates how quickly new users can understand and effectively operate the application.</li>
+<li><strong>Display:</strong> Ease of Learning</li>
+<li><strong>Source Name:</strong> ECHOES</li>
+</ul>
+<h5 id="user-interface-quality">User Interface Quality<a class="headerlink" href="#user-interface-quality" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Level:</strong> 2</li>
+<li><strong>Description:</strong> Assesses the intuitiveness, consistency, and visual clarity of the application's design and layout.</li>
+<li><strong>Display:</strong> User Interface Quality</li>
+<li><strong>Source Name:</strong> ECHOES</li>
+</ul>
+<h5 id="documentation-quality">Documentation quality<a class="headerlink" href="#documentation-quality" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Level:</strong> 2</li>
+<li><strong>Description:</strong> Evaluates the clarity, comprehensiveness, and accessibility of user guides, tutorials, FAQs, and other support materials about the application.</li>
+<li><strong>Display:</strong> Documentation quality</li>
+<li><strong>Source Name:</strong> ECHOES</li>
+</ul>
+<h4 id="compliance">Compliance<a class="headerlink" href="#compliance" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Level:</strong> 1</li>
+<li><strong>Description:</strong> This dimension evaluates the adherence of the application to established standards, regulations, and project-specific guidelines. Subdimensions are very preliminar.</li>
+<li><strong>Display:</strong> Compliance</li>
+<li><strong>Source Name:</strong> ECHOES</li>
+</ul>
+<h5 id="access-management-for-ipr">Access Management for IPR<a class="headerlink" href="#access-management-for-ipr" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Level:</strong> 2</li>
+<li><strong>Description:</strong> Evaluates the effectiveness of the application in managing and restricting access based on intellectual propert.</li>
+<li><strong>Display:</strong> Access Management for IPR</li>
+<li><strong>Source Name:</strong> ECHOES</li>
+</ul>
+<h5 id="licensing-clarity">Licensing Clarity<a class="headerlink" href="#licensing-clarity" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Level:</strong> 2</li>
+<li><strong>Description:</strong> Measures the application's ability to enforce explicit licensing terms for all data.</li>
+<li><strong>Display:</strong> Licensing Clarity</li>
+<li><strong>Source Name:</strong> ECHOES</li>
+</ul>
+<h5 id="data-quality-and-provenance">Data quality and Provenance<a class="headerlink" href="#data-quality-and-provenance" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Level:</strong> 2</li>
+<li><strong>Description:</strong> Measures the application's ability to ensure data quality, consistency, and clear traceability of its origin and modifications.</li>
+<li><strong>Display:</strong> Data quality and Provenance</li>
+<li><strong>Source Name:</strong> ECHOES</li>
+</ul>
+<h4 id="data-governance-and-ipr-enforcement">Data Governance and IPR enforcement<a class="headerlink" href="#data-governance-and-ipr-enforcement" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Level:</strong> 1</li>
+<li><strong>Description:</strong> This dimension focuses on how the application facilitates or enforces the data governance model and the preservation of intellectual property rights.</li>
+<li><strong>Display:</strong> Data Governance and IPR enforcement</li>
+<li><strong>Source Name:</strong> ECHOES</li>
+</ul>
+<h5 id="standard-adherence">Standard Adherence<a class="headerlink" href="#standard-adherence" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Level:</strong> 2</li>
+<li><strong>Description:</strong> Assesses conformity with relevant technical standards, data formats, and open models.</li>
+<li><strong>Display:</strong> Standard Adherence</li>
+<li><strong>Source Name:</strong> ECHOES</li>
+</ul>
+<h5 id="regulatory-alignment">Regulatory Alignment<a class="headerlink" href="#regulatory-alignment" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Level:</strong> 2</li>
+<li><strong>Description:</strong> Measures compliance with national, European, and international legal and ethical frameworks.</li>
+<li><strong>Display:</strong> Regulatory Alignment</li>
+<li><strong>Source Name:</strong> ECHOES</li>
+</ul>
+<h5 id="guideline-compliance">Guideline Compliance<a class="headerlink" href="#guideline-compliance" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Level:</strong> 2</li>
+<li><strong>Description:</strong> Ensures adherence to specific integration, development, and communication guidelines provided by the ECHOES consortium.</li>
+<li><strong>Display:</strong> Guideline Compliance</li>
+<li><strong>Source Name:</strong> ECHOES</li>
+</ul>
+<h4 id="learning-value-for-developers">Learning value for developers<a class="headerlink" href="#learning-value-for-developers" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Level:</strong> 1</li>
+<li><strong>Description:</strong> This dimension considers how well the application supports and educates developers willing to contribute with their own applications.</li>
+<li><strong>Display:</strong> Learning value for developers</li>
+<li><strong>Source Name:</strong> ECHOES</li>
+</ul>
+<h5 id="developer-documentation-quality">Developer Documentation Quality<a class="headerlink" href="#developer-documentation-quality" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Level:</strong> 2</li>
+<li><strong>Description:</strong> Assesses the clarity, comprehensiveness, and utility of technical documentation tailored for developers, including examples and guidelines.</li>
+<li><strong>Display:</strong> Developer Documentation Quality</li>
+<li><strong>Source Name:</strong> ECHOES</li>
+</ul>
+<h5 id="training-resources-availability">Training Resources Availability<a class="headerlink" href="#training-resources-availability" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Level:</strong> 2</li>
+<li><strong>Description:</strong> Evaluates the provision of educational materials, tutorials, and capacity-building activities specifically for developers to enhance their skills.</li>
+<li><strong>Display:</strong> Training Resources Availability</li>
+<li><strong>Source Name:</strong> ECHOES</li>
+</ul>
+<h5 id="community-support-and-collaboration">Community Support and Collaboration<a class="headerlink" href="#community-support-and-collaboration" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Level:</strong> 2</li>
+<li><strong>Description:</strong> Measures the effectiveness of mechanisms that facilitate knowledge exchange, problem-solving, and collaborative development among the developer community regarding a specific application.</li>
+<li><strong>Display:</strong> Community Support and Collaboration</li>
+<li><strong>Source Name:</strong> ECHOES</li>
+</ul>
+<h4 id="user-adoption">User Adoption<a class="headerlink" href="#user-adoption" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Level:</strong> 1</li>
+<li><strong>Description:</strong> This dimension measures the extent to which CH stakeholders embrace and effectively use a specific application.</li>
+<li><strong>Display:</strong> User Adoption</li>
+<li><strong>Source Name:</strong> ECHOES</li>
+</ul>
+<h5 id="awareness-and-understanding">Awareness and Understanding<a class="headerlink" href="#awareness-and-understanding" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Level:</strong> 2</li>
+<li><strong>Description:</strong> Reflects how well target communities are informed about and comprehend the advantages of using a specific ECCCH application.</li>
+<li><strong>Display:</strong> Awareness and Understanding</li>
+<li><strong>Source Name:</strong> ECHOES</li>
+</ul>
+<h5 id="engagement-rate">Engagement Rate<a class="headerlink" href="#engagement-rate" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Level:</strong> 2</li>
+<li><strong>Description:</strong> Indicates the frequency and depth of active use of the application by users (active users, session duration...).</li>
+<li><strong>Display:</strong> Engagement Rate</li>
+<li><strong>Source Name:</strong> ECHOES</li>
+</ul>
+<h5 id="acceptance-rate">Acceptance Rate<a class="headerlink" href="#acceptance-rate" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Level:</strong> 2</li>
+<li><strong>Description:</strong> Measures the overall willingness and readiness of the community to integrate and use a specific application in their workflows.</li>
+<li><strong>Display:</strong> Acceptance Rate</li>
+<li><strong>Source Name:</strong> ECHOES</li>
+</ul>
+<h5 id="training-effectiveness">Training Effectiveness<a class="headerlink" href="#training-effectiveness" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Level:</strong> 2</li>
+<li><strong>Description:</strong> Evaluates the success of capacity-building activities and the ECHOES curriculum in equipping users with the necessary skills for using the application.</li>
+<li><strong>Display:</strong> Training Effectiveness</li>
+<li><strong>Source Name:</strong> ECHOES</li>
+</ul>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      &copy; ECHOES D9.1 authors. Except where otherwise noted, this wiki is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. <a href="#__consent">Change cookie settings</a>
+
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+      <div class="md-consent" data-md-component="consent" id="__consent" hidden>
+        <div class="md-consent__overlay"></div>
+        <aside class="md-consent__inner">
+          <form class="md-consent__form md-grid md-typeset" name="consent">
+            
+
+
+
+  
+
+<h4>Cookie Consent</h4>
+<p>We use cookies and similar technologies to help us understand how this documentation is used and improve it over time. Analytics will only be enabled if you accept. Read more in our <a href="https://www.echoes-eccch.eu/cookie-policy-ue/" target="_blank">Cookie Policy</a>.</p>
+<input class="md-toggle" type="checkbox" id="__settings" checked>
+<div class="md-consent__settings">
+  <ul class="task-list">
+    
+    
+      
+        
+  
+  
+    
+    
+  
+  <li class="task-list-item">
+    <label class="task-list-control">
+      <input type="checkbox" name="analytics" checked>
+      <span class="task-list-indicator"></span>
+      Google Analytics
+    </label>
+  </li>
+
+      
+    
+    
+      
+    
+    
+  </ul>
+</div>
+<div class="md-consent__controls">
+  
+    
+      <button class="md-button md-button--primary">Accept</button>
+    
+    
+    
+  
+    
+    
+      <button type="reset" class="md-button md-button--primary">Reject</button>
+    
+    
+  
+</div>
+          </form>
+        </aside>
+      </div>
+      <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout((function(){document.querySelector("[data-md-component=consent]").hidden=!1}),250);var form=document.forms.consent;for(var action of["submit","reset"])form.addEventListener(action,(function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map((function(e){return[e,!0]})))),location.hash="",location.reload()}))</script>
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.instant", "navigation.sections", "navigation.indexes", "navigation.tabs", "navigation.tabs.sticky", "navigation.path", "navigation.expand", "navigation.tracking", "content.code.copy", "search.highlight", "search.suggest", "navigation.top"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>
